@@ -20,6 +20,6 @@ public class YhPasswordTextFiled extends JPasswordField {
 
     @Override
     public void setEchoChar(char c) {
-        super.setEchoChar('*');
+        super.setEchoChar('¡ñ');
     }
 }

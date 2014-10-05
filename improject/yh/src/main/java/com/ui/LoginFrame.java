@@ -8,8 +8,9 @@ import com.ui.notify.WarnNotifyDialog;
 import com.ui.resource.YhImageRes;
 
 import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import java.awt.*;
-import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -27,11 +28,16 @@ public class LoginFrame extends JFrame {
         createAndShowLoginFrame();
     }
 
-    private static void createAndShowLoginFrame() {
-        UIManager.put("TextField.font", new Font("Œ¢»Ì—≈∫⁄", Font.PLAIN, 11));
-        LoginFrame loginFrame = new LoginFrame();
-        loginFrame.setResizable(false);
-        loginFrame.setVisible(true);
+    public static void createAndShowLoginFrame() {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                UIManager.put("TextField.font", new Font("Œ¢»Ì—≈∫⁄", Font.PLAIN, 11));
+                LoginFrame loginFrame = new LoginFrame();
+                loginFrame.setResizable(false);
+                loginFrame.setVisible(true);
+            }
+        });
     }
 
     private LoginFrame() {
@@ -59,10 +65,27 @@ public class LoginFrame extends JFrame {
             accountTextField = new YhTextFiled();
             accountTextField.setBounds(47, 193, 150, 15);
             add(accountTextField);
+            accountTextField.getDocument().addDocumentListener(new DocumentListener() {
+                @Override
+                public void insertUpdate(DocumentEvent e) {
+                    passwordField.setText("");   //–ﬁ∏ƒ’À∫≈±‰ªØ£¨‘Ú«Âø’√‹¬Î ‰»ÎøÚ
+                }
+
+                @Override
+                public void removeUpdate(DocumentEvent e) {
+
+                }
+
+                @Override
+                public void changedUpdate(DocumentEvent e) {
+
+                }
+            });
 
             //√‹¬Î ‰»ÎøÚ
             passwordField = new YhPasswordTextFiled();
             passwordField.setBounds(47, 239, 150, 15);
+            passwordField.setFont(new Font("Œ¢»Ì—≈∫⁄", Font.PLAIN, 11));
             add(passwordField);
 
             //µ«¬º∞¥≈•
@@ -82,15 +105,11 @@ public class LoginFrame extends JFrame {
                         createAndShowWarnDialog();
                         return;
                     }
+                    loginSuccess();  //µ«¬Ω≥…π¶
                 }
             });
         }
 
-        private void createAndShowWarnDialog() {
-            WarnNotifyDialog warnNotifyDialog = new WarnNotifyDialog(LoginFrame.this,"",true);
-            warnNotifyDialog.setSize(223, 109);
-            warnNotifyDialog.setVisible(true);
-        }
 
         @Override
         protected void paintComponent(Graphics g) {
@@ -98,5 +117,17 @@ public class LoginFrame extends JFrame {
             Image image = loginFrameBg.getImage();
             g.drawImage(image, -2, 0, loginFrameBg.getIconWidth(), loginFrameBg.getIconHeight(), this);
         }
+    }
+
+    private void createAndShowWarnDialog() {
+        WarnNotifyDialog warnNotifyDialog = new WarnNotifyDialog(this, "µ«»Î∞l…˙ÜñÓ}", true);
+        warnNotifyDialog.setSize(223, 109);
+        warnNotifyDialog.setVisible(true);
+        accountTextField.requestFocus();
+    }
+
+    private void loginSuccess(){
+        dispose();
+        MainFrame.getInstance().setVisible(true);
     }
 }

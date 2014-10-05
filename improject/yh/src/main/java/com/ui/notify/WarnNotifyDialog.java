@@ -1,6 +1,7 @@
 package com.ui.notify;
 
 import com.component.JLabelFactory;
+import com.ui.LoginFrame;
 import com.ui.button.YhButtonFactory;
 import com.ui.resource.YhImageRes;
 
@@ -17,7 +18,7 @@ public class WarnNotifyDialog extends JDialog {
     private ImageIcon loginWarnTipMessage = YhImageRes.getImageIcon("loginWarnTipMessage.png");
     private JButton okButton = YhButtonFactory.getInstance().createOkButton();
 
-    public WarnNotifyDialog(Frame owner,String title,boolean model) {
+    public WarnNotifyDialog(LoginFrame owner,String title,boolean model) {
         super(owner,title,model);
         setLocationRelativeTo(owner);
         setContentPane(new ContentPane());

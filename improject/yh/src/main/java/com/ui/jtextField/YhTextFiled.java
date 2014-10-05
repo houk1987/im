@@ -1,6 +1,8 @@
 package com.ui.jtextField;
 
 import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
 import java.awt.*;
 
 /**
@@ -11,6 +13,7 @@ public class YhTextFiled extends JTextField{
     public YhTextFiled() {
       setForeground(Color.GRAY);
       setBorder(null);
+
     }
 
     @Override
