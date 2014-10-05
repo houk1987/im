@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/component/component.iml" filepath="$PROJECT_DIR$/component/component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/improject.iml" filepath="$PROJECT_DIR$/improject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smackservice/smackservice.iml" filepath="$PROJECT_DIR$/smackservice/smackservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yh/yh.iml" filepath="$PROJECT_DIR$/yh/yh.iml" />
+    </modules>
+  </component>
+</project>
+
