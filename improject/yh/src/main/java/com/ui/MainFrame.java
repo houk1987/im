@@ -11,7 +11,7 @@ import java.awt.*;
  */
 public class MainFrame extends JFrame {
 
-    private final static MainFrame mainFrame = new MainFrame();
+    private static MainFrame mainFrame;
     private YhContactTree yhContactTree;
 
     private MainFrame() throws HeadlessException {
@@ -19,9 +19,13 @@ public class MainFrame extends JFrame {
         setContentPane(content);
         setSize(content.getWidth() + 5, content.getHeight() + 28);
         setResizable(false);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
 
     public static MainFrame getInstance() {
+        if(mainFrame == null){
+            mainFrame = new MainFrame();
+        }
         return mainFrame;
     }
 

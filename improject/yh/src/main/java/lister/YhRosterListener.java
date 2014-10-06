@@ -2,6 +2,7 @@ package lister;
 
 import com.ui.MainFrame;
 import com.ui.resource.YhImageRes;
+import mangager.PresenceManager;
 import org.jivesoftware.smack.RosterListener;
 import org.jivesoftware.smack.packet.Presence;
 
@@ -29,6 +30,10 @@ public class YhRosterListener implements RosterListener {
     @Override
     public void presenceChanged(Presence presence) {
         String from = presence.getFrom().split("/")[0];
-        MainFrame.getInstance().getYhContactTree().getFriends().updateContactItem(from, YhImageRes.getPresenceImageIcon("online.png"),true);
+        if(presence.getType().equals(Presence.Type.available)){
+            MainFrame.getInstance().getYhContactTree().getFriends().updateContactItem(from, PresenceManager.getOnline(),true);
+        }else{
+            MainFrame.getInstance().getYhContactTree().getFriends().updateContactItem(from, PresenceManager.getOffline(),false);
+        }
     }
 }

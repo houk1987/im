@@ -16,6 +16,7 @@ public class PresenceManager {
     private static final List<Presence> PRESENCES = new ArrayList<Presence>();
     private static ImageIcon online = YhImageRes.getPresenceImageIcon("online.png");
     private static ImageIcon offline = YhImageRes.getPresenceImageIcon("offline.png");
+    private static ImageIcon busy = YhImageRes.getPresenceImageIcon("busy.png");
     static{
         final Presence presence = new Presence(Presence.Type.available, "ÎÒÓÐ¿Õ", 1, Presence.Mode.available);
         final Presence dndPresence = new Presence(Presence.Type.available, "Ã¦ÂµÖÐ", 0, Presence.Mode.dnd);
@@ -45,12 +46,27 @@ public class PresenceManager {
         return null;
     }
 
+
+    public static ImageIcon getOnline() {
+        return online;
+    }
+
+    public static ImageIcon getOffline() {
+        return offline;
+    }
+
+    public static ImageIcon getBusy() {
+        return busy;
+    }
+
     public static ImageIcon getPresenceIcon(Presence presence){
-        if(presence == null)return offline;
         if(presence.getType().equals(Presence.Type.available)){
-            return online;
-        }else{
-            return offline;
+            if(presence.getMode().equals(Presence.Mode.available)){
+                return getOnline();
+            }else{
+                return getBusy();
+            }
         }
+        return getOffline();
     }
 }

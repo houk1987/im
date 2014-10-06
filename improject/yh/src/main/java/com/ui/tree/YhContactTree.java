@@ -37,7 +37,6 @@ public class YhContactTree extends TreePane {
         for (RosterEntry rosterEntry : rosterEntryList) {
             ContactItem contactItem = new ContactItem();
             contactItem.setHeadIcon(headIcon);
-            System.out.println(rosterEntry.getUser());
             contactItem.setJid(rosterEntry.getUser());
             contactItem.setUserName(rosterEntry.getName());
             contactItem.setHoverColor(hoverColor);

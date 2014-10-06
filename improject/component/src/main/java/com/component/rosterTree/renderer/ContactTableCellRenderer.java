@@ -25,7 +25,7 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
         add(headIconLabel);
 
         presenceIconLabel = new JLabel();
-        presenceIconLabel.setLocation(60,5);
+        presenceIconLabel.setLocation(60,8);
         add(presenceIconLabel);
 
 
