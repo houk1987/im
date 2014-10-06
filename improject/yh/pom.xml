@@ -10,21 +10,25 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>yh</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.30</groupId>
+            <artifactId>resource</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.30</groupId>
+            <artifactId>component</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.30</groupId>
+            <artifactId>smackservice</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.30</groupId>
-                <artifactId>resource</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-            <dependency>
-                <groupId>com.30</groupId>
-                <artifactId>component</artifactId>
-                <version>1.0-SNAPSHOT</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
+
+    </dependencies>
 
 
 </project>

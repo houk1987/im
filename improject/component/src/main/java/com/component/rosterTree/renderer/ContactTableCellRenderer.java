@@ -19,16 +19,19 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
     private JLabel userNameLabel;
     public ContactTableCellRenderer() {
         setLayout(null);
+        setBorder(null);
         headIconLabel = new JLabel();
         headIconLabel.setLocation(20,3);
         add(headIconLabel);
 
         presenceIconLabel = new JLabel();
-        presenceIconLabel.setLocation(10,3);
+        presenceIconLabel.setLocation(60,5);
         add(presenceIconLabel);
 
 
         userNameLabel = new JLabel();
+        userNameLabel.setLocation(80,3);
+        userNameLabel.setSize(100,23);
         add(userNameLabel);
     }
 
@@ -48,9 +51,11 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
             headIconLabel.setIcon(contactItem.getHeadIcon());
             headIconLabel.setSize(contactItem.getHeadIcon().getIconWidth(),contactItem.getHeadIcon().getIconHeight());
             userNameLabel.setText(contactItem.getUserName());
+            presenceIconLabel.setSize(contactItem.getPresenceIcon().getIconWidth(),contactItem.getPresenceIcon().getIconHeight());
+            presenceIconLabel.setIcon(contactItem.getPresenceIcon());
 
             if(isSelected){
-                setBackground(Color.blue);
+                setBackground(contactItem.getPressedColor());
             }
         }
         return this;

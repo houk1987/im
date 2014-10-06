@@ -2,6 +2,7 @@ package org.smackservice;
 
 import com.resource.ConfigurationRes;
 import org.jivesoftware.smack.ConnectionConfiguration;
+import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.XMPPConnection;
 
 /**
@@ -24,4 +25,10 @@ public class SmackConnection extends XMPPConnection {
     private SmackConnection(ConnectionConfiguration config) {
         super(config);
     }
+
+
+
+
+
+
 }

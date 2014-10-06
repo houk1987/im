@@ -6,6 +6,7 @@ package com.ui.resource;
 public class Yh {
     private final static String resSource = "resources/images/";
 
+
     public static String getResSource() {
         return resSource;
     }

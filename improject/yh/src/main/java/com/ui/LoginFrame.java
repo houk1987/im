@@ -6,6 +6,12 @@ import com.ui.jtextField.YhPasswordTextFiled;
 import com.ui.jtextField.YhTextFiled;
 import com.ui.notify.WarnNotifyDialog;
 import com.ui.resource.YhImageRes;
+import lister.YhPacketLister;
+import lister.YhRosterListener;
+import org.jivesoftware.smack.XMPPException;
+import org.jivesoftware.smack.filter.PacketTypeFilter;
+import org.jivesoftware.smack.packet.Message;
+import org.smackservice.SmackConnection;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
@@ -105,7 +111,11 @@ public class LoginFrame extends JFrame {
                         createAndShowWarnDialog();
                         return;
                     }
-                    loginSuccess();  //登陆成功
+                    try {
+                        loginSuccess(account, password);  //登陆成功
+                    } catch (XMPPException e1) {
+                        e1.printStackTrace();
+                    }
                 }
             });
         }
@@ -126,8 +136,12 @@ public class LoginFrame extends JFrame {
         accountTextField.requestFocus();
     }
 
-    private void loginSuccess(){
+    private void loginSuccess(String account, String password) throws XMPPException {
+        SmackConnection.getInstance().connect();
+        SmackConnection.getInstance().login(account, password);
         dispose();
         MainFrame.getInstance().setVisible(true);
+        SmackConnection.getInstance().addPacketListener(new YhPacketLister(), new PacketTypeFilter(Message.class));
+        SmackConnection.getInstance().getRoster().addRosterListener(new YhRosterListener());
     }
 }

@@ -1,6 +1,7 @@
 package com.ui;
 
 import com.ui.resource.YhImageRes;
+import com.ui.tree.YhContactTree;
 
 import javax.swing.*;
 import java.awt.*;
@@ -10,12 +11,13 @@ import java.awt.*;
  */
 public class MainFrame extends JFrame {
 
-    private static MainFrame mainFrame = new MainFrame();
+    private final static MainFrame mainFrame = new MainFrame();
+    private YhContactTree yhContactTree;
 
     private MainFrame() throws HeadlessException {
         ContentPane content = new ContentPane();
         setContentPane(content);
-        setSize(content.getWidth()+5,content.getHeight()+28);
+        setSize(content.getWidth() + 5, content.getHeight() + 28);
         setResizable(false);
     }
 
@@ -23,20 +25,32 @@ public class MainFrame extends JFrame {
         return mainFrame;
     }
 
-    private class ContentPane extends JPanel{
+    public YhContactTree getYhContactTree() {
+        return yhContactTree;
+    }
+
+    private class ContentPane extends JPanel {
         private ImageIcon bgImageIcon = YhImageRes.getImageIcon("mainFrame.png");
 
-         ContentPane() {
-            if(bgImageIcon == null)return;
+        ContentPane() {
+            if (bgImageIcon == null) return;
             setSize(bgImageIcon.getIconWidth(), bgImageIcon.getIconHeight());
+            setLayout(null);
+            yhContactTree = new YhContactTree();
+            JScrollPane yhTreeScrollPane = new JScrollPane();
+            yhTreeScrollPane.setBorder(null);
+            yhTreeScrollPane.setBackground(Color.WHITE);
+            yhTreeScrollPane.setViewportView(yhContactTree);
+            yhTreeScrollPane.setBounds(7,135,getWidth()-15,445);
+            add(yhTreeScrollPane);
         }
 
         @Override
         protected void paintComponent(Graphics g) {
             super.paintComponent(g);
-            if(bgImageIcon == null)return;
+            if (bgImageIcon == null) return;
             Image image = bgImageIcon.getImage();
-            g.drawImage(image,0,0,bgImageIcon.getIconWidth(),bgImageIcon.getIconHeight(),this);
+            g.drawImage(image, 0, 0, bgImageIcon.getIconWidth(), bgImageIcon.getIconHeight(), this);
         }
     }
 }

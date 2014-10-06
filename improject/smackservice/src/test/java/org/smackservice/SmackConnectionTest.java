@@ -27,6 +27,6 @@ public class SmackConnectionTest {
 
     @Test
     public void getHostNameTest() {
-        Assert.assertEquals("192.168.1.105", connection.getHost());
+        Assert.assertEquals("192.168.1.106", connection.getHost());
     }
 }

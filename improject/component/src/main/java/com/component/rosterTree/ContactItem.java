@@ -13,6 +13,7 @@ public class ContactItem {
     private ImageIcon headIcon;
     private ImageIcon presenceIcon;
     private Color hoverColor;
+    private Color pressedColor;
 
     public String getJid() {
         return jid;
@@ -52,5 +53,13 @@ public class ContactItem {
 
     public void setHoverColor(Color hoverColor) {
         this.hoverColor = hoverColor;
+    }
+
+    public Color getPressedColor() {
+        return pressedColor;
+    }
+
+    public void setPressedColor(Color pressedColor) {
+        this.pressedColor = pressedColor;
     }
 }

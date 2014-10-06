@@ -22,4 +22,11 @@ public class YhImageRes{
         }
         return new ImageIcon(resSource+"button/"+imageName);
     }
+
+    public static ImageIcon getPresenceImageIcon(String imageName){
+        if(imageName == null){
+            return null;
+        }
+        return new ImageIcon(resSource+"presence/"+imageName);
+    }
 }

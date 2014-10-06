@@ -22,9 +22,7 @@ import java.util.List;
 public class ContactGroup extends CollapsiblePane {
     private String groupName;
     private MyTable contactItemList;
-    private JPanel listPanel;
-
-
+    private int onlineNum; //在线人数
 
     public ContactGroup(String groupName){
         this.groupName = groupName;
@@ -42,17 +40,15 @@ public class ContactGroup extends CollapsiblePane {
 //        });
         setTitle(getGroupTitle(groupName));
         this.setContentPane(contactItemList);
-
     }
 
     public void addContactItem(ContactItem item){
         contactItemList.addItem(item);
     }
 
-   // public List<ContactItem> getAllContactItem(){
-        //return contactItems;
-   // }
-
+    public void updateContactItem(String jid,ImageIcon presenceIcon,boolean isOnline){
+        contactItemList.updateItemPresenceAndUpdateOnlineNum(jid,presenceIcon,isOnline);
+    }
 
     /**
      * Returns the "pretty" title of the ContactGroup.
@@ -75,7 +71,7 @@ public class ContactGroup extends CollapsiblePane {
         MyTable() {
             model = new MyTableModel();
             setModel(model);
-//            setShowGrid(false); //去掉表格线
+            setShowGrid(false); //去掉表格线
             setShowHorizontalLines(false);
             setRowHeight(40);//设置表格高度
             this.setDefaultRenderer(Object.class, new ContactTableCellRenderer());
@@ -105,8 +101,22 @@ public class ContactGroup extends CollapsiblePane {
             updateContactNumOnGroupTitle();
         }
 
+        public void updateItemPresenceAndUpdateOnlineNum(String jid,ImageIcon presenceIcon,boolean isOnline){
+            List<ContactItem> list = model.getAllContactItems();
+            for(ContactItem contactItem : list){
+                if(jid.equals(contactItem.getJid())){
+                   contactItem.setPresenceIcon(presenceIcon);
+                   if(isOnline)onlineNum++;
+                   if(!isOnline)onlineNum--;
+                   updateContactNumOnGroupTitle();
+                   updateUI();
+                   return;
+                }
+            }
+        }
+
        private void updateContactNumOnGroupTitle(){
-           String groupTitle = getGroupTitle(groupName)+"(0/"+model.getAllContactItems().size()+")";  //计算标签上的总共的人数
+           String groupTitle = getGroupTitle(groupName)+"("+onlineNum+"/"+model.getAllContactItems().size()+")";  //计算标签上的总共的人数
            setTitle(groupTitle);
        }
     }
