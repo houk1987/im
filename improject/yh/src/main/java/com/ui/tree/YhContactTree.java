@@ -36,6 +36,7 @@ public class YhContactTree extends TreePane {
         List<RosterEntry> rosterEntryList = RosterManager.getRosters();
         for (RosterEntry rosterEntry : rosterEntryList) {
             ContactItem contactItem = new ContactItem();
+            System.out.println(rosterEntry.getUser());
             contactItem.setHeadIcon(headIcon);
             contactItem.setJid(rosterEntry.getUser());
             contactItem.setUserName(rosterEntry.getName());
@@ -57,7 +58,7 @@ public class YhContactTree extends TreePane {
     public static void main(String[] args) {
         try {
             SmackConnection.getInstance().connect();
-            SmackConnection.getInstance().login("test","1");
+            SmackConnection.getInstance().login("1","1");
         } catch (XMPPException e) {
             e.printStackTrace();
         }

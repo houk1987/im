@@ -1,6 +1,8 @@
 package com.ui;
 
 
+import com.component.FontFactory;
+import com.component.jlabel.JLabelFactory;
 import com.ui.button.YhButtonFactory;
 import com.ui.jtextField.YhPasswordTextFiled;
 import com.ui.jtextField.YhTextFiled;
@@ -8,9 +10,11 @@ import com.ui.notify.WarnNotifyDialog;
 import com.ui.resource.YhImageRes;
 import lister.YhPacketLister;
 import lister.YhRosterListener;
+import mangager.PresenceManager;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.filter.PacketTypeFilter;
 import org.jivesoftware.smack.packet.Message;
+import org.jivesoftware.smack.packet.Presence;
 import org.smackservice.SmackConnection;
 
 import javax.swing.*;
@@ -29,6 +33,7 @@ public class LoginFrame extends JFrame {
     private JButton loginButton;
     private JTextField accountTextField;
     private JPasswordField passwordField;
+    private JLabel registerLinkLabel; //◊¢≤·
 
     public static void main(String[] args) {
         createAndShowLoginFrame();
@@ -118,6 +123,12 @@ public class LoginFrame extends JFrame {
                     }
                 }
             });
+            Font font = FontFactory.createFont("ÀŒÃÂ", 12);
+            //◊¢≤·¡¥Ω”
+            registerLinkLabel = JLabelFactory.createLinkLabel("¡¢º¥‘]É‘…Í’à", font, "#66a1e3", "http://" + SmackConnection.getInstance().getHost() + ":9090/plugins/userservice/YahooRegister.htm");
+            registerLinkLabel.setSize(100, 20);
+            registerLinkLabel.setLocation(this.getWidth() / 2 - 81, this.getHeight() - 61);
+            add(registerLinkLabel);
         }
 
 

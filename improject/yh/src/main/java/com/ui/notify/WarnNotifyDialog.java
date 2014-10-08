@@ -1,6 +1,7 @@
 package com.ui.notify;
 
-import com.component.JLabelFactory;
+
+import com.component.jlabel.JLabelFactory;
 import com.ui.LoginFrame;
 import com.ui.button.YhButtonFactory;
 import com.ui.resource.YhImageRes;
@@ -30,7 +31,7 @@ public class WarnNotifyDialog extends JDialog {
         ContentPane() {
             setBackground(new Color(119,36,111));
             setLayout(null);
-            JLabel loginWarnTipMessageLabel = JLabelFactory.getInstance().createJLabelWithImage(loginWarnTipMessage);
+            JLabel loginWarnTipMessageLabel = JLabelFactory.createJLabel(loginWarnTipMessage);
             loginWarnTipMessageLabel.setLocation(5,5);
             add(loginWarnTipMessageLabel);
             okButton.setLocation(65, 40);

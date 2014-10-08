@@ -61,9 +61,9 @@ public class PresenceManager {
 
     public static ImageIcon getPresenceIcon(Presence presence){
         if(presence.getType().equals(Presence.Type.available)){
-            if(presence.getMode().equals(Presence.Mode.available)){
+            if(presence.getMode()==null|| presence.getMode().equals(Presence.Mode.available)){
                 return getOnline();
-            }else{
+            }else if(presence.getMode().equals(Presence.Mode.dnd)){
                 return getBusy();
             }
         }

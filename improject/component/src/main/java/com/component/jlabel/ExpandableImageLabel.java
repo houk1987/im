@@ -1,10 +1,9 @@
-package com.component;
+package com.component.jlabel;
 
 
+import javax.swing.*;
 import java.awt.*;
 import java.io.File;
-import javax.swing.ImageIcon;
-import javax.swing.JLabel;
 
 
 /**
@@ -15,8 +14,13 @@ import javax.swing.JLabel;
 public class ExpandableImageLabel extends JLabel {
     private static final long serialVersionUID = 1L;
     private String imageFile = null;
+    private ImageIcon icon;
     public ExpandableImageLabel(String imageFile) {
         setImageFile(imageFile);
+    }
+
+    public void setImageIcon(ImageIcon imageIcon){
+        setIcon(imageIcon);
     }
 
     public boolean setImageFile(String imageFile){
@@ -41,6 +45,7 @@ public class ExpandableImageLabel extends JLabel {
 
     public void paint(Graphics g) {
         Graphics2D g2d = (Graphics2D) g;
+        if(getIcon()==null)return;
         Image image = ((ImageIcon)this.getIcon()).getImage();
         g2d.drawImage(image, 0, 0, getWidth(), getHeight(), this);
         super.paint(g);
