@@ -38,11 +38,6 @@
     <file url="file://$PROJECT_DIR$/yh/resources/images/button/sendPressed.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/AddContactDialog.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/YhContact.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/YhContactItem.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/YhContactTree.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/addContact/AddContactDialog.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/addContact/ContactPane.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/yh/src/main/java/session/ChatWritePanel.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/yh/src/main/java/session/MainPane.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/yh/src/main/java/session/SessionFrame.java" charset="GBK" />

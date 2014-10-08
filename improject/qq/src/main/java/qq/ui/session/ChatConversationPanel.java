@@ -5,6 +5,8 @@ package qq.ui.session;
 
 
 
+import com.component.session.WrapLetterHTMLEditorKit;
+
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
@@ -49,7 +51,7 @@ public class ChatConversationPanel extends JScrollPane {
         this.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_NEVER);
         this.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_AS_NEEDED);
         this.chatContainer = chatContainer;
-        editorKit = new HTMLEditorKit();
+        editorKit = new WrapLetterHTMLEditorKit();
         this.hdocument = (HTMLDocument) editorKit.createDefaultDocument();
         this.chatTextPane.setEditorKitForContentType("text/html", editorKit);
         this.chatTextPane.setEditorKit(editorKit);

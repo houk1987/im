@@ -106,15 +106,6 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
 
 
 
-
-
-
-
-
-
-
-
-
     private static final void setCharacterAttributes(JEditorPane editor,
                                                      AttributeSet attr, boolean replace) {
         int p0 = editor.getSelectionStart();
@@ -294,7 +285,7 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
      */
     public void startNewDocument() {
         Document oldDoc = chatWriteTextPane.getDocument();
-        HTMLEditorKit editorKit = new HTMLEditorKit();
+        HTMLEditorKit editorKit = new WrapLetterHTMLEditorKit();
         hdocument = (HTMLDocument) editorKit.createDefaultDocument();
         chatWriteTextPane.setDocument(hdocument);
         removeSpace();

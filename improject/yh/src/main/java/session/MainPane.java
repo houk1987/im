@@ -3,6 +3,7 @@ package session;
 import com.component.jlabel.JLabelFactory;
 import com.component.rosterTree.ContactItem;
 import com.component.session.ChatDisplayPane;
+import com.ui.MainFrame;
 import com.ui.button.YhButtonFactory;
 import com.ui.resource.YhImageRes;
 import mangager.PresenceManager;
@@ -10,6 +11,7 @@ import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Presence;
 import org.smackservice.SmackConnection;
 import session.message.BasicHtml;
+import sun.applet.Main;
 
 import javax.swing.*;
 import java.awt.*;
@@ -57,7 +59,6 @@ public class MainPane extends JPanel {
 
         chatDisplayPane = new ChatDisplayPane();
         chatDisplayPane.setBounds(5, 100, 457, 300);
-        chatDisplayPane.setPreferredSize(new Dimension(100,100));
         add(chatDisplayPane);
 
         JLabel label2 = JLabelFactory.createJLabel(toolBarBg2ImageIcon);
@@ -82,7 +83,7 @@ public class MainPane extends JPanel {
 //                sessionMessage.setSendTime(new Timestamp(System.currentTimeMillis()));
 //                session.sendMessage(sessionMessage);
                 chatDisplayPane.insertMessage(getContentHtml(chatWritePane.getPlainText()));
-               // chatWritePane.clear();//清空输入文本
+                chatWritePane.clear();//清空输入文本
             }
         });
 
@@ -97,20 +98,13 @@ public class MainPane extends JPanel {
         String dateString = formatter.format(new Timestamp(System.currentTimeMillis()));
         html = html
                 .replaceAll("#algin#", "left")
-                .replaceAll("#msgtip#", "houk1987" + "  " + dateString)
-                .replaceAll("#content#", "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111");
+                .replaceAll("#msgtip#", "asdas" + "  " + dateString)
+                .replaceAll("#content#", content);
         return html;
     }
 
 
     public static void main(String[] args) {
-//        try {
-//            SmackConnection.getInstance().connect();
-//            SmackConnection.getInstance().login("1","1");
-//        } catch (XMPPException e) {
-//            e.printStackTrace();
-//        }
-
         JFrame jFrame = new JFrame();
         MainPane mainPane = new MainPane(null);
         jFrame.setContentPane(mainPane);

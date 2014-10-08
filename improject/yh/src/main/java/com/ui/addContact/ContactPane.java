@@ -1,7 +1,6 @@
 package com.ui.addContact;
 
 import com.component.jlabel.JLabelFactory;
-import com.san30.pub.tools.SanHttpClient;
 import com.ui.MainFrame;
 import com.ui.button.YhButtonFactory;
 import com.ui.jtextField.YhTextFiled;
@@ -159,13 +158,13 @@ public class ContactPane extends JPanel implements ActionListener{
             paramMap.put("type","validateAccount");
             paramMap.put("targetAccount",accountJTextField.getText());
             String url = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
-            String rs = SanHttpClient.getDataAsString(url, paramMap);
-            if(Boolean.valueOf(rs.trim())){
-                finishButton.setVisible(true);
-                cancelButton.setVisible(false);
-            }else{
-               // thridPane.setTipText(firstPane.accountJTextField.getText()+"不是一个正确的 YM ID ,请检查 稍后再试。");
-            }
+          //  String rs = SanHttpClient.getDataAsString(url, paramMap);
+//            if(Boolean.valueOf(rs.trim())){
+//                finishButton.setVisible(true);
+//                cancelButton.setVisible(false);
+//            }else{
+//               // thridPane.setTipText(firstPane.accountJTextField.getText()+"不是一个正确的 YM ID ,请检查 稍后再试。");
+//            }
             previousButton.setEnabled(true);
             return true;
         }
