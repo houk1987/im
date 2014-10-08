@@ -1,10 +1,5 @@
 package qq.ui.login;
 
-import com.qq.lanuch.QQClient;
-import com.ui.JTextField.JTextFieldFactory;
-import com.ui.button.ImageButtonFactory;
-import com.ui.jlabel.JLabelFactory;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

@@ -6,7 +6,6 @@
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/jlabel/JLabelFactory.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/jlabel/LinkLabel.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/ChatDisplayPane.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/ChatWritePane.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/ChatWritePanel.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/JTextPaneHelper.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/WrapLetterHTMLEditorKit.java" charset="GBK" />
@@ -44,7 +43,6 @@
     <file url="file://$PROJECT_DIR$/yh/src/main/java/session/SessionFrame.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/yh/src/main/java/session/message/AcceptNewContactHandel.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/yh/src/main/java/session/message/BasicHtml.java" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yh/src/main/java/session/message/ChatMessageContentHtml.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/yh/src/main/java/session/message/ChatMessageHandel.java" charset="GBK" />
   </component>
 </project>

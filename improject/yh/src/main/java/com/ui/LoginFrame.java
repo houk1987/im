@@ -21,6 +21,7 @@ import javax.swing.event.DocumentListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.*;
 
 /**
  * Created by HK on 2014/10/4.
@@ -55,6 +56,10 @@ public class LoginFrame extends JFrame {
         setSize(contentPane.getWidth(), contentPane.getHeight() + 28);
         setContentPane(contentPane);
         getRootPane().setDefaultButton(loginButton);
+        java.util.List<Image> list = new ArrayList<>();
+        list.add(YhImageRes.getImageIcon("Yahoo!_Messenger_aero.png").getImage());
+        list.add(YhImageRes.getImageIcon("Yahoo!_Messenger_aero.png").getImage());
+        setIconImages(list);
     }
 
     @Override

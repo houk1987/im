@@ -1,6 +1,7 @@
 package qq.ui.login;
 
-import com.qq.ui.pub.PubDialog;
+
+import qq.ui.window.PubDialog;
 
 /**
  * Created by lenovo on 2014/9/16.
