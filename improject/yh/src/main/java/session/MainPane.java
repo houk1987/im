@@ -8,7 +8,9 @@ import com.ui.button.YhButtonFactory;
 import com.ui.resource.YhImageRes;
 import mangager.PresenceManager;
 import org.jivesoftware.smack.XMPPException;
+import org.jivesoftware.smack.packet.Message;
 import org.jivesoftware.smack.packet.Presence;
+import org.smackservice.ChatManager;
 import org.smackservice.SmackConnection;
 import session.message.BasicHtml;
 import sun.applet.Main;
@@ -36,9 +38,8 @@ public class MainPane extends JPanel {
 
     public MainPane(SessionFrame sessionFrame) {
         this.sessionFrame = sessionFrame;
-        //this.contact = sessionFrame.getContact();
+        this.contact = sessionFrame.getContact();
         initComponent();
-        //layoutComponent();
     }
 
     private void initComponent() {
@@ -50,12 +51,14 @@ public class MainPane extends JPanel {
         add(label);
 
 
-//        Presence type = PresenceManager.getPresence("2@30san");
-        statusIcon = JLabelFactory.createJLabel(PresenceManager.getOnline());
+        Presence type = PresenceManager.getPresence(contact.getJid());
+        statusIcon = JLabelFactory.createJLabel(PresenceManager.getPresenceIcon(type));
         statusIcon.setLocation(10, 80);
         add(statusIcon);
 
-        //chatLabel = JLabelFactory.createJLabel(contact.getUserName(),null,Color.BLACK);
+        chatLabel = JLabelFactory.createJLabel(contact.getUserName(),null,Color.BLACK);
+        chatLabel.setBounds(25, 75,100,21);
+        add(chatLabel);
 
         chatDisplayPane = new ChatDisplayPane();
         chatDisplayPane.setBounds(5, 100, 457, 300);
@@ -77,39 +80,44 @@ public class MainPane extends JPanel {
         jButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.out.println(chatWritePane.getPlainText());
-                //  SessionMessage sessionMessage = chatWritePane.getSessionMessage();
-//                Session session = YhClient.getInstance().getChatSession(contact.getJid());
-//                sessionMessage.setSendTime(new Timestamp(System.currentTimeMillis()));
-//                session.sendMessage(sessionMessage);
-                chatDisplayPane.insertMessage(getContentHtml(chatWritePane.getPlainText()));
-                chatWritePane.clear();//清空输入文本
+                try {
+                    Message message = getMessage(chatWritePane.getPlainText());
+                    ChatManager.getInstance().sendChatMessage(message);
+                    chatDisplayPane.insertMessage(message.getBody());
+                    chatWritePane.clear();//清空输入文本
+                } catch (XMPPException e1) {
+                    e1.printStackTrace();
+                }
             }
         });
-
         writePane.add(jButton, BorderLayout.EAST);
-
     }
 
+    private Message getMessage(String content){
+        Message message = new Message();
+        message.setFrom(MainFrame.getInstance().getLoginUser());
+        message.setTo(contact.getJid());
+        message.setProperty("sendTime",new Timestamp(System.currentTimeMillis()));
+        message.setBody(getContentHtml(content,message));
+        return message;
+    }
 
-    public String getContentHtml(String content) {
-        String html = BasicHtml.getBasicHtml();
+    private String getContentHtml(String content,Message message) {
+        String html = BasicHtml.outBasicHtml();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String dateString = formatter.format(new Timestamp(System.currentTimeMillis()));
+        String dateString = formatter.format(message.getProperty("sendTime"));
         html = html
                 .replaceAll("#algin#", "left")
-                .replaceAll("#msgtip#", "asdas" + "  " + dateString)
+                .replaceAll("#msgtip#", message.getFrom() + "  " + dateString)
                 .replaceAll("#content#", content);
         return html;
     }
 
+    public void insertMessage(Message message){
+        chatDisplayPane.insertMessage(message.getBody());
+    }
 
-    public static void main(String[] args) {
-        JFrame jFrame = new JFrame();
-        MainPane mainPane = new MainPane(null);
-        jFrame.setContentPane(mainPane);
-        jFrame.setSize(483, 600);
-        jFrame.setVisible(true);
-        mainPane.chatWritePane.requestFocus();
+    public void updatePresence(){
+        statusIcon.setIcon(PresenceManager.getPresenceIcon(PresenceManager.getPresence(contact.getJid())));
     }
 }

@@ -1,23 +1,13 @@
-package qq.ui.session;
-
-
-
-import com.imService.message.FontStyle;
-import com.imService.message.SessionMessage;
-import com.qq.sys.SysProperties;
-import com.ui.JTextField.JTextPaneHelper;
-import com.ui.session.WrapLetterHTMLEditorKit;
+package com.component.session;
 
 import javax.swing.*;
 import javax.swing.event.HyperlinkEvent;
 import javax.swing.event.HyperlinkListener;
 import javax.swing.text.*;
-import javax.swing.text.html.HTML;
 import javax.swing.text.html.HTMLDocument;
 import javax.swing.text.html.HTMLEditorKit;
 import java.awt.*;
 import java.awt.event.*;
-import java.io.File;
 
 
 public class ChatWritePanel extends JScrollPane implements HyperlinkListener, MouseListener, MouseMotionListener, KeyListener {
@@ -25,15 +15,10 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
     private HTMLDocument hdocument;
     public JTextPane chatWriteTextPane = new JTextPane();
     private HTMLEditorKit editorKit;
-    private int lastCaretPoint;
-    private SessionMessage sessionMessage;
     private MutableAttributeSet attr = new SimpleAttributeSet();
     public ChatWritePanel(Container chatContainer) {
         layoutPane();
-        initSendMessage();
         initMessageEditorTxtPane();
-        updateMessageTxtFormat(sessionMessage.getFontStyle());
-
     }
 
     /**
@@ -54,35 +39,12 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
         this.setPreferredSize(writeMessagePanelDefaultSize);
     }
 
-    /**
-     * 初始化将要发送的消息对象
-     */
-    private void initSendMessage() {
-        FontStyle fontStyle = new FontStyle();
-        fontStyle.setFontStyleName(SysProperties.getFontFamily());
-        fontStyle.setItalic(SysProperties.isFontItalic());
-        String[] rgb = SysProperties.getFontColor().split("%");
-        int r = Integer.valueOf(rgb[0]);
-        int g = Integer.valueOf(rgb[1]);
-        int b = Integer.valueOf(rgb[2]);
-        fontStyle.setColor(new Color(r,g,b));
-        fontStyle.setBold(SysProperties.isFontBold());
-        fontStyle.setSize(Integer.valueOf(SysProperties.getFontSize()));
 
-        sessionMessage = new SessionMessage("", "", "", fontStyle);
-    }
-
-    public SessionMessage getSessionMessage() {
-        sessionMessage.setContent(getChatWriteHTMLContent(false));
-        return sessionMessage;
-    }
-
-    public String getChatWriteHTMLContent(boolean isDisplayLink) {
+    public String getChatWriteHTMLContent() {
         String content = "";
         try {
             this.chatWriteTextPane.selectAll();
             this.chatWriteTextPane.setCharacterAttributes(attr, false);
-            String fileURI = new File(new File(".").getCanonicalPath()).toURI().toString();
             Element e = ((HTMLDocument) chatWriteTextPane.getDocument()).getDefaultRootElement();
             content = JTextPaneHelper.getHtml(chatWriteTextPane, e);
         } catch (Exception ex) {
@@ -90,6 +52,7 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
         }
         return content;
     }
+
 
     /**
      * 初始化消息内容比编辑面板
@@ -113,74 +76,7 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
         this.setViewportView(chatWriteTextPane);
     }
 
-    /**
-     * 更新消息体的格式
-     * 包括字体样式，颜色
-     */
-    public void updateMessageTxtFormat(FontStyle fontStyle) {
-        setFontFamily(fontStyle.getFontStyleName()); //设置字体样式
-        setFontSize(fontStyle.getSize()); //设置字体大小
-        setFontColor(fontStyle.getColor());
-        setFontBold(fontStyle.isBold());
-        setFontItalic(fontStyle.isItalic());
-    }
 
-    /**
-     * 设置字体类型
-     *
-     * @param fontFamily
-     */
-    public void setFontFamily(String fontFamily) {
-        StyleConstants.setFontFamily(attr, fontFamily);
-        setCharacterAttributes(chatWriteTextPane, attr, false);
-        sessionMessage.getFontStyle().setFontStyleName(fontFamily);
-    }
-
-    /**
-     * 设置字体大小
-     *
-     * @param size
-     */
-    public void setFontSize(int size) {
-        StyleConstants.setFontSize(attr, size);
-        setCharacterAttributes(chatWriteTextPane, attr, false);
-        sessionMessage.getFontStyle().setSize(size);
-        SysProperties.setFontSize(String.valueOf(size));
-    }
-
-    /**
-     * 设置字体颜色
-     * @param color
-     */
-    public void setFontColor(Color color){
-        StyleConstants.setForeground(attr,color);
-        setCharacterAttributes(chatWriteTextPane, attr, false);
-        sessionMessage.getFontStyle().setColor(color);
-    }
-
-    /**
-     * 设置字体为粗体
-     * @param isBold
-     */
-    public void setFontBold(boolean isBold){
-        StyleConstants.setBold(attr,isBold);
-        setCharacterAttributes(chatWriteTextPane, attr, false);
-        sessionMessage.getFontStyle().setBold(isBold);
-        SysProperties.setFontBold(String.valueOf(isBold));
-    }
-
-
-    /**
-     * 设置字体为为斜体
-     * @param isItalic
-     */
-    public void setFontItalic(boolean isItalic){
-        MutableAttributeSet attr = new SimpleAttributeSet();
-        StyleConstants.setItalic(attr,isItalic);
-        setCharacterAttributes(chatWriteTextPane, attr, false);
-        sessionMessage.getFontStyle().setItalic(isItalic);
-        SysProperties.setFontItalic(String.valueOf(isItalic));
-    }
 
     private static final void setCharacterAttributes(JEditorPane editor,
                                                      AttributeSet attr, boolean replace) {
@@ -215,39 +111,39 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
         throw new IllegalArgumentException("EditorKit must be StyledEditorKit");
     }
 
-    /**
-     * 插入表情
-     *
-     * @param emotionPath
-     * @throws Exception
-     */
-    public void insertEmotion(String emotionPath) throws Exception {
-        saveCaretPosition();
-        String emotionPathURI = new File(emotionPath).toURI().toString();
-        HTMLEditorKit kit = (HTMLEditorKit) chatWriteTextPane.getEditorKit();
-        HTMLDocument doc1 = (HTMLDocument) chatWriteTextPane.getDocument();
-        String str = getPlainText();
-        // zbq 修改了7805bug: 2012-3-8 会话窗口插入表情图片，显示有问题
-        if ("".equals(str)) {
-            kit.insertHTML(doc1, chatWriteTextPane.getCaretPosition(), "<p style=\"margin-top: 0\"><img src= \"" + emotionPathURI
-                    + "\" width=\"24\" height=\"24\"/></p>", 0, 0, HTML.Tag.IMG);
-        } else if (str.lastIndexOf("\n") == str.length() - 1 && chatWriteTextPane.getCaretPosition() == str.length()) {
-            // 新换行
-            kit.insertHTML(doc1, chatWriteTextPane.getCaretPosition(), "<p style=\"margin-top: 0\"><img src= \"" + emotionPathURI
-                    + "\" width=\"24\" height=\"24\"/></p>", 0, 0, null);
-            if (str.length() != 0) {
-                // 该语句为了移除末尾多出来的一个字符，如果聊天框是空，怎不会多出来，不移除。
-                chatWriteTextPane.getDocument().remove(str.length() + 1, 1);
-            }
-        } else {
-            // 除新换行以外
-            kit.insertHTML(doc1, chatWriteTextPane.getCaretPosition(), "<img src= \"" + emotionPathURI + "\" width=\"24\" height=\"24\"/>",
-                    0, 0, HTML.Tag.IMG);
-        }
-
-        chatWriteTextPane.setCaretPosition(getCurrentCaretPosition());
-        chatWriteTextPane.requestFocus();
-    }
+//    /**
+//     * 插入表情
+//     *
+//     * @param emotionPath
+//     * @throws Exception
+//     */
+//    public void insertEmotion(String emotionPath) throws Exception {
+//        saveCaretPosition();
+//        String emotionPathURI = new File(emotionPath).toURI().toString();
+//        HTMLEditorKit kit = (HTMLEditorKit) chatWriteTextPane.getEditorKit();
+//        HTMLDocument doc1 = (HTMLDocument) chatWriteTextPane.getDocument();
+//        String str = getPlainText();
+//        // zbq 修改了7805bug: 2012-3-8 会话窗口插入表情图片，显示有问题
+//        if ("".equals(str)) {
+//            kit.insertHTML(doc1, chatWriteTextPane.getCaretPosition(), "<p style=\"margin-top: 0\"><img src= \"" + emotionPathURI
+//                    + "\" width=\"24\" height=\"24\"/></p>", 0, 0, HTML.Tag.IMG);
+//        } else if (str.lastIndexOf("\n") == str.length() - 1 && chatWriteTextPane.getCaretPosition() == str.length()) {
+//            // 新换行
+//            kit.insertHTML(doc1, chatWriteTextPane.getCaretPosition(), "<p style=\"margin-top: 0\"><img src= \"" + emotionPathURI
+//                    + "\" width=\"24\" height=\"24\"/></p>", 0, 0, null);
+//            if (str.length() != 0) {
+//                // 该语句为了移除末尾多出来的一个字符，如果聊天框是空，怎不会多出来，不移除。
+//                chatWriteTextPane.getDocument().remove(str.length() + 1, 1);
+//            }
+//        } else {
+//            // 除新换行以外
+//            kit.insertHTML(doc1, chatWriteTextPane.getCaretPosition(), "<img src= \"" + emotionPathURI + "\" width=\"24\" height=\"24\"/>",
+//                    0, 0, HTML.Tag.IMG);
+//        }
+//
+//        chatWriteTextPane.setCaretPosition(getCurrentCaretPosition());
+//        chatWriteTextPane.requestFocus();
+//    }
 
 
     /**
@@ -279,16 +175,6 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
         }
 
         return null;
-    }
-
-    /**
-     * **********************************************************************************************************
-     * 点击表情按钮后先保存富文本编辑器的焦点位置
-     * ****************************************************
-     * *******************************************************
-     */
-    public void saveCaretPosition() {
-        lastCaretPoint = this.getCurrentCaretPosition();
     }
 
     @Override
@@ -351,9 +237,6 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
     }
 
 
-
-
-
     @Override
     public void updateUI() {
         super.updateUI();
@@ -371,7 +254,7 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
      */
     public void startNewDocument() {
         Document oldDoc = chatWriteTextPane.getDocument();
-        HTMLEditorKit editorKit = new HTMLEditorKit();
+        HTMLEditorKit editorKit = new WrapLetterHTMLEditorKit();
         hdocument = (HTMLDocument) editorKit.createDefaultDocument();
         chatWriteTextPane.setDocument(hdocument);
         removeSpace();

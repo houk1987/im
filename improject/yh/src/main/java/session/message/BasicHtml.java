@@ -5,7 +5,8 @@ package session.message;
  */
 public class BasicHtml {
 
-    public static String getBasicHtml() {
+
+    public static String outBasicHtml(){
         StringBuffer sb = new StringBuffer("");
         sb.append("<tr> <td style=\"padding-top:2pt\" align=\"#algin#\"><table  width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\" style=\"float:right\" >");
         sb.append("<td width=\"16\" height=\"21\" background=\"#top1url#\"  ></td>");

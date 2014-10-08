@@ -24,13 +24,15 @@ public class SessionFrame extends JFrame {
         if(sessionFrame == null){
             sessionFrame = new SessionFrame(contact, Message.Type.chat);
             sessionFrameHashMap.put(contact.getJid(),sessionFrame);
+        }else{
+            sessionFrame.mainPane.updatePresence();
         }
         sessionFrame.setVisible(true);
         return sessionFrame;
     }
 
     private SessionFrame(ContactItem contact,Message.Type type) throws HeadlessException {
-        setSize(475, 500);
+        setSize(475, 600);
         this.type = type;
         this.contact = contact;
         mainPane = new MainPane(this);
@@ -48,9 +50,8 @@ public class SessionFrame extends JFrame {
 ////    }
 
 
-//
-//    public void insertMessageToDisplay(SessionMessage sessionMessage){
-//        String html = new ChatMessageContentHtml(sessionMessage).getContentHtml();
-//        mainPane.chatDisplayPane.insertMessage(html);
-//    }
+
+    public void insertMessageToDisplay(Message message){
+        mainPane.insertMessage(message);
+    }
 }

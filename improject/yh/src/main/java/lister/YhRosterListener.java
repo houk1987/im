@@ -1,10 +1,14 @@
 package lister;
 
+import com.component.rosterTree.ContactItem;
 import com.ui.MainFrame;
+import com.ui.resource.Yh;
 import com.ui.resource.YhImageRes;
+import com.ui.tree.YhContactItem;
 import mangager.PresenceManager;
 import org.jivesoftware.smack.RosterListener;
 import org.jivesoftware.smack.packet.Presence;
+import session.SessionFrame;
 
 import java.util.Collection;
 
