@@ -5,6 +5,51 @@
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/jlabel/ExpandableImageLabel.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/jlabel/JLabelFactory.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/jlabel/LinkLabel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/ChatDisplayPane.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/ChatWritePane.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/JTextPaneHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/component/src/main/java/com/component/session/WrapLetterHTMLEditorKit.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/qq/resources/images/button" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/qq/resources/images/login" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/qq/resources/images/main" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/qq/resources/images/session" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/qq/resources/images/status" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/qq/src/main/java/qq" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/addContact.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/AddBuddy.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/AddBuddyHover.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/AddBuddyPressed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/cancel.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/cancelDisabel.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/cancelHover.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/cancelPressed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/finish.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/finishHover.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/finishPressed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/next.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/nextDisabel.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/nextHover.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/nextPressed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/previous.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/previousHover.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/previousPressed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/send.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/sendHover.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/resources/images/button/sendPressed.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/AddContactDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/YhContact.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/YhContactItem.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/YhContactTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/addContact/AddContactDialog.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/com/ui/contact/addContact/ContactPane.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/session/ChatWritePanel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/session/MainPane.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/session/SessionFrame.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/session/message/AcceptNewContactHandel.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/session/message/BasicHtml.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/session/message/ChatMessageContentHtml.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yh/src/main/java/session/message/ChatMessageHandel.java" charset="GBK" />
   </component>
 </project>
 

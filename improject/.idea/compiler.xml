@@ -23,6 +23,7 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="component" />
+        <module name="qq" />
         <module name="resource" />
         <module name="smackservice" />
         <module name="yh" />

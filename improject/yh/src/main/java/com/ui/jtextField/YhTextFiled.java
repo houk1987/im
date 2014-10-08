@@ -13,7 +13,6 @@ public class YhTextFiled extends JTextField{
     public YhTextFiled() {
       setForeground(Color.GRAY);
       setBorder(null);
-
     }
 
     @Override

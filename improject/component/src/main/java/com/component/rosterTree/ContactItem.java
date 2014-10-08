@@ -6,7 +6,7 @@ import java.awt.*;
 /**
  * Created by HK on 2014/10/6.
  */
-public class ContactItem {
+public abstract class ContactItem {
 
     private String jid;
     private String userName;
@@ -62,4 +62,6 @@ public class ContactItem {
     public void setPressedColor(Color pressedColor) {
         this.pressedColor = pressedColor;
     }
+
+    public abstract void click();
 }

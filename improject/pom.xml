@@ -13,6 +13,7 @@
         <module>resource</module>
         <module>component</module>
         <module>yh</module>
+        <module>qq</module>
     </modules>
 
 

@@ -28,7 +28,30 @@ public class YhButtonFactory {
         return createBaseButton("ok.png");
     }
 
+    public JButton createAddBuddyButton(){ return createBaseButton("AddBuddy.png");}
+
+    public JButton createPreviousButton() {
+        return createBaseButton("previous.png");
+    }
+
     private JButton createBaseButton(String name){
        return new BaseButton(resSource,name);
+    }
+
+
+    public JButton createNextButton() {
+        return createBaseButton("next.png");
+    }
+
+    public JButton createCancelButton() {
+        return createBaseButton("cancel.png");
+    }
+
+    public JButton createFinishButton() {
+        return createBaseButton("finish.png");
+    }
+
+    public JButton createSendButton() {
+        return createBaseButton("send.png");
     }
 }

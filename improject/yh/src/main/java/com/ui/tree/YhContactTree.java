@@ -4,10 +4,12 @@ package com.ui.tree;
 import com.component.rosterTree.ContactGroup;
 import com.component.rosterTree.ContactItem;
 import com.component.rosterTree.TreePane;
+import com.ui.MainFrame;
 import com.ui.resource.YhImageRes;
 import mangager.PresenceManager;
 import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.XMPPException;
+import org.jivesoftware.smack.packet.Presence;
 import org.smackservice.RosterManager;
 import org.smackservice.SmackConnection;
 
@@ -35,14 +37,15 @@ public class YhContactTree extends TreePane {
         final Color pressedColor = new Color(197, 148, 193);
         List<RosterEntry> rosterEntryList = RosterManager.getRosters();
         for (RosterEntry rosterEntry : rosterEntryList) {
-            ContactItem contactItem = new ContactItem();
-            System.out.println(rosterEntry.getUser());
+            YhContactItem contactItem = new YhContactItem();
             contactItem.setHeadIcon(headIcon);
             contactItem.setJid(rosterEntry.getUser());
             contactItem.setUserName(rosterEntry.getName());
             contactItem.setHoverColor(hoverColor);
             contactItem.setPressedColor(pressedColor);
-            contactItem.setPresenceIcon(PresenceManager.getPresenceIcon(PresenceManager.getPresence(contactItem.getJid())));
+            Presence presence = PresenceManager.getPresence(contactItem.getJid());
+            contactItem.setPresenceIcon(PresenceManager.getPresenceIcon(presence));
+            friends.calOnlineNum(presence.getType().equals(Presence.Type.available)); //计算在线人数
             friends.addContactItem(contactItem);
         }
         mainPanel.add(recentContacts);

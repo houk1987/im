@@ -28,22 +28,28 @@ public class ContactGroup extends CollapsiblePane {
         this.groupName = groupName;
         contactItemList = new MyTable();
 
-//        contactItemList.addMouseListener(new MouseAdapter() {
-//            @Override
-//            public void mouseClicked(MouseEvent e) {
-//                if(e.getButton()==1&&e.getClickCount()==2){
-//                    ContactItem item = (ContactItem)contactItemList.getSelectedValue();
-//                    item.click();
-//
-//                }
-//            }
-//        });
+        contactItemList.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                if(e.getButton()==1&&e.getClickCount()==2){
+                    int row = contactItemList.getSelectedRow();
+                    MyTableModel myTableModel = (MyTableModel)contactItemList.getModel();
+                    ContactItem contactItem = myTableModel.getAllContactItems().get(row);
+                    contactItem.click();
+                }
+            }
+        });
         setTitle(getGroupTitle(groupName));
         this.setContentPane(contactItemList);
     }
 
     public void addContactItem(ContactItem item){
         contactItemList.addItem(item);
+    }
+
+    public void calOnlineNum(boolean isOnline){
+        if(isOnline)onlineNum++;
+        if(!isOnline && onlineNum>0)onlineNum--;
     }
 
     public void updateContactItem(String jid,ImageIcon presenceIcon,boolean isOnline){
@@ -106,8 +112,7 @@ public class ContactGroup extends CollapsiblePane {
             for(ContactItem contactItem : list){
                 if(jid.equals(contactItem.getJid())){
                    contactItem.setPresenceIcon(presenceIcon);
-                   if(isOnline)onlineNum++;
-                   if(!isOnline)onlineNum--;
+                   calOnlineNum(isOnline);
                    updateContactNumOnGroupTitle();
                    updateUI();
                    return;

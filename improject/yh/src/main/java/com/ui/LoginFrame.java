@@ -10,11 +10,9 @@ import com.ui.notify.WarnNotifyDialog;
 import com.ui.resource.YhImageRes;
 import lister.YhPacketLister;
 import lister.YhRosterListener;
-import mangager.PresenceManager;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.filter.PacketTypeFilter;
 import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Presence;
 import org.smackservice.SmackConnection;
 
 import javax.swing.*;
@@ -152,6 +150,7 @@ public class LoginFrame extends JFrame {
         SmackConnection.getInstance().login(account, password);
         dispose();
         MainFrame.getInstance().setVisible(true);
+        MainFrame.getInstance().setLoginUser(account);
         SmackConnection.getInstance().addPacketListener(new YhPacketLister(), new PacketTypeFilter(Message.class));
         SmackConnection.getInstance().getRoster().addRosterListener(new YhRosterListener());
     }
