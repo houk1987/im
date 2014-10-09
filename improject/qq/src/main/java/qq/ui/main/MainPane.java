@@ -1,6 +1,6 @@
 package qq.ui.main;
 
-import com.qq.ui.tree.QQContactTree;
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,6 @@ import java.awt.*;
 public class MainPane extends JPanel {
 
     private ImageIcon bgIcon;  //±≥æ∞Õº∆¨
-    private QQContactTree qqContactTree;
 
     public MainPane() {
         bgIcon = new ImageIcon("res/main/mainFrameBg.png"); //≥ı ºªØ±≥æ∞Õº∆¨
@@ -22,10 +21,10 @@ public class MainPane extends JPanel {
 
     private void initLayout(){
         setLayout(null);
-        qqContactTree = new QQContactTree();
-        qqContactTree.setSize(452, 440);
-        qqContactTree.setLocation(0, 200);
-        add(qqContactTree);
+        //qqContactTree = new QQContactTree();
+       // qqContactTree.setSize(452, 440);
+       // qqContactTree.setLocation(0, 200);
+       // add(qqContactTree);
     }
 
     @Override

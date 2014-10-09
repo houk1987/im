@@ -29,6 +29,14 @@
         <module name="yh" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="component" target="1.7" />
+      <module name="improject" target="1.7" />
+      <module name="qq" target="1.7" />
+      <module name="resource" target="1.7" />
+      <module name="smackservice" target="1.7" />
+      <module name="yh" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 

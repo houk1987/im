@@ -53,7 +53,7 @@ public class LoginPane extends JPanel {
          * ’ ∫≈ ‰»ÎøÚ
          */
         Font font = new Font("Œ¢»Ì—≈∫⁄", Font.PLAIN, 14);
-        accountTextField = JTextFieldFactory.createJTextField(170, 23, Color.BLACK);
+       // accountTextField = JTextFieldFactory.createJTextField(170, 23, Color.BLACK);
         accountTextField.setFont(font);
         accountTextField.setLocation(140, 200);
         add(accountTextField);
@@ -61,7 +61,7 @@ public class LoginPane extends JPanel {
         /**
          * √‹¬Î ‰»ÎøÚ
          */
-        passwordField = JTextFieldFactory.createJPasswordField(165, 23, Color.BLACK, '°Ò');
+       // passwordField = JTextFieldFactory.createJPasswordField(165, 23, Color.BLACK, '°Ò');
         passwordField.setFont(font);
         passwordField.setLocation(140, 225);
         add(passwordField);
@@ -69,7 +69,7 @@ public class LoginPane extends JPanel {
         /**
          * µ«¬Ω∞¥≈•
          */
-        loginButton = ImageButtonFactory.createButton("res/button/login/", "", "login.png");
+       // loginButton = ImageButtonFactory.createButton("res/button/login/", "", "login.png");
         loginButton.setLocation(133, 287);
         add(loginButton);
         loginButton.addActionListener(new AbstractAction() {

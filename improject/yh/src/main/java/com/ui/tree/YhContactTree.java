@@ -25,8 +25,8 @@ public class YhContactTree extends TreePane {
     private ContactGroup recentContacts;
     private ContactGroup friends;
     private ContactGroup address;
-    final Color hoverColor = new Color(246, 243, 251);
-    final Color pressedColor = new Color(197, 148, 193);
+    private static final Color hoverColor = new Color(246, 243, 251);
+    private static final Color pressedColor = new Color(197, 148, 193);
     final static ImageIcon headIcon = YhImageRes.getImageIcon("tree/" + "headItem.png");
     @Override
     protected void loadData() {

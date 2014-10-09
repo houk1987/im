@@ -2,6 +2,7 @@ package com.ui;
 
 
 import com.component.FontFactory;
+import com.component.ImTray;
 import com.component.jlabel.JLabelFactory;
 import com.ui.button.YhButtonFactory;
 import com.ui.jtextField.YhPasswordTextFiled;
@@ -48,6 +49,7 @@ public class LoginFrame extends JFrame {
                 LoginFrame loginFrame = new LoginFrame();
                 loginFrame.setResizable(false);
                 loginFrame.setVisible(true);
+                Yh.getImTray();
             }
         });
     }
@@ -158,5 +160,6 @@ public class LoginFrame extends JFrame {
         MainFrame.getInstance().setLoginUser(account);
         SmackConnection.getInstance().addPacketListener(new YhPacketLister(), new PacketTypeFilter(Message.class));
         SmackConnection.getInstance().getRoster().addRosterListener(new YhRosterListener());
+        Yh.getImTray().setTrayIcon(YhImageRes.getImageIcon("online.gif").getImage());
     }
 }

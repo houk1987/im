@@ -5,6 +5,7 @@ import com.san30.pub.tools.SanHttpClient;
 import com.ui.MainFrame;
 import com.ui.button.YhButtonFactory;
 import com.ui.jtextField.YhTextFiled;
+import com.ui.resource.Yh;
 import com.ui.resource.YhImageRes;
 import org.smackservice.RosterManager;
 import org.smackservice.SmackConnection;
@@ -24,7 +25,7 @@ import java.util.HashMap;
  */
 public class ContactPane extends JPanel implements ActionListener{
     private ImageIcon bgFirstImageIcon = YhImageRes.getImageIcon("addConatactBgFirst.png");
-    private ImageIcon bgThird1ImageIcon = YhImageRes.getImageIcon("addcontactBgThrid1.png");
+    private ImageIcon bgThird1ImageIcon = YhImageRes.getImageIcon("thridBg.png");
     private ImageIcon bgSecondImageIcon = YhImageRes.getImageIcon("addConatactSecondBg.png");
     private ImageIcon currentBgImageIcon = bgFirstImageIcon;
     private JButton nextButton;
@@ -38,6 +39,8 @@ public class ContactPane extends JPanel implements ActionListener{
 
     private JPanel contactPanel;
     private JLabel contactUserName;
+    private JLabel rsLabel;
+    private JLabel lineLabel;
 
     private ValidateApplyAccountWork validateApplyAccountWork;
 
@@ -64,6 +67,8 @@ public class ContactPane extends JPanel implements ActionListener{
 
         finishButton = YhButtonFactory.getInstance().createFinishButton();
         finishButton.setVisible(false);
+        finishButton.setLocation(329,363);
+        add(finishButton);
 
         previousButton.addActionListener(this);
         nextButton.addActionListener(this);
@@ -97,7 +102,7 @@ public class ContactPane extends JPanel implements ActionListener{
         userNamePanel.setBackground(new Color(119,36,111));
         userNamePanel.setLayout(new BorderLayout());
         userNamePanel.setBounds(60, 230, 100, 21);
-        userName = new JLabel(MainFrame.getInstance().getLoginUser().split("@")[0]);
+        userName = new JLabel("asda");
         userName.setForeground(new Color(204,204,204));
         userName.setFont(new Font("宋体",Font.PLAIN,12));
         userNamePanel.add(userName);
@@ -115,6 +120,17 @@ public class ContactPane extends JPanel implements ActionListener{
         contactPanel.add(contactUserName);
         contactPanel.add(JLabelFactory.createJLabel(YhImageRes.getImageIcon("contactRightbg.png")));
         add(contactPanel);
+
+        rsLabel = JLabelFactory.createJLabel(null);
+        rsLabel.setForeground(Color.DARK_GRAY);
+        rsLabel.setBounds(5,5,250,30);
+        rsLabel.setVisible(false);
+        add(rsLabel);
+
+        lineLabel = JLabelFactory.createJLabel(YhImageRes.getImageIcon("line.png"));
+        lineLabel.setLocation(5,340);
+        lineLabel.setVisible(false);
+        add(lineLabel);
     }
 
     @Override
@@ -144,9 +160,9 @@ public class ContactPane extends JPanel implements ActionListener{
                 cancelButton.setEnabled(false);
                 contactPanel.setVisible(false);
                 userNamePanel.setVisible(false );
-
+                lineLabel.setVisible(true);
+                rsLabel.setVisible(true);
                 String jid = accountJTextField.getText()+"@"+SmackConnection.getInstance().getServiceName(); //添加的账号
-
                 if(jid.equals(MainFrame.getInstance().getLoginUser())){
 
                 }else if(RosterManager.getRosterEntry(jid)!=null){
@@ -155,6 +171,10 @@ public class ContactPane extends JPanel implements ActionListener{
                     validateApplyAccountWork  = new ValidateApplyAccountWork();
                     validateApplyAccountWork.execute();
                 }
+
+            }else{
+                finishButton.setVisible(true);
+                cancelButton.setVisible(false);
             }
             updateUI();
         }else if(e.getSource() == previousButton){
@@ -165,13 +185,16 @@ public class ContactPane extends JPanel implements ActionListener{
                 userNamePanel.setVisible(false);
                 contactPanel.setVisible(false);
                 accountJTextField.requestFocus();
+                lineLabel.setVisible(false);
+                rsLabel.setVisible(false);
             }else if(currentBgImageIcon.equals(bgThird1ImageIcon)){
                 currentBgImageIcon = bgSecondImageIcon;
                 userNamePanel.setVisible(true);
                 contactPanel.setVisible(true);
                 nextButton.setEnabled(true);
+                lineLabel.setVisible(false);
+                rsLabel.setVisible(false);
             }
-
             updateUI();
         }else if(finishButton == e.getSource()){
             jDialog.dispose();
@@ -188,10 +211,12 @@ public class ContactPane extends JPanel implements ActionListener{
             String url = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
             String rs = SanHttpClient.getDataAsString(url, paramMap);
             if(Boolean.valueOf(rs.trim())){
+                rsLabel.setText("系统已经向朋友发出了好友申请。");
                 finishButton.setVisible(true);
                 cancelButton.setVisible(false);
             }else{
-               //thridPane.setTipText(firstPane.accountJTextField.getText()+"不是一个正确的 YM ID ,请检查 稍后再试。");
+               rsLabel.setText(accountJTextField.getText()+"不是一个正确的 YM ID ,请检查 稍后再试。");
+                rsLabel.setToolTipText(accountJTextField.getText()+"不是一个正确的 YM ID ,请检查 稍后再试。");
             }
             previousButton.setEnabled(true);
             return true;

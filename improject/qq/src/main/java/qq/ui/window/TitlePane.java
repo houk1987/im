@@ -1,10 +1,7 @@
 package qq.ui.window;
 
-import com.ui.button.ImageButtonFactory;
-import com.ui.jlabel.JLabelFactory;
 
 import javax.swing.*;
-import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -36,10 +33,10 @@ public class TitlePane extends JPanel implements ActionListener {
     }
 
     private void initRightWindowButtonPane() {
-        closeButton = ImageButtonFactory.createButton(this.title.getBtnImagePath(), "关闭", "close.png");
-        maxButton = ImageButtonFactory.createButton(this.title.getBtnImagePath(), "最大化", "max.png");
-        minButton = ImageButtonFactory.createButton(this.title.getBtnImagePath(), "最小化", "min.png");
-        restoreButton = ImageButtonFactory.createButton(this.title.getBtnImagePath(), "还原", "restore.png");
+       // closeButton = ImageButtonFactory.createButton(this.title.getBtnImagePath(), "关闭", "close.png");
+      //  maxButton = ImageButtonFactory.createButton(this.title.getBtnImagePath(), "最大化", "max.png");
+      //  minButton = ImageButtonFactory.createButton(this.title.getBtnImagePath(), "最小化", "min.png");
+      //  restoreButton = ImageButtonFactory.createButton(this.title.getBtnImagePath(), "还原", "restore.png");
         initButtonShowState();  //根据窗口状态 显示按钮
         JPanel titleRightPane = new JPanel(new FlowLayout(FlowLayout.LEFT));
         titleRightPane.setOpaque(false);
@@ -59,11 +56,11 @@ public class TitlePane extends JPanel implements ActionListener {
         titleLeftPane.setOpaque(false);
         add(titleLeftPane, BorderLayout.WEST);
         if (this.title.getTitleIcon()!=null){
-            titleIconLabel = JLabelFactory.createJLabel(this.title.getTitleIcon());
+         //   titleIconLabel = JLabelFactory.createJLabel(this.title.getTitleIcon());
             titleLeftPane.add(titleIconLabel);
         }
         if(this.title.getTxt()!=null){
-            titleTxtLabel = JLabelFactory.createJLabel(this.title.getTxt(), this.title.getFont(), this.title.getColor());
+         //   titleTxtLabel = JLabelFactory.createJLabel(this.title.getTxt(), this.title.getFont(), this.title.getColor());
             titleLeftPane.add(titleTxtLabel);
         }
     }
