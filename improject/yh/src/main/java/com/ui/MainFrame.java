@@ -1,5 +1,6 @@
 package com.ui;
 
+import com.component.jlabel.JLabelFactory;
 import com.ui.addContact.AddContactDialog;
 import com.ui.button.YhButtonFactory;
 import com.ui.resource.YhImageRes;
@@ -9,6 +10,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.*;
 
 /**
  * Created by HK on 2014/10/5.
@@ -23,6 +25,8 @@ public class MainFrame extends JFrame {
         ContentPane content = new ContentPane();
         setContentPane(content);
         setSize(content.getWidth() + 5, content.getHeight() + 28);
+        java.util.List<Image> ico=new LinkedList<>();
+         setIconImage(YhImageRes.getImageIcon("Yahoo!_Messenger_aero.png").getImage());
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }
@@ -40,13 +44,54 @@ public class MainFrame extends JFrame {
 
     private class ContentPane extends JPanel {
         private ImageIcon bgImageIcon = YhImageRes.getImageIcon("mainFrame.png");
+        private JButton rightButton = YhButtonFactory.getInstance().createRight();
+        private JButton leftButton = YhButtonFactory.getInstance().createLeft();
+
+        private JLabel rightBgLabel = JLabelFactory.createJLabel(YhImageRes.getImageIcon("rightBg.png"));
+
+        private JScrollPane yhTreeScrollPane = new JScrollPane();
 
         ContentPane() {
             if (bgImageIcon == null) return;
             setSize(bgImageIcon.getIconWidth(), bgImageIcon.getIconHeight());
             setLayout(null);
+
+            leftButton.setSelectedIcon(YhImageRes.getButtonImageIcon("leftIsSelected.png"));
+            leftButton.setSelected(true);
+            leftButton.setLocation(4, 82);
+            leftButton.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    leftButton.setSelected(true);
+                    leftButton.setPressedIcon(leftButton.getSelectedIcon());
+                    rightButton.setSelected(false);
+                    rightButton.setPressedIcon(YhImageRes.getButtonImageIcon("rightPressed.png"));
+                    rightBgLabel.setVisible(false);
+                    yhTreeScrollPane.setVisible(true);
+                }
+            });
+            add(leftButton);
+
+            rightButton.setLocation(122,82);
+            add(rightButton);
+            rightButton.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    rightBgLabel.setVisible(true);
+                    yhTreeScrollPane.setVisible(false);
+                    rightButton.setSelectedIcon(YhImageRes.getButtonImageIcon("rightIsSelected.png"));
+                    rightButton.setSelected(true);
+                    rightButton.setPressedIcon(rightButton.getSelectedIcon());
+                    leftButton.setSelected(false);
+                    leftButton.setPressedIcon(YhImageRes.getButtonImageIcon("leftPressed.png"));
+                }
+            });
+
+            rightBgLabel.setVisible(false);
+            rightBgLabel.setBounds(7,135,getWidth()-15,445);
+            add(rightBgLabel);
+
             yhContactTree = new YhContactTree();
-            JScrollPane yhTreeScrollPane = new JScrollPane();
             yhTreeScrollPane.setBorder(null);
             yhTreeScrollPane.setBackground(Color.WHITE);
             yhTreeScrollPane.setViewportView(yhContactTree);

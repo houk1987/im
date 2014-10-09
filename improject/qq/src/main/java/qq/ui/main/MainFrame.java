@@ -1,6 +1,8 @@
 package qq.ui.main;
 
-import com.qq.ui.pub.PubFrame;
+
+
+import qq.ui.pub.PubFrame;
 
 import java.awt.*;
 

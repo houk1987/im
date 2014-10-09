@@ -1,5 +1,7 @@
 package qq.ui.login;
 
+import com.component.jlabel.JLabelFactory;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -81,7 +83,7 @@ public class LoginPane extends JPanel {
                     } else if ("".equals(password)) {
 
                     }
-                    QQClient.getInstance().loginClient(account, password);
+                   // QQClient.getInstance().loginClient(account, password);
                 } catch (Exception e1) {
                     e1.printStackTrace();
                     JOptionPane.showMessageDialog(LoginPane.this,e1.getMessage());

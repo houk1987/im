@@ -1,9 +1,4 @@
 package qq.lanuch;
-
-import com.qq.ui.login.LoginDialog;
-import com.qq.ui.session.SessionFrame;
-import org.jivesoftware.smack.XMPPException;
-
 import javax.swing.*;
 
 /**
@@ -16,8 +11,7 @@ public class StartqqClient {
             public void run() {
                 try {
                     UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel");
-                    QQClient.getInstance().loginClient("3","1");
-//                    SessionFrame.openChatSessionFrame("1");
+
                 } catch (ClassNotFoundException e) {
                     e.printStackTrace();
                 } catch (InstantiationException e) {
@@ -25,8 +19,6 @@ public class StartqqClient {
                 } catch (IllegalAccessException e) {
                     e.printStackTrace();
                 } catch (UnsupportedLookAndFeelException e) {
-                    e.printStackTrace();
-                } catch (XMPPException e) {
                     e.printStackTrace();
                 }
             }

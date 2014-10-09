@@ -1,5 +1,6 @@
 package lister;
 
+import com.ui.notify.AcceptNewContactDialog;
 import com.ui.tree.YhContactItem;
 import org.jivesoftware.smack.PacketListener;
 import org.jivesoftware.smack.packet.Message;
@@ -14,11 +15,17 @@ public class YhPacketLister implements PacketListener {
     public void processPacket(Packet packet) {
         if(packet instanceof Message){
             Message message  =(Message)packet;
-            String from = message.getFrom().split("/")[0];
-            YhContactItem yhContactItem = new YhContactItem();
-            yhContactItem.setJid(from);
-            SessionFrame sessionFrame = SessionFrame.CreateAndShowSessionFrame(yhContactItem);
-            sessionFrame.insertMessageToDisplay(message);
+            String subject = message.getSubject();
+            if("∫√”—…Í’à".equals(subject)){
+                AcceptNewContactDialog acceptNewContactDialog = new AcceptNewContactDialog(message.getFrom());
+                acceptNewContactDialog.showNotifyWindow();
+            }else if(message.getType().equals(Message.Type.chat)){
+                String from = message.getFrom().split("/")[0];
+                YhContactItem yhContactItem = new YhContactItem();
+                yhContactItem.setJid(from);
+                SessionFrame sessionFrame = SessionFrame.CreateAndShowSessionFrame(yhContactItem);
+                sessionFrame.insertMessageToDisplay(message);
+            }
         }
     }
 }

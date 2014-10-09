@@ -1,5 +1,7 @@
 package qq.ui.window;
 
+import com.san30.sim.pub.imagewindow.ImageDialog;
+
 import java.awt.*;
 
 /**
@@ -7,6 +9,10 @@ import java.awt.*;
  */
 public class PubDialog extends ImageDialog implements WindowButtonHandel{
     private Title title;
+
+    public PubDialog() {
+    }
+
     public PubDialog(Frame owner,Title title) {
         super(owner);
         setLayout(new BorderLayout());

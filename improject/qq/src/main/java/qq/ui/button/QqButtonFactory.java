@@ -1,23 +1,22 @@
-package com.ui.button;
+package qq.ui.button;
 
 import com.component.BaseButton;
-import com.ui.resource.Yh;
-
+import qq.resource.Qq;
 import javax.swing.*;
 
 /**
  * Created by HK on 2014/10/5.
  */
-public class YhButtonFactory {
+public class QqButtonFactory {
 
-    private static YhButtonFactory yhButtonFactory = new YhButtonFactory();
-    private final static String resSource = Yh.getResSource()+"button/";
+    private static QqButtonFactory yhButtonFactory = new QqButtonFactory();
+    private final static String resSource = Qq.getResSource()+"button/";
 
-    public static YhButtonFactory getInstance() {
+    public static QqButtonFactory getInstance() {
         return yhButtonFactory;
     }
 
-    private YhButtonFactory() {
+    private QqButtonFactory() {
     }
 
     public JButton createLoginButton(){
@@ -53,13 +52,5 @@ public class YhButtonFactory {
 
     public JButton createSendButton() {
         return createBaseButton("send.png");
-    }
-
-    public JButton createRight() {
-        return createBaseButton("right.png");
-    }
-
-    public JButton createLeft() {
-        return createBaseButton("left.png");
     }
 }

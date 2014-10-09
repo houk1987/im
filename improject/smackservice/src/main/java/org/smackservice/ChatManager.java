@@ -28,6 +28,7 @@ public class ChatManager {
         if(chat == null){
             chat = SmackConnection.getInstance().getChatManager().createChat(jid,null);
         }
+        message.setType(Message.Type.chat);
         chat.sendMessage(message);
     }
 
