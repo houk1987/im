@@ -1,10 +1,12 @@
 package com.ui.addContact;
 
 import com.component.jlabel.JLabelFactory;
+import com.san30.pub.tools.SanHttpClient;
 import com.ui.MainFrame;
 import com.ui.button.YhButtonFactory;
 import com.ui.jtextField.YhTextFiled;
 import com.ui.resource.YhImageRes;
+import org.smackservice.RosterManager;
 import org.smackservice.SmackConnection;
 
 import javax.swing.*;
@@ -36,7 +38,7 @@ public class ContactPane extends JPanel implements ActionListener{
     private JPanel contactPanel;
     private JLabel contactUserName;
 
-    private validateApplyAccountWork validateApplyAccountWork;
+    private ValidateApplyAccountWork validateApplyAccountWork;
 
     public ContactPane(JDialog jDialog) {
         setOpaque(true);
@@ -141,16 +143,41 @@ public class ContactPane extends JPanel implements ActionListener{
                 cancelButton.setEnabled(false);
                 contactPanel.setVisible(false);
                 userNamePanel.setVisible(false );
+
+                String jid = accountJTextField.getText()+"@"+SmackConnection.getInstance().getServiceName(); //添加的账号
+
+                if(jid.equals(MainFrame.getInstance().getLoginUser())){
+
+                }else if(RosterManager.getRosterEntry(jid)!=null){
+
+                }else{
+                    validateApplyAccountWork  = new ValidateApplyAccountWork();
+                    validateApplyAccountWork.execute();
+                }
             }
             updateUI();
         }else if(e.getSource() == previousButton){
+            if(currentBgImageIcon.equals(bgSecondImageIcon)){
+                currentBgImageIcon = bgFirstImageIcon;
+                previousButton.setEnabled(false);
+                accountJTextField.setVisible(true);
+                userNamePanel.setVisible(false);
+                contactPanel.setVisible(false);
+                accountJTextField.requestFocus();
+            }else if(currentBgImageIcon.equals(bgThird1ImageIcon)){
+                currentBgImageIcon = bgSecondImageIcon;
+                userNamePanel.setVisible(true);
+                contactPanel.setVisible(true);
+                nextButton.setEnabled(true);
+            }
 
+            updateUI();
         }else if(finishButton == e.getSource()){
             jDialog.dispose();
         }
     }
 
-    class validateApplyAccountWork extends SwingWorker{
+    class ValidateApplyAccountWork extends SwingWorker{
         @Override
         protected Object doInBackground() throws Exception {
             HashMap<String,String> paramMap = new HashMap<String, String>();
@@ -158,13 +185,13 @@ public class ContactPane extends JPanel implements ActionListener{
             paramMap.put("type","validateAccount");
             paramMap.put("targetAccount",accountJTextField.getText());
             String url = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
-          //  String rs = SanHttpClient.getDataAsString(url, paramMap);
-//            if(Boolean.valueOf(rs.trim())){
-//                finishButton.setVisible(true);
-//                cancelButton.setVisible(false);
-//            }else{
-//               // thridPane.setTipText(firstPane.accountJTextField.getText()+"不是一个正确的 YM ID ,请检查 稍后再试。");
-//            }
+            String rs = SanHttpClient.getDataAsString(url, paramMap);
+            if(Boolean.valueOf(rs.trim())){
+                finishButton.setVisible(true);
+                cancelButton.setVisible(false);
+            }else{
+               //thridPane.setTipText(firstPane.accountJTextField.getText()+"不是一个正确的 YM ID ,请检查 稍后再试。");
+            }
             previousButton.setEnabled(true);
             return true;
         }

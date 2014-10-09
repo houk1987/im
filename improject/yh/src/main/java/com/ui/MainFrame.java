@@ -10,7 +10,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.*;
+import java.util.LinkedList;
 
 /**
  * Created by HK on 2014/10/5.
@@ -55,9 +55,9 @@ public class MainFrame extends JFrame {
             if (bgImageIcon == null) return;
             setSize(bgImageIcon.getIconWidth(), bgImageIcon.getIconHeight());
             setLayout(null);
-
             leftButton.setSelectedIcon(YhImageRes.getButtonImageIcon("leftIsSelected.png"));
             leftButton.setSelected(true);
+            leftButton.setPressedIcon(leftButton.getSelectedIcon());
             leftButton.setLocation(4, 82);
             leftButton.addActionListener(new ActionListener() {
                 @Override

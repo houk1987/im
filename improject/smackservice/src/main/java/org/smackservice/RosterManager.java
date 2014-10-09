@@ -23,6 +23,10 @@ public class RosterManager {
         return EntriesList;
     }
 
-
+    public static RosterEntry getRosterEntry(String jid) {
+        if (jid == null) return null;
+        SmackConnection.getInstance().getRoster().reload();
+        return SmackConnection.getInstance().getRoster().getEntry(jid);
+    }
 }
 

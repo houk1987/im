@@ -41,6 +41,7 @@ public class PresenceManager {
 
     public static Presence getPresence(String jid){
         if(jid!=null) {
+            SmackConnection.getInstance().getRoster().reload();
             return SmackConnection.getInstance().getRoster().getPresence(jid);
         }
         return null;

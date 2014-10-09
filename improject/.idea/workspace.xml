@@ -1,82 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25b2ee7a-73c2-4d3c-a7fe-3f166be63a66" name="Default" comment="yh 回话界面修改&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/im.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/button/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/button/leftHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/button/leftIsSelected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/button/leftPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/button/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/rightBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/button/rightHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/button/rightIsSelected.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/resources/images/button/rightPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yh/src/main/java/com/ui/notify/AcceptNewContactDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/src/main/java/session/message/BasicHtml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/src/main/java/session/message/ChatMessageHandel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/src/main/java/session/MainPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_30_pubCompent_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/component/src/main/java/com/component/notify/NotifyWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/manager/PresenceManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/resource/Qq.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/ui/button/QqButtonFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/resource/QqImageRes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/src/main/java/session/SessionFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qq/config/configuration.properties" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lanuch\QQClient.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\presence\QQPresence.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\ChatConversationPanel.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\FontSetPane.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\SessionDisplayPane.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\SessionEditorPane.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\SessionFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\SessionPane.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\messageHandel\BasicHtml.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\messageHandel\ChatMessageContentHtml.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\session\messageHandel\ChatMessageHandel.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\tree\QQContact.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\tree\QQContactGroup.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\ChatWritePanel.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/ChatManager.java" afterPath="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/ChatManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/com/ui/LoginFrame.java" afterPath="$PROJECT_DIR$/yh/src/main/java/com/ui/LoginFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qq/src/main/java/qq/ui/login/LoginPane.java" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/ui/login/LoginPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qq/src/main/java/qq/ui/main/MainFrame.java" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/ui/main/MainFrame.java" />
+    <list default="true" id="25b2ee7a-73c2-4d3c-a7fe-3f166be63a66" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/com/ui/notify/AcceptNewContactDialog.java" afterPath="$PROJECT_DIR$/yh/src/main/java/com/ui/notify/AcceptNewContactDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java" afterPath="$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/com/ui/MainFrame.java" afterPath="$PROJECT_DIR$/yh/src/main/java/com/ui/MainFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/session/MainPane.java" afterPath="$PROJECT_DIR$/yh/src/main/java/session/MainPane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qq/src/main/java/qq/ui/window/PubDialog.java" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/ui/window/PubDialog.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qq/src/main/java/qq/ui/tree/QQContactItem.java" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/ui/tree/QQContactItem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qq/src/main/java/qq/ui/tree/QQContactTree.java" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/ui/tree/QQContactTree.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/session/SessionFrame.java" afterPath="$PROJECT_DIR$/yh/src/main/java/session/SessionFrame.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qq/src/main/java/qq/lanuch/StartqqClient.java" afterPath="$PROJECT_DIR$/qq/src/main/java/qq/lanuch/StartqqClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/com/ui/button/YhButtonFactory.java" afterPath="$PROJECT_DIR$/yh/src/main/java/com/ui/button/YhButtonFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/mangager/PresenceManager.java" afterPath="$PROJECT_DIR$/yh/src/main/java/mangager/PresenceManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/RosterManager.java" afterPath="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/RosterManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/com/ui/tree/YhContactTree.java" afterPath="$PROJECT_DIR$/yh/src/main/java/com/ui/tree/YhContactTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/src/main/java/lister/YhPacketLister.java" afterPath="$PROJECT_DIR$/yh/src/main/java/lister/YhPacketLister.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/config/configuration.properties" afterPath="$PROJECT_DIR$/yh/config/configuration.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qq/pom.xml" afterPath="$PROJECT_DIR$/qq/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qq/qq.iml" afterPath="$PROJECT_DIR$/qq/qq.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/resource.iml" afterPath="$PROJECT_DIR$/resource/resource.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smackservice/smackservice.iml" afterPath="$PROJECT_DIR$/smackservice/smackservice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yh/yh.iml" afterPath="$PROJECT_DIR$/yh/yh.iml" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\button\login\closeHover.png" afterPath="$PROJECT_DIR$/qq/resources/images/button/closeHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\button\login\login.png" afterPath="$PROJECT_DIR$/qq/resources/images/button/login.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\button\login\loginHover.png" afterPath="$PROJECT_DIR$/qq/resources/images/button/loginHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\button\login\loginPressed.png" afterPath="$PROJECT_DIR$/qq/resources/images/button/loginPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\button\session\close.png" afterPath="$PROJECT_DIR$/qq/resources/images/button/close.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\button\session\send.png" afterPath="$PROJECT_DIR$/qq/resources/images/button/send.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\tree\blueArrowDown.png" afterPath="$PROJECT_DIR$/qq/resources/images/tree/expanded.gif" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\tree\blueArrowRight.png" afterPath="$PROJECT_DIR$/qq/resources/images/tree/collapsed.gif" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\tree\head.png" afterPath="$PROJECT_DIR$/qq/resources/images/tree/head.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\status\away.png" afterPath="$PROJECT_DIR$/qq/resources/images/presence/away.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\status\busy.png" afterPath="$PROJECT_DIR$/qq/resources/images/presence/busy.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\status\offline.png" afterPath="$PROJECT_DIR$/qq/resources/images/presence/offline.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\status\online.png" afterPath="$PROJECT_DIR$/qq/resources/images/presence/online.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\message\AcceptNewContactHandel.java" afterPath="$PROJECT_DIR$/qq/src/main/java/session/message/AcceptNewContactHandel.java" />
     </list>
     <list id="d666aa0e-0825-46bd-88c4-e6cb528df588" name="improjectchangelist" comment="" />
     <ignored path="improject.iws" />
@@ -145,32 +78,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainFrame.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/MainFrame.java">
+      <file leaf-file-name="AddContactDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/AddContactDialog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23992322" vertical-offset="1300" max-vertical-offset="2900">
-              <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-              <folding>
-                <element signature="e#2078#2604#0" expanded="true" />
-                <element signature="e#2589#2590#0" expanded="true" />
-                <element signature="e#2754#3383#0" expanded="true" />
-                <element signature="e#3368#3369#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="750">
+              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YhButtonFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/button/YhButtonFactory.java">
+      <file leaf-file-name="ContactPane.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1250">
-              <caret line="61" column="29" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="29" />
-              <folding>
-                <element signature="e#1337#1338#0" expanded="true" />
-                <element signature="e#1389#1390#0" expanded="true" />
-                <element signature="e#1424#1425#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.47368422" vertical-offset="3455" max-vertical-offset="4725">
+              <caret line="165" column="49" selection-start-line="165" selection-start-column="49" selection-end-line="165" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WarnNotifyDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/notify/WarnNotifyDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1000">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,20 +121,15 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resource/pom.xml" />
-        <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/AddContactDialog.java" />
-        <option value="$PROJECT_DIR$/component/src/main/java/com/component/session/WrapLetterHTMLEditorKit.java" />
         <option value="$PROJECT_DIR$/component/src/main/java/com/component/session/ChatWritePane.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/session/message/ChatMessageHandel.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/session/message/ChatMessageContentHtml.java" />
         <option value="$PROJECT_DIR$/component/src/main/java/com/component/rosterTree/ContactItem.java" />
         <option value="$PROJECT_DIR$/component/src/main/java/com/component/rosterTree/ContactGroup.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/tree/YhContactItem.java" />
-        <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/tree/YhContactTree.java" />
         <option value="$PROJECT_DIR$/qq/src/main/java/qq/ui/pub/PubFrame.java" />
         <option value="$PROJECT_DIR$/component/src/main/java/com/component/session/JTextPaneHelper.java" />
         <option value="$PROJECT_DIR$/qq/src/main/java/qq/ui/session/ChatConversationPanel.java" />
-        <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/session/ChatWritePanel.java" />
         <option value="$PROJECT_DIR$/component/src/main/java/com/component/session/ChatDisplayPane.java" />
         <option value="$PROJECT_DIR$/component/src/main/java/com/component/session/ChatWritePanel.java" />
@@ -230,15 +158,20 @@
         <option value="$PROJECT_DIR$/qq/config/configuration.properties" />
         <option value="$PROJECT_DIR$/yh/config/configuration.properties" />
         <option value="$PROJECT_DIR$/component/src/main/java/com/component/notify/NotifyWindow.java" />
-        <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/notify/AcceptNewContactDialog.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/session/message/AcceptNewContactHandel.java" />
-        <option value="$PROJECT_DIR$/yh/src/main/java/lister/YhPacketLister.java" />
         <option value="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/ChatManager.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/LoginFrame.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/session/SessionFrame.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/session/MainPane.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/button/YhButtonFactory.java" />
         <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/MainFrame.java" />
+        <option value="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/RosterManager.java" />
+        <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/tree/YhContactTree.java" />
+        <option value="$PROJECT_DIR$/yh/src/main/java/lister/YhPacketLister.java" />
+        <option value="$PROJECT_DIR$/yh/src/main/java/mangager/PresenceManager.java" />
+        <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/notify/AcceptNewContactDialog.java" />
+        <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/AddContactDialog.java" />
+        <option value="$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java" />
       </list>
     </option>
   </component>
@@ -368,6 +301,36 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mangager" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="improject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="improject" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yh" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -386,11 +349,23 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notify" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,15 +383,23 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="button" />
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ui" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addContact" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -516,6 +499,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -901,10 +885,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.LoginFrame" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SessionFrame" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainPane" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ChatDisplayPane" />
-        <item index="4" class="java.lang.String" itemvalue="Application.AddContactDialog" />
+        <item index="1" class="java.lang.String" itemvalue="Application.AddContactDialog" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SessionFrame" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainPane" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ChatDisplayPane" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -945,7 +929,7 @@
       <workItem from="1412764770184" duration="9931000" />
       <workItem from="1412810461494" duration="1105000" />
       <workItem from="1412814872456" duration="520000" />
-      <workItem from="1412815395004" duration="7392000" />
+      <workItem from="1412815395004" duration="16485000" />
     </task>
     <task id="LOCAL-00001" summary="添加了资源文件的模块，组件模块">
       <created>1412408307130</created>
@@ -979,11 +963,15 @@
       <created>1412773222184</created>
       <updated>1412773222184</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="修改 yh 主界面&#10;">
+      <created>1412822811680</created>
+      <updated>1412822811680</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103553000" />
+    <option name="totallyTimeSpent" value="112646000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1007,7 +995,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1017,7 +1005,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.336374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.53415453" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41847205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21449704" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1029,13 +1017,41 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3546042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37514254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3562197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31927025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21449704" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3562197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31927025" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.336374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41847205" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3762598" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1058,11 +1074,20 @@
     <MESSAGE value="yh 树改造" />
     <MESSAGE value="yh 登陆界面注册添加" />
     <MESSAGE value="yh 回话界面修改&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="yh 回话界面修改&#10;" />
+    <MESSAGE value="修改 yh 主界面&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改 yh 主界面&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/RosterManager.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="27" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1070,74 +1095,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/tree/YhContactTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/src/main/java/com/component/session/WrapLetterHTMLEditorKit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yh/src/main/java/lister/YhRosterListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/src/main/java/com/component/session/ChatDisplayPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yh/src/main/java/session/message/ChatMessageHandel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yh/src/main/java/session/message/BasicHtml.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qq/src/main/java/qq/ui/main/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1025">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qq/src/main/java/qq/ui/window/WindowButtonHandel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15096618" vertical-offset="0" max-vertical-offset="828">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
@@ -1235,9 +1192,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3150">
           <caret line="96" column="29" selection-start-line="96" selection-start-column="29" selection-end-line="96" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2614#3139#0" expanded="true" />
-            <element signature="e#3128#3129#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2614#3139#0" expanded="false" />
+            <element signature="e#3128#3129#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1365,24 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/notify/AcceptNewContactDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5" vertical-offset="1400" max-vertical-offset="2250">
-          <caret line="81" column="19" selection-start-line="81" selection-start-column="19" selection-end-line="81" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yh/src/main/java/lister/YhPacketLister.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64705884" vertical-offset="0" max-vertical-offset="850">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/component/src/main/java/com/component/FontFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20588236" vertical-offset="0" max-vertical-offset="850">
@@ -1440,27 +1379,123 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/button/YhButtonFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="350" max-vertical-offset="1250">
+        <state vertical-scroll-proportion="0.90782124" vertical-offset="350" max-vertical-offset="1250">
           <caret line="61" column="29" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="29" />
           <folding>
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1424#1425#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="false" />
+            <element signature="e#1389#1390#0" expanded="false" />
+            <element signature="e#1424#1425#0" expanded="false" />
+            <element signature="e#1475#1476#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/javax/swing/JPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33188722" vertical-offset="2022" max-vertical-offset="5175">
+          <caret line="124" column="16" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smack/3.2.1/smack-3.2.1.jar!/org/jivesoftware/smack/Roster.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.353562" vertical-offset="1041" max-vertical-offset="2500">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/src/main/java/com/component/rosterTree/renderer/ContactTableCellRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73214287" vertical-offset="697" max-vertical-offset="1525">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yh/src/main/java/mangager/PresenceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4785276" vertical-offset="760" max-vertical-offset="1575">
+          <caret line="62" column="37" selection-start-line="62" selection-start-column="37" selection-end-line="62" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/src/main/java/com/component/rosterTree/ContactGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.095705524" vertical-offset="722" max-vertical-offset="3225">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/MainFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23992322" vertical-offset="1300" max-vertical-offset="2900">
-          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.5092025" vertical-offset="335" max-vertical-offset="2800">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="24" />
           <folding>
-            <element signature="e#2078#2604#0" expanded="true" />
-            <element signature="e#2589#2590#0" expanded="true" />
-            <element signature="e#2754#3383#0" expanded="true" />
-            <element signature="e#3368#3369#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="false" />
+            <element signature="e#1220#1221#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/RosterManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78502417" vertical-offset="0" max-vertical-offset="828">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/tree/YhContactTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.074074075" vertical-offset="988" max-vertical-offset="1825">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yh/src/main/java/lister/YhPacketLister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49223417" vertical-offset="13" max-vertical-offset="850">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/notify/WarnNotifyDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="1000">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/notify/AcceptNewContactDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21929824" vertical-offset="375" max-vertical-offset="2275">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/AddContactDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="55" max-vertical-offset="750">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yh/src/main/java/com/ui/addContact/ContactPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47368422" vertical-offset="3455" max-vertical-offset="4725">
+          <caret line="165" column="49" selection-start-line="165" selection-start-column="49" selection-end-line="165" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

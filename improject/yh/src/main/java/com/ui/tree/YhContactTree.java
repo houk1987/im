@@ -25,32 +25,39 @@ public class YhContactTree extends TreePane {
     private ContactGroup recentContacts;
     private ContactGroup friends;
     private ContactGroup address;
-
+    final Color hoverColor = new Color(246, 243, 251);
+    final Color pressedColor = new Color(197, 148, 193);
+    final static ImageIcon headIcon = YhImageRes.getImageIcon("tree/" + "headItem.png");
     @Override
     protected void loadData() {
         recentContacts = new ContactGroup("最近聯繫人");
         friends = new ContactGroup("friends");
         address = new ContactGroup("通訊錄");
         //获得所有的好友
-        final ImageIcon headIcon = YhImageRes.getImageIcon("tree/" + "headItem.png");
-        final Color hoverColor = new Color(246, 243, 251);
-        final Color pressedColor = new Color(197, 148, 193);
+
+
         List<RosterEntry> rosterEntryList = RosterManager.getRosters();
         for (RosterEntry rosterEntry : rosterEntryList) {
-            YhContactItem contactItem = new YhContactItem();
-            contactItem.setHeadIcon(headIcon);
-            contactItem.setJid(rosterEntry.getUser());
-            contactItem.setUserName(rosterEntry.getName());
-            contactItem.setHoverColor(hoverColor);
-            contactItem.setPressedColor(pressedColor);
-            Presence presence = PresenceManager.getPresence(contactItem.getJid());
-            contactItem.setPresenceIcon(PresenceManager.getPresenceIcon(presence));
+            YhContactItem yhContactItem = initYhContactItem(rosterEntry.getUser(),rosterEntry.getName());
+            Presence presence = PresenceManager.getPresence(yhContactItem.getJid());
             friends.calOnlineNum(presence.getType().equals(Presence.Type.available)); //计算在线人数
-            friends.addContactItem(contactItem);
+            friends.addContactItem(yhContactItem);
         }
         mainPanel.add(recentContacts);
         mainPanel.add(friends);
         mainPanel.add(address);
+    }
+
+    public YhContactItem initYhContactItem(String jid,String userName){
+        YhContactItem contactItem = new YhContactItem();
+        contactItem.setHeadIcon(headIcon);
+        contactItem.setJid(jid);
+        contactItem.setUserName(userName);
+        contactItem.setHoverColor(hoverColor);
+        contactItem.setPressedColor(pressedColor);
+        Presence presence = PresenceManager.getPresence(contactItem.getJid());
+        contactItem.setPresenceIcon(PresenceManager.getPresenceIcon(presence));
+        return contactItem;
     }
 
 
@@ -58,17 +65,19 @@ public class YhContactTree extends TreePane {
         return friends;
     }
 
-    public static void main(String[] args) {
-        try {
-            SmackConnection.getInstance().connect();
-            SmackConnection.getInstance().login("1","1");
-        } catch (XMPPException e) {
-            e.printStackTrace();
+    public void addContactItem(String jid,String userName){
+        RosterEntry rosterEntry = RosterManager.getRosterEntry(jid);
+        YhContactItem yhContactItem = null;
+        if(rosterEntry==null){
+            yhContactItem = MainFrame.getInstance().getYhContactTree().initYhContactItem(jid,userName);
+        }else{
+            yhContactItem = MainFrame.getInstance().getYhContactTree().initYhContactItem(rosterEntry.getUser(),rosterEntry.getName());
         }
-
-        JFrame jFrame = new JFrame();
-        jFrame.setContentPane(new YhContactTree());
-        jFrame.setSize(500, 500);
-        jFrame.setVisible(true);
+        Presence presence = PresenceManager.getPresence(yhContactItem.getJid());
+        MainFrame.getInstance().getYhContactTree().getFriends().calOnlineNum(presence.getType().equals(Presence.Type.available)); //计算在线人数
+        MainFrame.getInstance().getYhContactTree().getFriends().addContactItem(yhContactItem);
+        MainFrame.getInstance().getYhContactTree().getFriends().updateUI();
     }
+
+
 }

@@ -7,6 +7,7 @@ import com.component.session.WrapLetterHTMLEditorKit;
 import com.san30.pub.tools.SanHttpClient;
 import com.ui.MainFrame;
 import org.smackservice.SmackConnection;
+import sun.applet.Main;
 
 import javax.swing.*;
 import java.awt.*;
@@ -45,10 +46,10 @@ public class AcceptNewContactDialog extends NotifyWindow {
             public void mouseClicked(MouseEvent e) {
                 HashMap<String,String> paramMap = new HashMap<String, String>();
                 paramMap.put("jid",from);
-                paramMap.put("targetAccount", MainFrame.getInstance().getLoginUser());
+                paramMap.put("targetAccount", MainFrame.getInstance().getLoginUser().split("@")[0]);
                 try {
-                    String URL = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/updserver/contactok";
-                    SanHttpClient.getDataAsString(URL, paramMap);
+                    String url = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
+                    SanHttpClient.getDataAsString(url, paramMap);
                     dispose();
                 } catch (Exception e1) {
                     e1.printStackTrace();
