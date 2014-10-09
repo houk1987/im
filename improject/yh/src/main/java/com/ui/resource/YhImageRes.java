@@ -29,4 +29,14 @@ public class YhImageRes{
         }
         return new ImageIcon(resSource+"presence/"+imageName);
     }
+
+    public static ImageIcon getPresenceSelectButtonImageIcon(String imageName){
+        if(imageName == null){
+            return null;
+        }
+        return new ImageIcon(resSource+"presenceSelectButton/"+imageName);
+    }
+
+
+
 }

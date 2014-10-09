@@ -8,6 +8,7 @@ import com.ui.jtextField.YhTextFiled;
 import com.ui.resource.YhImageRes;
 import org.smackservice.RosterManager;
 import org.smackservice.SmackConnection;
+import sun.applet.Main;
 
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
@@ -96,7 +97,7 @@ public class ContactPane extends JPanel implements ActionListener{
         userNamePanel.setBackground(new Color(119,36,111));
         userNamePanel.setLayout(new BorderLayout());
         userNamePanel.setBounds(60, 230, 100, 21);
-        userName = new JLabel("test111111111111111");
+        userName = new JLabel(MainFrame.getInstance().getLoginUser().split("@")[0]);
         userName.setForeground(new Color(204,204,204));
         userName.setFont(new Font("ËÎÌו",Font.PLAIN,12));
         userNamePanel.add(userName);

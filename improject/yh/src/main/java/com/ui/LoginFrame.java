@@ -7,6 +7,7 @@ import com.ui.button.YhButtonFactory;
 import com.ui.jtextField.YhPasswordTextFiled;
 import com.ui.jtextField.YhTextFiled;
 import com.ui.notify.WarnNotifyDialog;
+import com.ui.resource.Yh;
 import com.ui.resource.YhImageRes;
 import lister.YhPacketLister;
 import lister.YhRosterListener;
@@ -152,6 +153,7 @@ public class LoginFrame extends JFrame {
         SmackConnection.getInstance().connect();
         SmackConnection.getInstance().login(account, password);
         dispose();
+        Yh.setLoginUser(account);
         MainFrame.getInstance().setVisible(true);
         MainFrame.getInstance().setLoginUser(account);
         SmackConnection.getInstance().addPacketListener(new YhPacketLister(), new PacketTypeFilter(Message.class));

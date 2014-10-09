@@ -55,6 +55,14 @@ public class MainFrame extends JFrame {
             if (bgImageIcon == null) return;
             setSize(bgImageIcon.getIconWidth(), bgImageIcon.getIconHeight());
             setLayout(null);
+            PresenceSelectButton presenceSelectButton = new PresenceSelectButton();
+            JPanel panel = new JPanel(new BorderLayout());
+            panel.setBackground(new Color(151, 56, 142));
+            panel.setSize(presenceSelectButton.getWidth(),presenceSelectButton.getHeight()+2);
+            panel.setLocation(65,25);
+            add(panel);
+            panel.add(presenceSelectButton);
+
             leftButton.setSelectedIcon(YhImageRes.getButtonImageIcon("leftIsSelected.png"));
             leftButton.setSelected(true);
             leftButton.setPressedIcon(leftButton.getSelectedIcon());
