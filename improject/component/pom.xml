@@ -10,5 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>component</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.30</groupId>
+            <artifactId>resource</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

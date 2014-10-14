@@ -1,14 +1,12 @@
 package session;
 
 import com.component.rosterTree.ContactItem;
-import com.ui.resource.YhImageRes;
-import com.ui.tree.YhContactItem;
+import resource.YhImageRes;
 import org.jivesoftware.smack.packet.Message;
 
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
-import java.util.List;
 
 /**
  * Created by a on 2014/8/22.

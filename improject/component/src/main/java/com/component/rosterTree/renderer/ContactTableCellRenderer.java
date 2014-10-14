@@ -17,22 +17,32 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
     private JLabel headIconLabel;
     private JLabel presenceIconLabel;
     private JLabel userNameLabel;
-    public ContactTableCellRenderer() {
+    public enum ContactTableCellRendererType{
+        yh,qq
+    }
+
+    public ContactTableCellRenderer(ContactTableCellRendererType type) {
         setLayout(null);
         setBorder(null);
         headIconLabel = new JLabel();
-        headIconLabel.setLocation(20,3);
         add(headIconLabel);
 
-        presenceIconLabel = new JLabel();
-        presenceIconLabel.setLocation(60,8);
-        add(presenceIconLabel);
-
-
         userNameLabel = new JLabel();
-        userNameLabel.setLocation(80,3);
         userNameLabel.setSize(100,23);
         add(userNameLabel);
+        if(type.equals(ContactTableCellRenderer.ContactTableCellRendererType.yh)){
+            presenceIconLabel = new JLabel();
+            presenceIconLabel.setLocation(60,8);
+            add(presenceIconLabel);
+            userNameLabel.setLocation(80,3);
+            headIconLabel.setLocation(20,3);
+        }
+
+        if(type.equals(ContactTableCellRenderer.ContactTableCellRendererType.qq)){
+            userNameLabel.setLocation(30,10);
+            headIconLabel.setLocation(10,10);
+        }
+
     }
 
     @Override
@@ -49,11 +59,14 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
                 setBackground(null);
             }
             headIconLabel.setIcon(contactItem.getHeadIcon());
-            headIconLabel.setSize(contactItem.getHeadIcon().getIconWidth(),contactItem.getHeadIcon().getIconHeight());
+            if(contactItem.getHeadIcon()!=null){
+                headIconLabel.setSize(contactItem.getHeadIcon().getIconWidth(),contactItem.getHeadIcon().getIconHeight());
+            }
             userNameLabel.setText(contactItem.getUserName());
-            presenceIconLabel.setSize(contactItem.getPresenceIcon().getIconWidth(),contactItem.getPresenceIcon().getIconHeight());
-            presenceIconLabel.setIcon(contactItem.getPresenceIcon());
-
+            if(contactItem.getPresenceIcon()!=null){
+                presenceIconLabel.setSize(contactItem.getPresenceIcon().getIconWidth(),contactItem.getPresenceIcon().getIconHeight());
+                presenceIconLabel.setIcon(contactItem.getPresenceIcon());
+            }
             if(isSelected){
                 setBackground(contactItem.getPressedColor());
             }

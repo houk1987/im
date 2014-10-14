@@ -19,15 +19,17 @@ import java.util.List;
 /**
  * Created by a on 2014/8/28.
  */
-public class ContactGroup extends CollapsiblePane {
+public abstract class ContactGroup extends CollapsiblePane {
     private String groupName;
-    private MyTable contactItemList;
+    protected MyTable contactItemList;
     private int onlineNum; //在线人数
+    protected ContactTableCellRenderer contactTableCellRenderer;
 
-    public ContactGroup(String groupName){
+    public ContactGroup(String groupName,Color titleColor,Font titleFont){
+        initContactTableCellRenderer();
         this.groupName = groupName;
         contactItemList = new MyTable();
-
+        setBackGround();
         contactItemList.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
@@ -40,6 +42,8 @@ public class ContactGroup extends CollapsiblePane {
             }
         });
         setTitle(getGroupTitle(groupName));
+        setTitleFont(titleFont);
+        setTitleForeground(titleColor);
         this.setContentPane(contactItemList);
     }
 
@@ -77,10 +81,11 @@ public class ContactGroup extends CollapsiblePane {
         MyTable() {
             model = new MyTableModel();
             setModel(model);
+
             setShowGrid(false); //去掉表格线
             setShowHorizontalLines(false);
             setRowHeight(40);//设置表格高度
-            this.setDefaultRenderer(Object.class, new ContactTableCellRenderer());
+            this.setDefaultRenderer(Object.class, contactTableCellRenderer);
             this.addMouseMotionListener(new MouseAdapter() {
                 @Override
                 public void mouseMoved(MouseEvent e) {
@@ -150,4 +155,11 @@ public class ContactGroup extends CollapsiblePane {
             return contactItems;
         }
     }
+
+    protected abstract void initContactTableCellRenderer();
+
+    protected abstract void setBackGround();
+
+
+
 }

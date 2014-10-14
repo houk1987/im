@@ -1,9 +1,9 @@
 package qq.manager;
 
 
+import com.component.ImageUtils;
 import org.jivesoftware.smack.packet.Presence;
 import org.smackservice.SmackConnection;
-import qq.resource.QqImageRes;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +14,9 @@ import java.util.List;
 public class PresenceManager {
 
     private static final List<Presence> PRESENCES = new ArrayList<Presence>();
-    private static ImageIcon online = QqImageRes.getPresenceImageIcon("online.png");
-    private static ImageIcon offline = QqImageRes.getPresenceImageIcon("offline.png");
-    private static ImageIcon busy = QqImageRes.getPresenceImageIcon("busy.png");
+    private static ImageIcon online = ImageUtils.getPresenceImageIcon("online.png");
+    private static ImageIcon offline = ImageUtils.getPresenceImageIcon("offline.png");
+    private static ImageIcon busy = ImageUtils.getPresenceImageIcon("busy.png");
     static{
         final Presence presence = new Presence(Presence.Type.available, "ÎÒÓÐ¿Õ", 1, Presence.Mode.available);
         final Presence dndPresence = new Presence(Presence.Type.available, "Ã¦ÂµÖÐ", 0, Presence.Mode.dnd);

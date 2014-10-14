@@ -1,56 +1,66 @@
 package qq.ui.button;
 
 import com.component.BaseButton;
-import qq.resource.Qq;
+import com.component.ButtonFactory;
+import com.resource.ConfigurationRes;
 import javax.swing.*;
 
 /**
  * Created by HK on 2014/10/5.
  */
-public class QqButtonFactory {
-
-    private static QqButtonFactory yhButtonFactory = new QqButtonFactory();
-    private final static String resSource = Qq.getResSource()+"button/";
+public class QqButtonFactory extends ButtonFactory{
+    private static QqButtonFactory qqButtonFactory = new QqButtonFactory();
 
     public static QqButtonFactory getInstance() {
-        return yhButtonFactory;
+        if(qqButtonFactory == null){
+            qqButtonFactory = new QqButtonFactory();
+        }
+        return qqButtonFactory;
     }
 
     private QqButtonFactory() {
+
     }
 
     public JButton createLoginButton(){
-        return createBaseButton("login.png");
+        return createButton("login.png");
+    }
+
+    public JButton createMinWindowButton() {
+        return createButton("minWindow.png");
+    }
+    public JButton createCloseWindowButton(){
+        return createButton("closeWindow.png");
     }
 
     public JButton createOkButton(){
-        return createBaseButton("ok.png");
+        return createButton("ok.png");
     }
 
-    public JButton createAddBuddyButton(){ return createBaseButton("AddBuddy.png");}
+    public JButton createAddBuddyButton(){ return createButton("AddBuddy.png");}
 
     public JButton createPreviousButton() {
-        return createBaseButton("previous.png");
+        return createButton("previous.png");
     }
-
-    private JButton createBaseButton(String name){
-       return new BaseButton(resSource,name);
-    }
-
 
     public JButton createNextButton() {
-        return createBaseButton("next.png");
+        return createButton("next.png");
     }
 
     public JButton createCancelButton() {
-        return createBaseButton("cancel.png");
+        return createButton("cancel.png");
     }
 
     public JButton createFinishButton() {
-        return createBaseButton("finish.png");
+        return createButton("finish.png");
     }
 
     public JButton createSendButton() {
-        return createBaseButton("send.png");
+        return createButton("send.png");
     }
+
+    public JButton createSessionFrameCloseButton(){
+        return createButton("sessionFrameClose.png");
+    }
+
 }

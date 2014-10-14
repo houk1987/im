@@ -111,8 +111,8 @@
         </plugins>
     </build>
     <properties>
-        <copyResourceTargetResDir>E:\dtExe\config </copyResourceTargetResDir>
-        <copyResourceTargetUserDir> E:\dtExe\resources</copyResourceTargetUserDir>
+        <copyResourceTargetResDir>E:\yh\config </copyResourceTargetResDir>
+        <copyResourceTargetUserDir> E:\yh\resources</copyResourceTargetUserDir>
         <project.build.sourceEncoding>GBK</project.build.sourceEncoding>
         <maven.compiler.encoding>GBK</maven.compiler.encoding>
     </properties>

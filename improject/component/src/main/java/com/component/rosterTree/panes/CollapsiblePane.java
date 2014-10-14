@@ -42,7 +42,7 @@ import java.util.List;
 public class CollapsiblePane extends JPanel {
 
 	private static final long serialVersionUID = -6770924580102536726L;
-	private BaseCollapsibleTitlePane titlePane;
+	private CollapsibleTitlePane titlePane;
     private JPanel mainPanel;
 
     private List<CollapsiblePaneListener> listeners = new ArrayList<CollapsiblePaneListener>();
@@ -67,6 +67,14 @@ public class CollapsiblePane extends JPanel {
                 setCollapsed(!isCollapsed);
             }
         });
+    }
+
+    public void setTitleFont(Font font){
+        titlePane.setFont(font);
+    }
+
+    public void setTitleForeground(Color color){
+        titlePane.setTitleForeground(color);
     }
 
     /**
@@ -133,7 +141,7 @@ public class CollapsiblePane extends JPanel {
         return titlePane;
     }
 
-    protected void setTitlePane(BaseCollapsibleTitlePane titlePane) {
+    protected void setTitlePane(CollapsibleTitlePane titlePane) {
         this.titlePane = titlePane;
     }
 

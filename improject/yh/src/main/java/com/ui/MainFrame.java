@@ -1,10 +1,10 @@
 package com.ui;
 
 import com.component.jlabel.JLabelFactory;
-import com.ui.addContact.AddContactDialog;
-import com.ui.button.YhButtonFactory;
-import com.ui.resource.YhImageRes;
-import com.ui.tree.YhContactTree;
+import addContact.AddContactDialog;
+import button.YhButtonFactory;
+import resource.YhImageRes;
+import tree.YhContactTree;
 
 import javax.swing.*;
 import java.awt.*;
@@ -25,8 +25,7 @@ public class MainFrame extends JFrame {
         ContentPane content = new ContentPane();
         setContentPane(content);
         setSize(content.getWidth() + 5, content.getHeight() + 28);
-        java.util.List<Image> ico=new LinkedList<>();
-         setIconImage(YhImageRes.getImageIcon("Yahoo!_Messenger_aero.png").getImage());
+        setIconImage(YhImageRes.getImageIcon("YahooMessenger_aero.png").getImage());
         setResizable(false);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     }

@@ -5,16 +5,14 @@ import com.component.rosterTree.ContactItem;
 import com.component.session.ChatDisplayPane;
 import com.component.session.ChatWritePanel;
 import com.ui.MainFrame;
-import com.ui.button.YhButtonFactory;
-import com.ui.resource.YhImageRes;
+import button.YhButtonFactory;
+import resource.YhImageRes;
 import mangager.PresenceManager;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Message;
 import org.jivesoftware.smack.packet.Presence;
 import org.smackservice.ChatManager;
-import org.smackservice.SmackConnection;
 import session.message.BasicHtml;
-import sun.applet.Main;
 
 import javax.swing.*;
 import java.awt.*;

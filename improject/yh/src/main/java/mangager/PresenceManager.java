@@ -1,6 +1,6 @@
 package mangager;
 
-import com.ui.resource.YhImageRes;
+import resource.YhImageRes;
 import org.jivesoftware.smack.packet.Presence;
 import org.smackservice.SmackConnection;
 

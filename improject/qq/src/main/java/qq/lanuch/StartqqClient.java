@@ -1,4 +1,7 @@
 package qq.lanuch;
+import qq.manager.QQManager;
+import qq.ui.login.LoginDialog;
+
 import javax.swing.*;
 
 /**
@@ -9,18 +12,7 @@ public class StartqqClient {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                try {
-                    UIManager.setLookAndFeel("com.sun.java.swing.plaf.windows.WindowsClassicLookAndFeel");
-
-                } catch (ClassNotFoundException e) {
-                    e.printStackTrace();
-                } catch (InstantiationException e) {
-                    e.printStackTrace();
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                } catch (UnsupportedLookAndFeelException e) {
-                    e.printStackTrace();
-                }
+                QQManager.getInstance().createAndShowLoginDialog();
             }
         });
     }

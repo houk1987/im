@@ -34,6 +34,7 @@ public class ChatDisplayPane extends JScrollPane {
         this.chatTextPane.setDocument(hdocument);
         this.chatTextPane.setDragEnabled(true);
         this.chatTextPane.updateUI();
+        chatTextPane.setBackground(new Color(234,236,248));
         this.chatTextPane.setCursor(
                 new Cursor(Cursor.TEXT_CURSOR));
         this.setWheelScrollingEnabled(true);

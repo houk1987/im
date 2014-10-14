@@ -1,34 +1,28 @@
 package com.component;
 
-import javax.swing.*;
 import java.awt.*;
 
 /**
  * Created by lenovo on 2014/10/9.
  */
-public class ImTray {
-    private TrayIcon trayIcon; // 托盘图标
+public class ImTray extends TrayIcon{
     private SystemTray tray = SystemTray.getSystemTray(); // 操作系统托盘的实例
 
     public ImTray(Image icon,String trayTooltip) {
-        trayIcon = new TrayIcon(icon,trayTooltip);
+        super(icon,trayTooltip);
         addSystemTray();
     }
 
-    public ImTray(ImageIcon icon,String trayTooltip,PopupMenu popupMenu) {
-        trayIcon = new TrayIcon(icon.getImage(),trayTooltip,popupMenu);
+    public ImTray(Image icon,String trayTooltip,PopupMenu popupMenu) {
+        super(icon,trayTooltip,popupMenu);
         addSystemTray();
     }
 
     private void addSystemTray(){
         try {
-            tray.add(trayIcon);
+            tray.add(this);
         } catch (AWTException e) {
             e.printStackTrace();
         }
-    }
-
-    public void setTrayIcon(Image icon){
-        trayIcon.setImage(icon);
     }
 }

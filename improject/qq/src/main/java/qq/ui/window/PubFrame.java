@@ -1,39 +1,16 @@
 package qq.ui.window;
 
-import com.san30.sim.pub.imagewindow.ImageFrame;
-
 import javax.swing.*;
 import java.awt.*;
 
 /**
- * Created by lenovo on 2014/9/11.
+ * Created by lenovo on 2014/10/13.
  */
-public class PubFrame extends ImageFrame implements WindowButtonHandel{
+public class PubFrame extends JFrame {
 
-    private Title title;
-
-    public PubFrame(Title title) {
+    public PubFrame() throws HeadlessException {
+        setUndecorated(true);
         setLayout(new BorderLayout());
-        add(new TitlePane(title,this),BorderLayout.NORTH);
-    }
-
-    @Override
-    public void close() {
-        dispose();
-    }
-
-    @Override
-    public void max() {
-        setExtendedState(JFrame.MAXIMIZED_BOTH); //设置状态为最大化
-    }
-
-    @Override
-    public void min() {
-        setExtendedState(JFrame.ICONIFIED); //图标化
-    }
-
-    @Override
-    public void restore() {
-        setExtendedState(JFrame.NORMAL);
+        new WindowDraggedHandle(this);
     }
 }

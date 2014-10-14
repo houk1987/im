@@ -15,12 +15,9 @@ public abstract  class TreePane extends JPanel {
         setLayout(new BorderLayout());
         setBackground(Color.WHITE);
         mainPanel = new JPanel();
-
+        setBackGround();
         mainPanel.setLayout(new VerticalFlowLayout(VerticalFlowLayout.TOP, 0, 0, true, false));
-        mainPanel.setBackground(Color.WHITE);
         contactListScrollPane = new JScrollPane(mainPanel);
-
-        contactListScrollPane.setBackground(Color.WHITE);
         contactListScrollPane.setAutoscrolls(true);
         contactListScrollPane.setBorder(BorderFactory.createEmptyBorder());
         contactListScrollPane.getVerticalScrollBar().setBlockIncrement(200);
@@ -31,4 +28,6 @@ public abstract  class TreePane extends JPanel {
     }
 
     protected abstract void loadData();
+
+    protected abstract void setBackGround();
 }

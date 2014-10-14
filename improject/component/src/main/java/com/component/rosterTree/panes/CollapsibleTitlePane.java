@@ -43,17 +43,16 @@ public class CollapsibleTitlePane extends BaseCollapsibleTitlePane {
     private Color startColor;
     private Color endColor;
 
-    private Color titleColor;
-
     private boolean subPane;
 
     private Image backgroundImage;
 
+
+
     public CollapsibleTitlePane() {
         setLayout(new GridBagLayout());
         setBackground(Color.WHITE);
-        titleColor = new Color(62,38,89);
-        Font titleFont = new Font("Dialog", Font.BOLD, 12);
+
 
         // Initialize color
         startColor = new Color(238,242,253);
@@ -67,18 +66,7 @@ public class CollapsibleTitlePane extends BaseCollapsibleTitlePane {
         add(preIconLabel, new GridBagConstraints(0, 0, 1, 1, 0.0, 0.0, GridBagConstraints.WEST, GridBagConstraints.NONE, new Insets(5, 10, 2, 0), 0, 0));
         add(titleLabel, new GridBagConstraints(1, 0, 1, 1, 0.0, 0.0, GridBagConstraints.WEST, GridBagConstraints.NONE, new Insets(5, 5, 0, 2), 0, 0));
         add(iconLabel, new GridBagConstraints(2, 0, 1, 1, 1.0, 0.0, GridBagConstraints.EAST, GridBagConstraints.NONE, new Insets(5, 0, 0, 2), 0, 0));
-
         setCollapsed(false);
-
-        Color customTitleColor = (Color)UIManager.get("CollapsiblePane.titleColor");
-        if (customTitleColor != null) {
-            titleLabel.setForeground(customTitleColor);
-        }
-        else {
-            titleLabel.setForeground(titleColor);
-        }
-
-        titleLabel.setFont(titleFont);
 
         addMouseListener(new MouseAdapter() {
             public void mouseEntered(MouseEvent e) {
@@ -136,16 +124,6 @@ public class CollapsibleTitlePane extends BaseCollapsibleTitlePane {
         }
     }
 
-    public void setTitleColor(Color color) {
-        titleColor = color;
-
-        titleLabel.setForeground(color);
-    }
-
-    public Color getTitleColor() {
-        return titleColor;
-    }
-
     protected boolean isSubPane() {
         return subPane;
     }
@@ -170,6 +148,10 @@ public class CollapsibleTitlePane extends BaseCollapsibleTitlePane {
 
     public void setTitleForeground(Color color) {
         titleLabel.setForeground(color);
+    }
+
+    public void setTitleFont(Font font){
+        titleLabel.setFont(font);
     }
 
     public void useImageAsBackground(Image image) {

@@ -25,6 +25,7 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
      * 面板的布局设置
      */
     private void layoutPane() {
+        chatWriteTextPane.setBackground(new Color(234,236,248));
         System.setProperty("java.awt.im.style", "on-the-spot");
         this.setWheelScrollingEnabled(true);
         this.setBorder(null);

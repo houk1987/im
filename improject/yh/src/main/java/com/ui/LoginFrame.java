@@ -2,14 +2,14 @@ package com.ui;
 
 
 import com.component.FontFactory;
-import com.component.ImTray;
 import com.component.jlabel.JLabelFactory;
-import com.ui.button.YhButtonFactory;
-import com.ui.jtextField.YhPasswordTextFiled;
-import com.ui.jtextField.YhTextFiled;
-import com.ui.notify.WarnNotifyDialog;
-import com.ui.resource.Yh;
-import com.ui.resource.YhImageRes;
+import button.YhButtonFactory;
+import jtextField.YhPasswordTextFiled;
+import jtextField.YhTextFiled;
+import notify.LoginErrorWarnNotifyDialog;
+import notify.WarnNotifyDialog;
+import resource.Yh;
+import resource.YhImageRes;
 import lister.YhPacketLister;
 import lister.YhRosterListener;
 import org.jivesoftware.smack.XMPPException;
@@ -23,8 +23,6 @@ import javax.swing.event.DocumentListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.*;
-import java.util.List;
 
 /**
  * Created by HK on 2014/10/4.
@@ -60,7 +58,7 @@ public class LoginFrame extends JFrame {
         setSize(contentPane.getWidth(), contentPane.getHeight() + 28);
         setContentPane(contentPane);
         getRootPane().setDefaultButton(loginButton);
-        setIconImage(YhImageRes.getImageIcon("Yahoo!_Messenger_aero.png").getImage());
+        setIconImage(YhImageRes.getImageIcon("YahooMessenger_aero.png").getImage());
     }
 
     @Override
@@ -121,9 +119,12 @@ public class LoginFrame extends JFrame {
                         return;
                     }
                     try {
+                       // LoginErrorWarnNotifyDialog loginErrorWarnNotifyDialog = new LoginErrorWarnNotifyDialog(LoginFrame.this,"登入發生問題",true);
+                       // loginErrorWarnNotifyDialog.setVisible(true);
                         loginSuccess(account, password);  //登陆成功
-                    } catch (XMPPException e1) {
+                   } catch (XMPPException e1) {
                         e1.printStackTrace();
+
                     }
                 }
             });
@@ -160,6 +161,6 @@ public class LoginFrame extends JFrame {
         MainFrame.getInstance().setLoginUser(account);
         SmackConnection.getInstance().addPacketListener(new YhPacketLister(), new PacketTypeFilter(Message.class));
         SmackConnection.getInstance().getRoster().addRosterListener(new YhRosterListener());
-        Yh.getImTray().setTrayIcon(YhImageRes.getImageIcon("online.gif").getImage());
+        Yh.getImTray().setImage(YhImageRes.getImageIcon("online.gif").getImage());
     }
 }

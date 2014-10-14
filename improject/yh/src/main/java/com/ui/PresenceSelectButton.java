@@ -2,8 +2,8 @@ package com.ui;
 
 import com.component.jlabel.ExpandableImageLabel;
 import com.component.jlabel.JLabelFactory;
-import com.ui.resource.Yh;
-import com.ui.resource.YhImageRes;
+import resource.Yh;
+import resource.YhImageRes;
 import mangager.PresenceManager;
 import org.jivesoftware.smack.packet.Presence;
 import org.smackservice.SmackConnection;

@@ -15,10 +15,10 @@ public class PropertiesTools {
             InputStream in = new BufferedInputStream(new FileInputStream(filePath));
             props.load(in);
             String value = props.getProperty (key);
-            System.out.println(key+value);
             return value;
         } catch (Exception e) {
             e.printStackTrace();
+            System.err.println("Visit "+filePath+" for READ "+key+" value error");
             return null;
         }
     }

@@ -1,20 +1,17 @@
 package com.component;
 
+import javax.swing.*;
+
 /**
  * Created by HK on 2014/10/4.
  */
-public class ButtonFactory {
-    private static ButtonFactory buttonFactory = new ButtonFactory();
+public abstract class ButtonFactory {
 
-    protected ButtonFactory(){
-
+    protected JButton createButton(String buttonName){
+        return new BaseButton(buttonName);
     }
 
-    public static ButtonFactory getInstance() {
-        return buttonFactory;
-    }
-
-    public void createLoginButton(){
-
+    protected JButton createButton(String buttonName,boolean isSelected){
+        return new BaseButton(buttonName,isSelected);
     }
 }
