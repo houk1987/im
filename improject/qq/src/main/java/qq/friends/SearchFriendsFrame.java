@@ -7,7 +7,6 @@ import com.google.gson.Gson;
 import com.resource.ConfigurationRes;
 import com.san30.pub.tools.SanHttpClient;
 import qq.ui.JTextField.JTextFieldFactory;
-import qq.ui.button.QqButtonFactory;
 import qq.ui.window.PubFrame;
 
 import javax.swing.*;
@@ -28,7 +27,7 @@ import java.util.List;
 public class SearchFriendsFrame extends PubFrame {
 
     private final int frameHeight = 600;
-    private final JLabel defaultTipLabel = JLabelFactory.createJLabel(ImageUtils.getImageIcon("defaultTip.png"));
+    private JLabel defaultTipLabel ;//= JLabelFactory.createJLabel(ImageUtils.getImageIcon("defaultTip.png"));
     private final Font font = new Font("微软雅黑", Font.PLAIN, 12);
     private SearchFriendsTopPane searchFriendsTopPane;
     private SearchFriendsRsListPane searchFriendsRsListPane;
@@ -52,7 +51,7 @@ public class SearchFriendsFrame extends PubFrame {
 
     class SearchFriendsTopPane extends ExtendPane implements ActionListener {
         SearchFriendsTopPane() {
-            super(null, ImageUtils.getImageIcon("searchFriendsTopBg.png"));
+            super(null, null);
             keywordsTextField = JTextFieldFactory.createJTextField(180, 21, Color.BLACK);//关键词的输入框
 
             keywordsTextField.setFont(font);
@@ -90,7 +89,7 @@ public class SearchFriendsFrame extends PubFrame {
                 }
             });
 
-            searchButton = QqButtonFactory.getInstance().createSearchButton(); //创建
+           // searchButton = QqButtonFactory.getInstance().createSearchButton(); //创建
             searchButton.setLocation(745, 91);
             searchButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
             searchButton.addActionListener(this);
@@ -169,7 +168,7 @@ public class SearchFriendsFrame extends PubFrame {
 
         private void initAddFriends() {
             setLayout(null);
-            head = JLabelFactory.createJLabel(ImageUtils.getImageIcon("headItem.png"));
+           // head = JLabelFactory.createJLabel(ImageUtils.getImageIcon("headItem.png"));
             head.setLocation(15, 5);
             add(head);
 
@@ -177,7 +176,7 @@ public class SearchFriendsFrame extends PubFrame {
             nameLabel.setBounds(head.getWidth() + 15, 5, 200, 23);
             add(nameLabel);
 
-            addFriendsButton = QqButtonFactory.getInstance().createAddFriendsButton();
+           // addFriendsButton = QqButtonFactory.getInstance().createAddFriendsButton();
             addFriendsButton.setLocation(head.getWidth() + 15, head.getHeight() - addFriendsButton.getHeight());
             addFriendsButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
             addFriendsButton.addActionListener(this);

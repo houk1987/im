@@ -8,7 +8,6 @@ import com.component.session.ChatWritePanel;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Message;
 import org.smackservice.ChatManager;
-import qq.ui.button.QqButtonFactory;
 import qq.ui.session.message.BasicHtml;
 import qq.main.tree.QQContactItem;
 
@@ -33,7 +32,7 @@ public class SessionMainPane extends ExtendPane {
     private SessionFrame sessionFrame;
 
     public SessionMainPane(SessionFrame sessionFrame) {
-        super(null,ImageUtils.getImageIcon("sessionFramebg.png"));
+        super(null,null);
         this.sessionFrame = sessionFrame;
         this.contact = sessionFrame.getContact();
         initComponent();
@@ -52,7 +51,7 @@ public class SessionMainPane extends ExtendPane {
         chatWritePane.setBounds(1, 400, 443, 70);
         add(chatWritePane);
 
-        closeButton = QqButtonFactory.getInstance().createSessionFrameCloseButton();
+       // closeButton = QqButtonFactory.getInstance().createSessionFrameCloseButton();
         closeButton.setLocation(274, 474);
         add(closeButton);
 
@@ -63,7 +62,7 @@ public class SessionMainPane extends ExtendPane {
             }
         });
 
-        sendButton = QqButtonFactory.getInstance().createSendButton();
+       // sendButton = QqButtonFactory.getInstance().createSendButton();
         sendButton.setLocation(348, 474);
         sendButton.addActionListener(new ActionListener() {
             @Override

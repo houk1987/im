@@ -6,7 +6,8 @@ import com.component.ImageUtils;
 import com.component.jlabel.JLabelFactory;
 import com.resource.ConfigurationRes;
 import org.smackservice.SmackConnection;
-import qq.manager.QQManager;
+import qq.main.MainDialog;
+import qq.sysTray.SysTrayManager;
 import qq.ui.JTextField.JTextFieldFactory;
 
 import javax.swing.*;
@@ -29,7 +30,7 @@ class LoginContentPane extends ExtendPane implements ActionListener{
     private Font font = new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 14);  //×ÖÌå
 
     LoginContentPane(LoginDialog loginDialog) {
-        super(null, ImageUtils.getInstance(ConfigurationRes.getImageResPath() + "login/").getImageIcon("loginFrameBg.png"));
+        super(null, ImageUtils.getInstance("login/").getImageIcon("loginFrameBg.png"));
         this.loginDialog = loginDialog;
         this.buttonFactory = new LoginDialogButtonFactory();
 
@@ -63,7 +64,7 @@ class LoginContentPane extends ExtendPane implements ActionListener{
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                accountTextField.requestFocus();
+               accountTextField.requestFocus();
             }
         });
     }
@@ -83,6 +84,7 @@ class LoginContentPane extends ExtendPane implements ActionListener{
      */
     private void addCloseWindowButton(){
         closeWindowButton =buttonFactory.createCloseWindowButton();
+        closeWindowButton.setLocation(this.getWidth() - closeWindowButton.getWidth(), 0);
         addButton(closeWindowButton);
     }
 
@@ -123,7 +125,6 @@ class LoginContentPane extends ExtendPane implements ActionListener{
         add(registerLinkLabel);
     }
 
-
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource().equals(closeWindowButton)){
@@ -132,12 +133,23 @@ class LoginContentPane extends ExtendPane implements ActionListener{
         }else if(e.getSource().equals(minWindowButton)){
             loginDialog.setVisible(false);
         }else if(e.getSource().equals(loginButton)){
-            String account = accountTextField.getText();
-            String password = String.valueOf(passwordField.getPassword());
-            //LoginManager.getInstance().loginClient(account,password);
-            loginDialog.dispose();
-            loginDialog = null;
-            QQManager.getInstance().createAndShowMainDialog();
+            try {
+                String account = accountTextField.getText();
+                String password = String.valueOf(passwordField.getPassword());
+                if(account.length() == 0){
+
+                }else if(password.length() == 0){
+
+                }else{
+                    LoginManager.getInstance().loginClient(account,password);
+                    loginDialog.dispose();
+                    loginDialog = null;
+                    MainDialog.getInstance().setVisible(true);
+                    SysTrayManager.getInstance().setClickShowDialog(MainDialog.getInstance());
+                }
+            } catch (Exception e1) {
+                e1.printStackTrace();
+            }
         }
     }
 }

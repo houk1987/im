@@ -14,9 +14,10 @@ import java.util.List;
 public class PresenceManager {
 
     private static final List<Presence> PRESENCES = new ArrayList<Presence>();
-    private static ImageIcon online = ImageUtils.getPresenceImageIcon("online.png");
-    private static ImageIcon offline = ImageUtils.getPresenceImageIcon("offline.png");
-    private static ImageIcon busy = ImageUtils.getPresenceImageIcon("busy.png");
+    private static ImageUtils imageUtils = ImageUtils.getInstance("presence");
+    private static ImageIcon online = imageUtils.getImageIcon("online.png");
+    private static ImageIcon offline = imageUtils.getImageIcon("offline.png");
+    private static ImageIcon busy = imageUtils.getImageIcon("busy.png");
     static{
         final Presence presence = new Presence(Presence.Type.available, "ÎÒÓÐ¿Õ", 1, Presence.Mode.available);
         final Presence dndPresence = new Presence(Presence.Type.available, "Ã¦ÂµÖÐ", 0, Presence.Mode.dnd);

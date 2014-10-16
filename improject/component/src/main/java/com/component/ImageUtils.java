@@ -15,7 +15,7 @@ public class ImageUtils {
         if(imageUtils == null){
             imageUtils = new ImageUtils(resPath);
         }
-        imageUtils.setResPath(resPath);
+        imageUtils.setResPath(ConfigurationRes.getImageResPath()+resPath);
         return imageUtils;
     }
 
