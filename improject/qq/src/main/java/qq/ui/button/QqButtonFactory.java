@@ -18,26 +18,15 @@ public class QqButtonFactory extends ButtonFactory{
         return qqButtonFactory;
     }
 
-    private QqButtonFactory() {
-
-    }
-
     public JButton createLoginButton(){
         return createButton("login.png");
     }
 
-    public JButton createMinWindowButton() {
-        return createButton("minWindow.png");
-    }
-    public JButton createCloseWindowButton(){
-        return createButton("closeWindow.png");
-    }
+
 
     public JButton createOkButton(){
         return createButton("ok.png");
     }
-
-    public JButton createAddBuddyButton(){ return createButton("AddBuddy.png");}
 
     public JButton createPreviousButton() {
         return createButton("previous.png");
@@ -63,4 +52,23 @@ public class QqButtonFactory extends ButtonFactory{
         return createButton("sessionFrameClose.png");
     }
 
+    public JButton createSearchFriendsButton(){
+        return createButton("searchFriends.png");
+    }
+
+    public JButton createSearchButton(){
+        return createButton("search.png");
+    }
+
+    public JButton createAddFriendsButton(){
+        return createButton("addFriends.png");
+    }
+
+    public JButton createMainDialogCloseButton(){
+        return createButton("mainDialogCloseButton.png");
+    }
+
+    public JButton createMainDialogMinButton(){
+        return createButton("");
+    }
 }

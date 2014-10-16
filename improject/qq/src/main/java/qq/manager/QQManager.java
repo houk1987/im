@@ -2,10 +2,8 @@ package qq.manager;
 
 import com.component.ImTray;
 import com.component.ImageUtils;
-import com.component.PicUtil;
-import qq.ui.login.LoginDialog;
-import qq.ui.main.MainDialog;
-
+import qq.login.LoginDialog;
+import qq.main.MainDialog;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 

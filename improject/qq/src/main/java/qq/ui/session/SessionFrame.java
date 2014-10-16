@@ -1,12 +1,10 @@
 package qq.ui.session;
 
 
-import com.component.rosterTree.ContactItem;
 import org.jivesoftware.smack.packet.Message;
-import qq.ui.tree.QQContactItem;
+import qq.main.tree.QQContactItem;
 import qq.ui.window.PubFrame;
 
-import javax.swing.*;
 import java.awt.*;
 import java.util.HashMap;
 

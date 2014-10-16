@@ -8,21 +8,20 @@ import java.awt.*;
  */
 public class BaseButton extends JButton {
 
-    public BaseButton(String imageName){
-        this(imageName,false);
+    public BaseButton(String buttonImagePath,String imageName){
+        this(buttonImagePath,imageName,false);
     }
 
-    public BaseButton(String imageName,boolean isSelected) {
+    public BaseButton(String buttonImagePath,String imageName,boolean isSelected) {
+        ImageUtils imageUtils = ImageUtils.getInstance(buttonImagePath);
         String otherPath = imageName.substring(0, imageName.lastIndexOf("."));
-        String hoverFullPath = otherPath + "Hover.png";
-        String pressedFullPath = otherPath + "Pressed.png";
-        setIcon(ImageUtils.getButtonImageIcon(imageName));
-        setRolloverIcon(ImageUtils.getButtonImageIcon(hoverFullPath));
-        setPressedIcon(ImageUtils.getButtonImageIcon(pressedFullPath));
+        setIcon(imageUtils.getImageIcon(imageName));
+        setRolloverIcon(imageUtils.getImageIcon(otherPath + "Hover.png"));
+        setPressedIcon(imageUtils.getImageIcon(otherPath + "Pressed.png"));
         if(isSelected){
             String selectedFullPath = otherPath + "Pressed.png";
             setSelected(isSelected);
-            setSelectedIcon(ImageUtils.getButtonImageIcon(selectedFullPath));
+            setSelectedIcon(imageUtils.getImageIcon(selectedFullPath));
         }
         setBorderPainted(false);
         setBorder(BorderFactory.createEmptyBorder(0, 0, 0, 0));

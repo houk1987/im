@@ -1,0 +1,143 @@
+package qq.login;
+
+import com.component.ExtendPane;
+import com.component.FontFactory;
+import com.component.ImageUtils;
+import com.component.jlabel.JLabelFactory;
+import com.resource.ConfigurationRes;
+import org.smackservice.SmackConnection;
+import qq.manager.QQManager;
+import qq.ui.JTextField.JTextFieldFactory;
+
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+/**
+ * Created by lenovo on 2014/10/16.
+ */
+class LoginContentPane extends ExtendPane implements ActionListener{
+    private LoginDialogButtonFactory buttonFactory;
+    private JLabel registerLinkLabel; //注册的超链接
+    private JTextField accountTextField; //账号输入框
+    private JPasswordField passwordField;//密码输入框
+    private JButton loginButton; //登陆按钮
+    private JButton closeWindowButton; //关闭窗口的按钮
+    private JButton minWindowButton; //最小化窗口按钮
+    private LoginDialog loginDialog;  //登陆窗口
+    private Font font = new Font("微软雅黑", Font.PLAIN, 14);  //字体
+
+    LoginContentPane(LoginDialog loginDialog) {
+        super(null, ImageUtils.getInstance(ConfigurationRes.getImageResPath() + "login/").getImageIcon("loginFrameBg.png"));
+        this.loginDialog = loginDialog;
+        this.buttonFactory = new LoginDialogButtonFactory();
+
+        /**
+         * 添加账号密码输入框
+         */
+        this.addAccountTextFiled();
+        this.addPasswordTextFiled();
+
+        /**
+         * 添加按钮
+         */
+        this.addCloseWindowButton();
+        this.addMinWindowButton();
+        this.addLoginButton();
+
+        /**
+         * 添加注册超链接
+         */
+        this.addRegisterLink();
+    }
+
+    /**
+     * 添加账号输入文本框
+     */
+    private void addAccountTextFiled(){
+        accountTextField = JTextFieldFactory.createJTextField(170, 23, Color.BLACK);
+        accountTextField.setFont(font);
+        accountTextField.setLocation(140, 200);
+        add(accountTextField);
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                accountTextField.requestFocus();
+            }
+        });
+    }
+
+    /**
+     * 添加密码输入文本框
+     */
+    private void addPasswordTextFiled(){
+        passwordField = JTextFieldFactory.createJPasswordField(165, 23, Color.BLACK, '●');
+        passwordField.setFont(font);
+        passwordField.setLocation(140, 225);
+        add(passwordField);
+    }
+
+    /**
+     * 添加窗口关闭按钮
+     */
+    private void addCloseWindowButton(){
+        closeWindowButton =buttonFactory.createCloseWindowButton();
+        addButton(closeWindowButton);
+    }
+
+    /**
+     * 添加窗口最小化按钮
+     */
+    private void addMinWindowButton(){
+        minWindowButton = buttonFactory.createMinWindowButton();
+        minWindowButton.setLocation(this.getWidth()-closeWindowButton.getWidth()-minWindowButton.getWidth(),0);
+        addButton(minWindowButton);
+    }
+
+    /**
+     * 添加登陆按钮
+     */
+    private void addLoginButton(){
+        loginButton = buttonFactory.createLoginButton();
+        loginButton.setLocation(133, 287);
+        addButton(loginButton);
+        loginDialog.getRootPane().setDefaultButton(loginButton);
+    }
+
+    /**
+     * 添加到面板
+     * 并且添加监听
+     * @param jButton
+     */
+    private void addButton(JButton jButton){
+        add(jButton);
+        jButton.addActionListener(this);  //添加事件监听
+    }
+
+    private void addRegisterLink(){
+        registerLinkLabel = JLabelFactory.createLinkLabel("注册帐号", FontFactory.createFont("微软雅黑", 12), "#66a1e3", "http://" + SmackConnection.getInstance().getHost() + ":9090/plugins/userservice/qqRegister.htm");
+        registerLinkLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        registerLinkLabel.setSize(100, 17);
+        registerLinkLabel.setLocation(337, 200);
+        add(registerLinkLabel);
+    }
+
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        if(e.getSource().equals(closeWindowButton)){
+            loginDialog.dispose();
+            System.exit(0);
+        }else if(e.getSource().equals(minWindowButton)){
+            loginDialog.setVisible(false);
+        }else if(e.getSource().equals(loginButton)){
+            String account = accountTextField.getText();
+            String password = String.valueOf(passwordField.getPassword());
+            //LoginManager.getInstance().loginClient(account,password);
+            loginDialog.dispose();
+            loginDialog = null;
+            QQManager.getInstance().createAndShowMainDialog();
+        }
+    }
+}

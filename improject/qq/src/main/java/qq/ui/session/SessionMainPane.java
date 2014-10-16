@@ -10,7 +10,7 @@ import org.jivesoftware.smack.packet.Message;
 import org.smackservice.ChatManager;
 import qq.ui.button.QqButtonFactory;
 import qq.ui.session.message.BasicHtml;
-import qq.ui.tree.QQContactItem;
+import qq.main.tree.QQContactItem;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

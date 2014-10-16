@@ -7,11 +7,17 @@ import javax.swing.*;
  */
 public abstract class ButtonFactory {
 
+    private String buttonImagePath;    //°´Å¥Í¼Æ¬Â·¾¶
+
+    protected ButtonFactory(String buttonImagePath) {
+        this.buttonImagePath = buttonImagePath;
+    }
+
     protected JButton createButton(String buttonName){
-        return new BaseButton(buttonName);
+        return new BaseButton(buttonImagePath,buttonName);
     }
 
     protected JButton createButton(String buttonName,boolean isSelected){
-        return new BaseButton(buttonName,isSelected);
+        return new BaseButton(buttonImagePath,buttonName,isSelected);
     }
 }
