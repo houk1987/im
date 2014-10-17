@@ -1,4 +1,4 @@
-package qq.ui.session.message;
+package qq.session.message;
 
 /**
  * Created by a on 2014/9/5.

@@ -32,7 +32,7 @@ public class SysTrayManager {
      */
     public void initImTray(){
         if(imTray == null){
-            imTray = new ImTray(ImageUtils.getInstance("").getImageIcon("TitleIcon.png").getImage(),"QQ");
+            imTray = new ImTray(ImageUtils.getInstance("common/").getImageIcon("TitleIcon.png").getImage(),"QQ");
             imTray.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {

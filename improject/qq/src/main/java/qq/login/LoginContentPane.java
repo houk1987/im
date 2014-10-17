@@ -5,15 +5,22 @@ import com.component.FontFactory;
 import com.component.ImageUtils;
 import com.component.jlabel.JLabelFactory;
 import com.resource.ConfigurationRes;
+import net.java.balloontip.BalloonTip;
 import org.smackservice.SmackConnection;
 import qq.main.MainDialog;
 import qq.sysTray.SysTrayManager;
 import qq.ui.JTextField.JTextFieldFactory;
+import qq.ui.tip.ToolTip;
 
 import javax.swing.*;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.text.Document;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
 
 /**
  * Created by lenovo on 2014/10/16.
@@ -28,6 +35,8 @@ class LoginContentPane extends ExtendPane implements ActionListener{
     private JButton minWindowButton; //最小化窗口按钮
     private LoginDialog loginDialog;  //登陆窗口
     private Font font = new Font("微软雅黑", Font.PLAIN, 14);  //字体
+    private BalloonTip accountBalloonTip;
+    private BalloonTip passwordBalloonTip;
 
     LoginContentPane(LoginDialog loginDialog) {
         super(null, ImageUtils.getInstance("login/").getImageIcon("loginFrameBg.png"));
@@ -61,6 +70,25 @@ class LoginContentPane extends ExtendPane implements ActionListener{
         accountTextField.setFont(font);
         accountTextField.setLocation(140, 200);
         add(accountTextField);
+        Document document = accountTextField.getDocument();
+        document.addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                if(accountBalloonTip!=null && accountBalloonTip.isVisible()){
+                    accountBalloonTip.setVisible(false);
+                }
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+
+            }
+        });
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -76,6 +104,31 @@ class LoginContentPane extends ExtendPane implements ActionListener{
         passwordField = JTextFieldFactory.createJPasswordField(165, 23, Color.BLACK, '●');
         passwordField.setFont(font);
         passwordField.setLocation(140, 225);
+        Document document = passwordField.getDocument();
+         document.addDocumentListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e) {
+                if(passwordBalloonTip!=null && passwordBalloonTip.isVisible()){
+                    passwordBalloonTip.setVisible(false);
+                }
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e) {
+
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e) {
+
+            }
+        });
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                accountTextField.requestFocus();
+            }
+        });
         add(passwordField);
     }
 
@@ -137,9 +190,19 @@ class LoginContentPane extends ExtendPane implements ActionListener{
                 String account = accountTextField.getText();
                 String password = String.valueOf(passwordField.getPassword());
                 if(account.length() == 0){
-
+                    accountTextField.requestFocus();
+                    if(accountBalloonTip == null){
+                        accountBalloonTip =ToolTip.showBalloonTip(accountTextField,"请输入帐号再进行登录");
+                    }else{
+                        accountBalloonTip.setTextContents("请输入帐号再进行登录");
+                    }
                 }else if(password.length() == 0){
-
+                    passwordField.requestFocus();
+                    if(passwordBalloonTip == null){
+                        passwordBalloonTip = ToolTip.showBalloonTip(passwordField,"请输入密码再进行登录");
+                    }else{
+                        accountBalloonTip.setTextContents("请输入密码再进行登录");
+                    }
                 }else{
                     LoginManager.getInstance().loginClient(account,password);
                     loginDialog.dispose();
@@ -149,6 +212,13 @@ class LoginContentPane extends ExtendPane implements ActionListener{
                 }
             } catch (Exception e1) {
                 e1.printStackTrace();
+                accountTextField.requestFocus();
+                if(accountBalloonTip == null){
+                    accountBalloonTip =ToolTip.showBalloonTip(accountTextField,e1.getMessage());
+                }else{
+                    accountBalloonTip.setTextContents(e1.getMessage());
+                    accountBalloonTip.setVisible(true);
+                }
             }
         }
     }

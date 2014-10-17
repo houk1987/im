@@ -2,7 +2,7 @@ package qq.main.tree;
 
 import com.component.ImageUtils;
 import com.component.rosterTree.ContactItem;
-import qq.ui.session.SessionFrame;
+import qq.session.SessionFrame;
 
 import javax.swing.*;
 import java.awt.*;

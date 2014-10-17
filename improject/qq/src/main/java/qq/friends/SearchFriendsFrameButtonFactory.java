@@ -1,7 +1,6 @@
-package qq.main;
+package qq.friends;
 
 import com.component.ButtonFactory;
-import com.resource.ConfigurationRes;
 
 import javax.swing.*;
 
@@ -10,10 +9,10 @@ import javax.swing.*;
  * 提供登陆窗口中按钮创建
  * Created by lenovo on 2014/10/16.
  */
-public class MainDialogButtonFactory extends ButtonFactory{
+public class SearchFriendsFrameButtonFactory extends ButtonFactory{
 
-    protected MainDialogButtonFactory() {
-        super("main/button/");
+    protected SearchFriendsFrameButtonFactory() {
+        super("friends/button/");
     }
 
     public JButton createMinWindowButton() {
@@ -25,6 +24,10 @@ public class MainDialogButtonFactory extends ButtonFactory{
     }
 
     public JButton createSearchFriendsButton() {
-        return createButton("searchFriends.png");
+        return createButton("search.png");
+    }
+
+    public JButton createAddFriendsButton() {
+        return createButton("addFriends.png");
     }
 }

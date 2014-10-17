@@ -1,6 +1,8 @@
 package qq.login;
 
+import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.XMPPException;
+import org.smackservice.RosterManager;
 import org.smackservice.SmackConnection;
 
 /**
@@ -9,6 +11,8 @@ import org.smackservice.SmackConnection;
 public class LoginManager {
 
     private static LoginManager loginManager;
+    private String loginAccount; //µÇÂ½µÄÕËºÅ
+    private String loginAccountUserName; //µÇÂ½µÄÕËºÅµÄÃû³Æ
 
     public static LoginManager getInstance() {
         if (loginManager == null){
@@ -29,9 +33,20 @@ public class LoginManager {
         } catch (XMPPException e) {
             throw new Exception("ÕËºÅ»òÃÜÂë´íÎó");
         }
-
-
-
+        loginAccount = account+"@"+SmackConnection.getInstance().getServiceName();
     }
 
+    public String getLoginAccount() {
+        return loginAccount;
+    }
+
+    public String getLoginAccountUserName() {
+        RosterEntry rosterEntry = RosterManager.getRosterEntry(loginAccount);
+        if(rosterEntry == null){
+            loginAccountUserName = loginAccount;
+        }else{
+            loginAccountUserName = rosterEntry.getName();
+        }
+        return loginAccountUserName;
+    }
 }

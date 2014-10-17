@@ -11,7 +11,7 @@ import java.awt.*;
  */
 public class MainDialog extends PubDialog {
     private static MainDialog mainDialog;
-    private MainPane mainPane;
+    private MainDialogContentPane mainDialogContentPane;
 
     public static MainDialog getInstance() {
         if(mainDialog == null){
@@ -20,15 +20,11 @@ public class MainDialog extends PubDialog {
         return mainDialog;
     }
 
-
     private MainDialog() throws HeadlessException {
-        mainPane = new MainPane();
-        setContentPane(mainPane);    //设置内容面板
-        setSize(mainPane.getSize());//大小为内容面板大小
+        mainDialogContentPane = new MainDialogContentPane(this);
+        setContentPane(mainDialogContentPane);    //设置内容面板
+        setSize(mainDialogContentPane.getSize());//大小为内容面板大小
+        setSize(mainDialogContentPane.getWidth(), mainDialogContentPane.getHeight());
         setLocationRelativeTo(null); //居右显示
-    }
-
-    public static void main(String[] args) {
-        MainDialog.getInstance().setVisible(true);
     }
 }
