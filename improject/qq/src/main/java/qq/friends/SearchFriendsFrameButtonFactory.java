@@ -30,4 +30,17 @@ public class SearchFriendsFrameButtonFactory extends ButtonFactory{
     public JButton createAddFriendsButton() {
         return createButton("addFriends.png");
     }
+
+    public JButton createNextButton(){
+        return createButton("next.png");
+    }
+
+    public JButton createCloseButton(){
+        return createButton("close.png");
+    }
+
+
+    public JButton createFinishButton(){
+        return createButton("finish.png");
+    }
 }

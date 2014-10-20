@@ -2,6 +2,7 @@ package qq.main;
 
 
 
+import qq.main.tree.QQContactTree;
 import qq.ui.window.PubDialog;
 
 import java.awt.*;
@@ -27,4 +28,10 @@ public class MainDialog extends PubDialog {
         setSize(mainDialogContentPane.getWidth(), mainDialogContentPane.getHeight());
         setLocationRelativeTo(null); //╬ссротй╬
     }
+
+
+    public QQContactTree getFriendsTree(){
+        return mainDialogContentPane.getFriendsTree();
+    }
+
 }

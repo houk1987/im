@@ -16,6 +16,9 @@ public class QQContactItem extends ContactItem {
     private final static Color pressedColor = hoverColor;
     private final static ImageIcon headIcon = ImageUtils.getInstance("main/tree").getImageIcon("head.png");
 
+    public QQContactItem() {
+    }
+
     public QQContactItem(String account,String userName) {
         setJid(account);
         setUserName(userName);

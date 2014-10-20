@@ -86,4 +86,8 @@ class MainDialogContentPane extends ExtendPane implements ActionListener{
             mainDialog.dispose();
         }
     }
+
+    public QQContactTree getFriendsTree() {
+        return friendsTree;
+    }
 }

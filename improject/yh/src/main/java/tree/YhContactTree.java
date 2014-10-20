@@ -45,6 +45,11 @@ public class YhContactTree extends TreePane {
         mainPanel.add(address);
     }
 
+    @Override
+    protected void setBackGround() {
+
+    }
+
     public YhContactItem initYhContactItem(String jid,String userName){
         YhContactItem contactItem = new YhContactItem();
         contactItem.setHeadIcon(headIcon);
@@ -77,12 +82,4 @@ public class YhContactTree extends TreePane {
         MainFrame.getInstance().getYhContactTree().getFriends().addContactItem(yhContactItem);
         MainFrame.getInstance().getYhContactTree().getFriends().updateUI();
     }
-
-
-    @Override
-    protected void setBackGround() {
-
-    }
-
-
 }

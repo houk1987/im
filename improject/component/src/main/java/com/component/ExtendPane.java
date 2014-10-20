@@ -25,4 +25,12 @@ public class ExtendPane extends JPanel {
         Image image = bgImageIcon.getImage();
         g.drawImage(image,0,0,image.getWidth(this),image.getHeight(this),this);
     }
+
+    public void setBgImageIcon(ImageIcon bgImageIcon) {
+        this.bgImageIcon = bgImageIcon;
+    }
+
+    public ImageIcon getBgImageIcon() {
+        return bgImageIcon;
+    }
 }

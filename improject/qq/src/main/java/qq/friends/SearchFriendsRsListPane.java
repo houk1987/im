@@ -2,15 +2,13 @@ package qq.friends;
 
 import com.component.ImageUtils;
 import com.component.jlabel.JLabelFactory;
-import com.resource.ConfigurationRes;
-import qq.ui.headPicture.HeadPicture;
+import qq.login.LoginManager;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.*;
 
 /**
  * Created by lenovo on 2014/10/17.
@@ -44,6 +42,7 @@ public class SearchFriendsRsListPane extends JScrollPane {
             String[] splitData = list.get(i).split(",");
             String username = splitData[0];
             String name = splitData[1];
+            if(username.equals(LoginManager.getInstance().getLoginAccount().split("@")[0])){continue;}
             if (name == null || name.isEmpty()) {
                 name = username;
             }
@@ -58,10 +57,12 @@ public class SearchFriendsRsListPane extends JScrollPane {
         private final int width = 150;
         private String userName;
         private String name;
+        private AddFriendFrame addFriendFrame;
 
         AddFriends(String userName, String name) {
             this.userName = userName;
             this.name = name;
+            addFriendFrame = new AddFriendFrame(userName);
             initAddFriends();
         }
 
@@ -80,7 +81,6 @@ public class SearchFriendsRsListPane extends JScrollPane {
             addFriendsButton.setCursor(new Cursor(Cursor.HAND_CURSOR));
             addFriendsButton.addActionListener(this);
             add(addFriendsButton);
-
         }
 
         @Override
@@ -97,7 +97,7 @@ public class SearchFriendsRsListPane extends JScrollPane {
         @Override
         public void actionPerformed(ActionEvent e) {
             if (e.getSource() == addFriendsButton) {
-
+              addFriendFrame.setVisible(true);
             }
         }
     }
