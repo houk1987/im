@@ -1,6 +1,7 @@
 package org.smackservice;
 
 import org.jivesoftware.smack.Chat;
+import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Message;
 
@@ -9,24 +10,17 @@ import org.jivesoftware.smack.packet.Message;
  */
 public class ChatManager {
 
-    private static ChatManager chatManager;
-
-    public static ChatManager getInstance() {
-        if(chatManager == null){
-            chatManager = new ChatManager();
-        }
-        return chatManager;
-    }
-
-    private ChatManager() {
+    private XMPPConnection xmppConnection;
+    public ChatManager(XMPPConnection xmppConnection) {
+        this.xmppConnection = xmppConnection;
     }
 
     public void sendChatMessage(Message message) throws XMPPException {
         final String jid = message.getTo();
         if(jid == null)return;
-        Chat chat = SmackConnection.getInstance().getChatManager().getThreadChat(jid);
+        Chat chat = xmppConnection.getChatManager().getThreadChat(jid);
         if(chat == null){
-            chat = SmackConnection.getInstance().getChatManager().createChat(jid,null);
+            chat = xmppConnection.getChatManager().createChat(jid,null);
         }
         message.setType(Message.Type.chat);
         chat.sendMessage(message);

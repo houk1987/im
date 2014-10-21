@@ -3,6 +3,7 @@ package qq.manager;
 
 import com.component.ImageUtils;
 import org.jivesoftware.smack.packet.Presence;
+import org.smackservice.RosterManager;
 import org.smackservice.SmackConnection;
 import javax.swing.*;
 import java.util.ArrayList;
@@ -14,10 +15,11 @@ import java.util.List;
 public class PresenceManager {
 
     private static final List<Presence> PRESENCES = new ArrayList<Presence>();
-    private static ImageUtils imageUtils = ImageUtils.getInstance("presence");
+    private static ImageUtils imageUtils = ImageUtils.getInstance("presence/");
     private static ImageIcon online = imageUtils.getImageIcon("online.png");
     private static ImageIcon offline = imageUtils.getImageIcon("offline.png");
     private static ImageIcon busy = imageUtils.getImageIcon("busy.png");
+    private RosterManager rosterManager;
     static{
         final Presence presence = new Presence(Presence.Type.available, "ÎÒÓÐ¿Õ", 1, Presence.Mode.available);
         final Presence dndPresence = new Presence(Presence.Type.available, "Ã¦ÂµÖÐ", 0, Presence.Mode.dnd);
@@ -25,6 +27,10 @@ public class PresenceManager {
         PRESENCES.add(presence);
         PRESENCES.add(dndPresence);
         PRESENCES.add(hidePresence);
+    }
+
+    public PresenceManager(RosterManager rosterManager) {
+        this.rosterManager = rosterManager;
     }
 
     /**
@@ -36,13 +42,9 @@ public class PresenceManager {
         return PRESENCES;
     }
 
-    public static void changePresence(Presence presence){
-        SmackConnection.getInstance().sendPacket(presence);
-    }
-
-    public static Presence getPresence(String jid){
+    public  Presence getPresence(String jid){
         if(jid!=null) {
-            return SmackConnection.getInstance().getRoster().getPresence(jid);
+            return rosterManager.getFriendPresence(jid);
         }
         return null;
     }
@@ -60,7 +62,7 @@ public class PresenceManager {
         return busy;
     }
 
-    public static ImageIcon getPresenceIcon(Presence presence){
+    public ImageIcon getPresenceIcon(Presence presence){
         if(presence.getType().equals(Presence.Type.available)){
             if(presence.getMode()==null|| presence.getMode().equals(Presence.Mode.available)){
                 return getOnline();

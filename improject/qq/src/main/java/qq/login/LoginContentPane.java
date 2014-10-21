@@ -4,9 +4,8 @@ import com.component.ExtendPane;
 import com.component.FontFactory;
 import com.component.ImageUtils;
 import com.component.jlabel.JLabelFactory;
-import com.resource.ConfigurationRes;
-import net.java.balloontip.BalloonTip;
 import org.smackservice.SmackConnection;
+import qq.lunch.QQClient;
 import qq.main.MainDialog;
 import qq.sysTray.SysTrayManager;
 import qq.ui.JTextField.JTextFieldFactory;
@@ -35,8 +34,8 @@ class LoginContentPane extends ExtendPane implements ActionListener{
     private JButton minWindowButton; //最小化窗口按钮
     private LoginDialog loginDialog;  //登陆窗口
     private Font font = new Font("微软雅黑", Font.PLAIN, 14);  //字体
-    private BalloonTip accountBalloonTip;
-    private BalloonTip passwordBalloonTip;
+    //private BalloonTip accountBalloonTip;
+//   private BalloonTip passwordBalloonTip;
 
     LoginContentPane(LoginDialog loginDialog) {
         super(null, ImageUtils.getInstance("login/").getImageIcon("loginFrameBg.png"));
@@ -74,9 +73,9 @@ class LoginContentPane extends ExtendPane implements ActionListener{
         document.addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
-                if(accountBalloonTip!=null && accountBalloonTip.isVisible()){
-                    accountBalloonTip.setVisible(false);
-                }
+//                if(accountBalloonTip!=null && accountBalloonTip.isVisible()){
+//                    accountBalloonTip.setVisible(false);
+//                }
             }
 
             @Override
@@ -108,9 +107,9 @@ class LoginContentPane extends ExtendPane implements ActionListener{
          document.addDocumentListener(new DocumentListener() {
             @Override
             public void insertUpdate(DocumentEvent e) {
-                if(passwordBalloonTip!=null && passwordBalloonTip.isVisible()){
-                    passwordBalloonTip.setVisible(false);
-                }
+//                if(passwordBalloonTip!=null && passwordBalloonTip.isVisible()){
+//                    passwordBalloonTip.setVisible(false);
+//                }
             }
 
             @Override
@@ -181,44 +180,42 @@ class LoginContentPane extends ExtendPane implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         if(e.getSource().equals(closeWindowButton)){
-            loginDialog.dispose();
-            System.exit(0);
+            QQClient.getInstance().closeQQClient();
         }else if(e.getSource().equals(minWindowButton)){
             loginDialog.setVisible(false);
         }else if(e.getSource().equals(loginButton)){
             try {
-                String account = accountTextField.getText();
-                String password = String.valueOf(passwordField.getPassword());
-                if(account.length() == 0){
+                String userName = accountTextField.getText().trim();
+                String password = String.valueOf(passwordField.getPassword()).trim();
+                if(userName.length() == 0){
                     accountTextField.requestFocus();
-                    if(accountBalloonTip == null){
-                        accountBalloonTip =ToolTip.showBalloonTip(accountTextField,"请输入帐号再进行登录");
-                    }else{
-                        accountBalloonTip.setTextContents("请输入帐号再进行登录");
-                    }
+                    JOptionPane.showMessageDialog(this,"请输入帐号再进行登录！");
+//                    if(accountBalloonTip == null){
+//                        accountBalloonTip =ToolTip.showBalloonTip(accountTextField,"请输入帐号再进行登录");
+//                    }else{
+//                        accountBalloonTip.setTextContents("请输入帐号再进行登录");
+//                    }
                 }else if(password.length() == 0){
                     passwordField.requestFocus();
-                    if(passwordBalloonTip == null){
-                        passwordBalloonTip = ToolTip.showBalloonTip(passwordField,"请输入密码再进行登录");
-                    }else{
-                        accountBalloonTip.setTextContents("请输入密码再进行登录");
-                    }
+                    JOptionPane.showMessageDialog(this,"请输入密码再进行登录！");
+//                    if(passwordBalloonTip == null){
+//                        passwordBalloonTip = ToolTip.showBalloonTip(passwordField,"请输入密码再进行登录");
+//                    }else{
+//                        accountBalloonTip.setTextContents("请输入密码再进行登录");
+//                    }
                 }else{
-                    LoginManager.getInstance().loginClient(account,password);
-                    loginDialog.dispose();
-                    loginDialog = null;
-                    MainDialog.getInstance().setVisible(true);
-                    SysTrayManager.getInstance().setClickShowDialog(MainDialog.getInstance());
+                    QQClient.getInstance().loginQQClient(userName,password);
                 }
             } catch (Exception e1) {
                 e1.printStackTrace();
                 accountTextField.requestFocus();
-                if(accountBalloonTip == null){
-                    accountBalloonTip =ToolTip.showBalloonTip(accountTextField,e1.getMessage());
-                }else{
-                    accountBalloonTip.setTextContents(e1.getMessage());
-                    accountBalloonTip.setVisible(true);
-                }
+                JOptionPane.showMessageDialog(this,"账号或密码错误！");
+//                if(accountBalloonTip == null){
+//                    accountBalloonTip =ToolTip.showBalloonTip(accountTextField,e1.getMessage());
+//                }else{
+//                    accountBalloonTip.setTextContents(e1.getMessage());
+//                    accountBalloonTip.setVisible(true);
+//                }
             }
         }
     }

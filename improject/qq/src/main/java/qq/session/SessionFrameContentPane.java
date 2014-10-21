@@ -8,11 +8,8 @@ import com.component.session.ChatWritePanel;
 import com.resource.ConfigurationRes;
 import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Message;
-import org.jivesoftware.smack.packet.Presence;
-import org.smackservice.ChatManager;
-import qq.login.LoginManager;
+import qq.lunch.QQClient;
 import qq.main.tree.QQContactItem;
-import qq.manager.PresenceManager;
 import qq.session.message.BasicHtml;
 import qq.ui.headPicture.HeadPicture;
 
@@ -158,7 +155,7 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
 
     private Message getMessage(String content) {
         Message message = new Message();
-        message.setFrom(LoginManager.getInstance().getLoginAccount());
+        message.setFrom(QQClient.getInstance().getLoginUserNameWithDomain());
         message.setTo(contact.getJid());
         message.setProperty("sendTime", new Timestamp(System.currentTimeMillis()));
         message.setBody(getContentHtml(content, message));
@@ -171,7 +168,7 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
         String dateString = formatter.format(message.getProperty("sendTime"));
         html = html
                 .replaceAll("#algin#", "left")
-                .replaceAll("#msgtip#", LoginManager.getInstance().getLoginAccountUserName() + "  " + dateString)
+                .replaceAll("#msgtip#", QQClient.getInstance().getNickName() + "  " + dateString)
                 .replaceAll("#content#", content);
         return html;
     }
@@ -193,7 +190,7 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
         } else if (e.getSource() == sendButton) {
             try {
                 Message message = getMessage(chatWritePane.getPlainText());
-                ChatManager.getInstance().sendChatMessage(message);
+                QQClient.getInstance().getChatManager().sendChatMessage(message);
                 chatDisplayPane.insertMessage(message.getBody());
                 chatWritePane.clear();//清空输入文本
             } catch (XMPPException e1) {

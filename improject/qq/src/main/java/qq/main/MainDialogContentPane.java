@@ -2,14 +2,21 @@ package qq.main;
 
 import com.component.ExtendPane;
 import com.component.ImageUtils;
+import com.component.jlabel.JLabelFactory;
 import com.resource.ConfigurationRes;
 
 import qq.friends.SearchFriendsFrame;
+import qq.lunch.QQClient;
 import qq.main.tree.QQContactTree;
+import qq.manager.PresenceManager;
+import qq.presence.PresenceMenu;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 /**
  * Created by lenovo on 2014/9/17.
@@ -29,6 +36,7 @@ class MainDialogContentPane extends ExtendPane implements ActionListener{
         this.addCloseWindowButton();
         this.addMinWindowButton();
         this.addSearchAddFriendsButton();
+        this.addShowAccountPane();
         this.addFriendsTree();
     }
 
@@ -62,6 +70,29 @@ class MainDialogContentPane extends ExtendPane implements ActionListener{
     private void addButton(JButton jButton){
         add(jButton);
         jButton.addActionListener(this);
+    }
+
+    private void addShowAccountPane(){
+        JPanel panel = new JPanel(null);
+        panel.setBackground(new Color(40,138,221));
+        panel.setBounds(5,50,150,50);
+        JLabel label = JLabelFactory.createJLabel(QQClient.getInstance().getNickName(),new Font("ËÎÌו",Font.BOLD,14),Color.WHITE);
+        label.setBounds(0,0,50,50);
+        panel.add(label);
+
+
+        final JLabel presenceLabel = JLabelFactory.createJLabel(PresenceManager.getOnline());
+        presenceLabel.setLocation(50,70);
+        presenceLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
+        add(presenceLabel);
+        presenceLabel.addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseReleased(MouseEvent e) {
+                PresenceMenu statusMenu = new PresenceMenu(presenceLabel);
+                statusMenu.show(MainDialogContentPane.this,50,85);
+            }
+        });
+        add(panel);
     }
 
     /**

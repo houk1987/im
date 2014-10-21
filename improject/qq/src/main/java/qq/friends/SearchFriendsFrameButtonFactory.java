@@ -1,5 +1,6 @@
 package qq.friends;
 
+import com.component.BaseButton;
 import com.component.ButtonFactory;
 
 import javax.swing.*;
@@ -42,5 +43,13 @@ public class SearchFriendsFrameButtonFactory extends ButtonFactory{
 
     public JButton createFinishButton(){
         return createButton("finish.png");
+    }
+
+    public JButton createCloseFriendsFrame(){
+        return  createButton("closeAddFriendsFrame.png");
+    }
+
+    public JButton createMinFriendsFrame(){
+        return createButton("minAddFriendsFrame.png");
     }
 }

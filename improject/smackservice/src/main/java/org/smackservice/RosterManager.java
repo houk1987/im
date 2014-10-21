@@ -1,21 +1,32 @@
 package org.smackservice;
 
+import com.san30.pub.tools.SanHttpClient;
 import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.RosterEntry;
+import org.jivesoftware.smack.XMPPConnection;
+import org.jivesoftware.smack.packet.Presence;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created by HK on 2014/10/6.
  */
 public class RosterManager {
+    private Roster roster;
+    private XMPPConnection xmppConnection;
 
-    public static List<RosterEntry> getRosters() {
+    public RosterManager(XMPPConnection xmppConnection){
+        this.xmppConnection = xmppConnection;
+        this.roster = xmppConnection.getRoster();
+    }
+
+    /**
+     * 获取所有的好友
+     * @return
+     */
+    public List<RosterEntry> getRosters() {
+        roster.reload();
         List<RosterEntry> EntriesList = new ArrayList<>();
-        Roster roster = SmackConnection.getInstance().getRoster();
         Collection<RosterEntry> rosterEntry = roster.getEntries();
         Iterator<RosterEntry> i = rosterEntry.iterator();
         while (i.hasNext())
@@ -23,10 +34,47 @@ public class RosterManager {
         return EntriesList;
     }
 
-    public static RosterEntry getRosterEntry(String jid) {
+    /**
+     * 获取单个好友信息
+     * @param jid
+     * @return
+     */
+    public  RosterEntry getRosterEntry(String jid) {
         if (jid == null) return null;
-        SmackConnection.getInstance().getRoster().reload();
-        return SmackConnection.getInstance().getRoster().getEntry(jid);
+        roster.reload();
+        return roster.getEntry(jid+"@"+xmppConnection.getServiceName());
+    }
+
+    /**
+     * 发送好友申请
+     * @param fromUserName  发送方的账号
+     * @param friendUserName 接受方的账号
+     * @return
+     */
+    public boolean sendFriendApply(String fromUserName,String friendUserName){
+        try {
+            if(friendUserName!=null) {
+                HashMap<String, String> paramMap = new HashMap<>();
+                paramMap.put("jid", fromUserName);
+                paramMap.put("type", "validateAccount");
+                paramMap.put("targetAccount", friendUserName);
+                String url = "http://" + xmppConnection.getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
+                String rs = SanHttpClient.getDataAsString(url, paramMap);
+                return Boolean.valueOf(rs);
+            }
+        } catch (Exception e1) {
+            e1.printStackTrace();
+        }
+        return false;
+    }
+
+    /**
+     * 获取好友的状态
+     * @param userName
+     * @return
+     */
+    public Presence getFriendPresence(String userName){
+        return roster.getPresence(userName);
     }
 }
 

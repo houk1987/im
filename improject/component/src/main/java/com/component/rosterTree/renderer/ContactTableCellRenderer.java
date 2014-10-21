@@ -63,7 +63,7 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
                 headIconLabel.setSize(contactItem.getHeadIcon().getIconWidth(),contactItem.getHeadIcon().getIconHeight());
             }
             userNameLabel.setText(contactItem.getUserName());
-            if(contactItem.getPresenceIcon()!=null){
+            if(presenceIconLabel!=null){
                 presenceIconLabel.setSize(contactItem.getPresenceIcon().getIconWidth(),contactItem.getPresenceIcon().getIconHeight());
                 presenceIconLabel.setIcon(contactItem.getPresenceIcon());
             }

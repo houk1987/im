@@ -2,9 +2,8 @@ package qq.friends;
 
 import com.component.ExtendPane;
 import com.component.ImageUtils;
-import com.component.jlabel.JLabelFactory;
-import org.smackservice.RosterManager;
-import org.smackservice.SmackConnection;
+import com.component.rosterTree.ContactItem;
+import qq.lunch.QQClient;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,18 +20,40 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
     private JButton cancelButton;      //取消
     private JButton finishButton;       //完成
     private JPanel finishPane;
-
+    private JButton closeWindowButton;
+    private JButton minWindowButton;
 
 
     public AddFriendFrameContentPane(AddFriendFrame addFriendFrame) {
         super(null, ImageUtils.getInstance("friends/").getImageIcon("addFriendsBg.png"));
         searchFriendsFrameButtonFactory = new SearchFriendsFrameButtonFactory();
         this.addFriendFrame = addFriendFrame;
+        this.addCloseWindowButton();
+        this.addMinWindowButton();
         this.addCloseButton();
         this.addFinishButton();
         this.addNextButton();
         this.addFinishPane();
     }
+
+    /**
+     * 添加窗口关闭按钮
+     */
+    private void addCloseWindowButton() {
+        closeWindowButton = searchFriendsFrameButtonFactory.createCloseFriendsFrame();
+        closeWindowButton.setLocation(this.getWidth() - closeWindowButton.getWidth(), 0);
+        addButton(closeWindowButton);
+    }
+
+    /**
+     * 添加窗口最小化按钮
+     */
+    private void addMinWindowButton() {
+        minWindowButton = searchFriendsFrameButtonFactory.createMinFriendsFrame();
+        minWindowButton.setLocation(this.getWidth() - closeWindowButton.getWidth() - minWindowButton.getWidth(), 0);
+        addButton(minWindowButton);
+    }
+
 
     private void addNextButton(){
         nextButton = searchFriendsFrameButtonFactory.createNextButton();
@@ -63,16 +84,21 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
         finishPane.setBounds(140,40,400,100);
         finishPane.setBackground(Color.WHITE);
         JLabel label = new JLabel();
-        if(RosterManager.getRosterEntry(addFriendFrame.getJid()+"@"+ SmackConnection.getInstance().getServiceName())!=null) {
+        ContactItem contactItem = QQClient.getInstance().getFriendsManager().getFriend(addFriendFrame.getJid());
+        if(contactItem!=null) {
             finishPane.setVisible(true);
             label.setText(addFriendFrame.getJid()+"已经为你的好友");
             finishButton.setVisible(true);
-            nextButton.setEnabled(true);
+            nextButton.setVisible(false);
+            JPanel temp = new JPanel();
+            temp.setBackground(new Color(228,234,245));
+            temp.setSize(nextButton.getSize());
+            temp.setLocation(this.getWidth() - cancelButton.getWidth() - 15 - nextButton.getWidth(), this.getHeight() - cancelButton.getHeight() - 3);
+            add(temp);
         }else{
             finishPane.setVisible(false);
             label.setText("已发出了好友申请。");
         }
-
         label.setBounds(0,0,200,50);
         finishPane.add(label);
         add(finishPane);
@@ -81,11 +107,15 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
     @Override
     public void actionPerformed(ActionEvent e) {
          if(e.getSource().equals(nextButton)){
+             QQClient.getInstance().getFriendsManager().sendFriendApply(addFriendFrame.getJid()); //发送好友请求
              finishPane.setVisible(true);
+             nextButton.setVisible(false);
          }else if(e.getSource().equals(cancelButton)){
              addFriendFrame.dispose();
          }else if(e.getSource().equals(finishButton)){
             addFriendFrame.dispose();
+         }else if(e.getSource().equals(closeWindowButton)){
+             addFriendFrame.dispose();
          }
     }
 }

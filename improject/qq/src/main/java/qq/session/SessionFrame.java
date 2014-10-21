@@ -30,8 +30,12 @@ public class SessionFrame extends PubFrame {
         }else{
            // sessionFrame.mainPane.updatePresence();
         }
-        sessionFrame.setLocationRelativeTo(null);
-        sessionFrame.setVisible(true);
+        if(!sessionFrame.isVisible()){
+            sessionFrame.setLocationRelativeTo(null);
+            sessionFrame.setVisible(true);
+        }else{
+            sessionFrame.requestFocus();
+        }
         return sessionFrame;
     }
 

@@ -33,5 +33,4 @@ public class MainDialog extends PubDialog {
     public QQContactTree getFriendsTree(){
         return mainDialogContentPane.getFriendsTree();
     }
-
 }

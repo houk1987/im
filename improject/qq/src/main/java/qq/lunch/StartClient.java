@@ -1,5 +1,7 @@
 package qq.lunch;
 
+import org.jivesoftware.smack.XMPPException;
+import org.smackservice.SmackConnection;
 import qq.login.LoginDialog;
 import qq.sysTray.SysTrayManager;
 
@@ -14,8 +16,11 @@ public class StartClient {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                LoginDialog.getInstance().setVisible(true); //显示登陆窗口
-                SysTrayManager.getInstance().initImTray();  //初始化右下系统托盘
+                try {
+                    QQClient.getInstance().lunchStartQQClient();
+                } catch (XMPPException e) {
+                    e.printStackTrace();
+                }
             }
         });
     }

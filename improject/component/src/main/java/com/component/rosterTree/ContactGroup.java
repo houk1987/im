@@ -1,15 +1,8 @@
 package com.component.rosterTree;
-
-
-
-
-
 import com.component.rosterTree.panes.CollapsiblePane;
 import com.component.rosterTree.renderer.ContactTableCellRenderer;
-
 import javax.swing.*;
 import javax.swing.table.AbstractTableModel;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
@@ -51,13 +44,9 @@ public abstract class ContactGroup extends CollapsiblePane {
         contactItemList.addItem(item);
     }
 
-    public void calOnlineNum(boolean isOnline){
-        if(isOnline)onlineNum++;
-        if(!isOnline && onlineNum>0)onlineNum--;
-    }
-
-    public void updateContactItem(String jid,ImageIcon presenceIcon,boolean isOnline){
-        contactItemList.updateItemPresenceAndUpdateOnlineNum(jid,presenceIcon,isOnline);
+    public void calOnlineNum(int onlineNum){
+        this.onlineNum =  onlineNum;
+        contactItemList.updateContactNumOnGroupTitle();
     }
 
     /**
@@ -110,19 +99,6 @@ public abstract class ContactGroup extends CollapsiblePane {
         public void addItem(ContactItem contactItem){
             model.addContactItem(contactItem);
             updateContactNumOnGroupTitle();
-        }
-
-        public void updateItemPresenceAndUpdateOnlineNum(String jid,ImageIcon presenceIcon,boolean isOnline){
-            List<ContactItem> list = model.getAllContactItems();
-            for(ContactItem contactItem : list){
-                if(jid.equals(contactItem.getJid())){
-                   contactItem.setPresenceIcon(presenceIcon);
-                   calOnlineNum(isOnline);
-                   updateContactNumOnGroupTitle();
-                   updateUI();
-                   return;
-                }
-            }
         }
 
        private void updateContactNumOnGroupTitle(){

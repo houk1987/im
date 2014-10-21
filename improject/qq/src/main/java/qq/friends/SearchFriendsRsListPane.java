@@ -2,7 +2,7 @@ package qq.friends;
 
 import com.component.ImageUtils;
 import com.component.jlabel.JLabelFactory;
-import qq.login.LoginManager;
+import qq.lunch.QQClient;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
@@ -42,7 +42,7 @@ public class SearchFriendsRsListPane extends JScrollPane {
             String[] splitData = list.get(i).split(",");
             String username = splitData[0];
             String name = splitData[1];
-            if(username.equals(LoginManager.getInstance().getLoginAccount().split("@")[0])){continue;}
+            if(username.equals(QQClient.getInstance().getLoginUserName())){continue;}
             if (name == null || name.isEmpty()) {
                 name = username;
             }

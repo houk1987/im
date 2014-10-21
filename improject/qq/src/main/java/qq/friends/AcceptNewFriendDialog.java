@@ -6,8 +6,10 @@ import com.component.notify.NotifyWindow;
 import com.component.session.WrapLetterHTMLEditorKit;
 import com.san30.pub.tools.SanHttpClient;
 import org.smackservice.SmackConnection;
-import qq.login.LoginManager;
+import qq.lunch.QQClient;
 import qq.main.MainDialog;
+import qq.main.tree.QQContactItem;
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -36,7 +38,6 @@ public class AcceptNewFriendDialog extends NotifyWindow {
     @Override
     protected JPanel initContentPane() {
         JPanel contentPane = new JPanel(null);
-        contentPane.setBackground(new Color(151, 56, 142));
         String url = null;
         Font font = new Font("ÀŒÃÂ",Font.PLAIN,13);
         linkLabel = JLabelFactory.createLinkLabel("Õ¨“‚", font, "#0000FF", url);
@@ -46,12 +47,13 @@ public class AcceptNewFriendDialog extends NotifyWindow {
             public void mouseClicked(MouseEvent e) {
                 HashMap<String,String> paramMap = new HashMap<String, String>();
                 paramMap.put("jid",from);
-                paramMap.put("targetAccount", LoginManager.getInstance().getLoginAccount().split("@")[0]);
+                paramMap.put("targetAccount", QQClient.getInstance().getLoginUserName());
                 try {
                     String url = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
                     SanHttpClient.getDataAsString(url, paramMap);
                     dispose();
-                    MainDialog.getInstance().getFriendsTree().addContactItem(from,from.split("@")[0]);
+                    QQContactItem qqContactItem = QQClient.getInstance().getFriendsManager().addNewContactItem(from.split("@")[0]);
+                    QQClient.getInstance().getMainDialog().getFriendsTree().getFriends().addContactItem(qqContactItem);
                 } catch (Exception e1) {
                     e1.printStackTrace();
                 }

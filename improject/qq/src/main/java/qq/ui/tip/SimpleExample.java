@@ -1,9 +1,9 @@
 package qq.ui.tip;
 
+
+
 import net.java.balloontip.BalloonTip;
-import net.java.balloontip.styles.EdgedBalloonStyle;
 import net.java.balloontip.styles.RoundedBalloonStyle;
-import net.java.balloontip.styles.ToolTipBalloonStyle;
 
 import javax.swing.*;
 import java.awt.*;

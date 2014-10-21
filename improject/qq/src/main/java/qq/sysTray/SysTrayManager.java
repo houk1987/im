@@ -3,6 +3,7 @@ package qq.sysTray;
 import com.component.ImTray;
 import com.component.ImageUtils;
 import qq.login.LoginDialog;
+import qq.lunch.QQClient;
 import qq.ui.window.PubDialog;
 
 import java.awt.event.MouseAdapter;
@@ -14,7 +15,6 @@ import java.awt.event.MouseEvent;
 public class SysTrayManager {
     public static SysTrayManager sysTrayManager;
     private ImTray imTray; //QQ œµÕ≥Õ–≈Ã
-    private PubDialog clickShowDialog;
 
     public static SysTrayManager getInstance() {
         if(sysTrayManager == null){
@@ -24,7 +24,7 @@ public class SysTrayManager {
     }
 
     private SysTrayManager() {
-        clickShowDialog = LoginDialog.getInstance();
+
     }
 
     /**
@@ -36,16 +36,18 @@ public class SysTrayManager {
             imTray.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {
-                    if(!clickShowDialog.isVisible()){
-                        clickShowDialog.setVisible(true);
+                    PubDialog dialog = QQClient.getInstance().getLoginDialog();
+                    if(dialog==null){
+                        dialog = QQClient.getInstance().getMainDialog();
                     }
-                    clickShowDialog.requestFocus();
+                    if(dialog!=null){
+                        if(!dialog.isVisible()){
+                            dialog.setVisible(true);
+                        }
+                        dialog.requestFocus();
+                    }
                 }
             });
         }
-    }
-
-    public void setClickShowDialog(PubDialog clickShowDialog) {
-        this.clickShowDialog = clickShowDialog;
     }
 }

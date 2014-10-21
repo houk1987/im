@@ -17,6 +17,7 @@ public class SmackConnection extends XMPPConnection {
     public static SmackConnection getInstance() {
         if(smackConnection == null){
             ConnectionConfiguration connectionConfiguration = new ConnectionConfiguration(HOST_NAME,PORT,DOMAIN);
+            connectionConfiguration.setSASLAuthenticationEnabled(false);  //πÿ±’ SASL —È÷§
             smackConnection = new SmackConnection(connectionConfiguration);
         }
         return smackConnection;

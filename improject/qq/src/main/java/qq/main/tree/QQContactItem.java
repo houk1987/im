@@ -2,6 +2,7 @@ package qq.main.tree;
 
 import com.component.ImageUtils;
 import com.component.rosterTree.ContactItem;
+import qq.lunch.QQClient;
 import qq.session.SessionFrame;
 
 import javax.swing.*;
@@ -14,7 +15,7 @@ public class QQContactItem extends ContactItem {
 
     private final static Color hoverColor = new Color(252, 240, 193);
     private final static Color pressedColor = hoverColor;
-    private final static ImageIcon headIcon = ImageUtils.getInstance("main/tree").getImageIcon("head.png");
+    private final static ImageIcon headIcon = ImageUtils.getInstance("tree/").getImageIcon("head.png");
 
     public QQContactItem() {
     }
@@ -29,6 +30,8 @@ public class QQContactItem extends ContactItem {
 
     @Override
     public void click(){
-        SessionFrame.CreateAndShowSessionFrame(this);
+        if(!QQClient.getInstance().getLoginUserNameWithDomain().equals(getJid())){
+            SessionFrame.CreateAndShowSessionFrame(this);
+        }
     }
 }
