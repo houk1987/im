@@ -57,13 +57,13 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
 
     private void addNextButton(){
         nextButton = searchFriendsFrameButtonFactory.createNextButton();
-        nextButton.setLocation(this.getWidth()-cancelButton.getWidth()-15-nextButton.getWidth(),this.getHeight()-cancelButton.getHeight()-3);
+        nextButton.setLocation(this.getWidth()-cancelButton.getWidth()-16-nextButton.getWidth(),this.getHeight()-cancelButton.getHeight()-4);
         addButton(nextButton);
     }
 
     private void addCloseButton(){
         cancelButton = searchFriendsFrameButtonFactory.createCloseButton();
-        cancelButton.setLocation(this.getWidth()-cancelButton.getWidth()-7,this.getHeight()-cancelButton.getHeight()-3);
+        cancelButton.setLocation(this.getWidth()-cancelButton.getWidth()-8,this.getHeight()-cancelButton.getHeight()-4);
         addButton(cancelButton);
     }
 
@@ -116,6 +116,8 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
             addFriendFrame.dispose();
          }else if(e.getSource().equals(closeWindowButton)){
              addFriendFrame.dispose();
+         }else if(e.getSource().equals(minWindowButton)){
+             addFriendFrame.setExtendedState(JFrame.ICONIFIED);
          }
     }
 }

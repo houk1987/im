@@ -1,5 +1,6 @@
 package qq.friends;
 
+import com.component.ImageUtils;
 import qq.ui.window.PubFrame;
 
 import java.awt.*;
@@ -18,9 +19,14 @@ public class AddFriendFrame extends PubFrame{
         setContentPane(addFriendFrameContentPane);
         setSize(addFriendFrameContentPane.getSize());
         setLocationRelativeTo(null);
+        setIconImage(ImageUtils.getInstance("common/").getImageIcon("icon.png").getImage());
     }
 
     public String getJid() {
         return jid;
+    }
+
+    public static void main(String[] args) {
+        new AddFriendFrame("1").setVisible(true);
     }
 }

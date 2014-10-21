@@ -89,7 +89,12 @@ public class QQClient {
         xmppConnection.getRoster().addRosterListener(new QqRosterListener());//添加状态监听
         loginUserName = userName;  //不带域名的账号
         loginUserNameWithDomain = loginUserName + "@"+xmppConnection.getServiceName();  //设置带域名的账号
-        nickName = rosterManager.getRosterEntry(loginUserName).getName();  //昵称
+        if(rosterManager.getRosterEntry(loginUserName)!=null){
+            nickName = rosterManager.getRosterEntry(loginUserName).getName();  //昵称
+        }else{
+            nickName = loginUserName;
+        }
+
         if(loginDialog!=null&&loginDialog.isVisible()){ //如果登陆界面不为空，且显示状态
             loginDialog.dispose();  //关闭登陆界面
             loginDialog=null;
