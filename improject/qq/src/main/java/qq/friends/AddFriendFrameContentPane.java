@@ -69,7 +69,7 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
 
     private void addFinishButton(){
         finishButton = searchFriendsFrameButtonFactory.createFinishButton();
-        finishButton.setLocation(this.getWidth()-finishButton.getWidth()-7,this.getHeight()-finishButton.getHeight()-3);
+        finishButton.setLocation(this.getWidth()-finishButton.getWidth()-8,this.getHeight()-finishButton.getHeight()-4);
         finishButton.setVisible(false);
         addButton(finishButton);
     }
@@ -84,17 +84,13 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
         finishPane.setBounds(140,40,400,100);
         finishPane.setBackground(Color.WHITE);
         JLabel label = new JLabel();
-        ContactItem contactItem = QQClient.getInstance().getFriendsManager().getFriend(addFriendFrame.getJid());
+       ContactItem contactItem = QQClient.getInstance().getFriendsManager().getFriend(addFriendFrame.getJid());
         if(contactItem!=null) {
             finishPane.setVisible(true);
             label.setText(addFriendFrame.getJid()+"已经为你的好友");
             finishButton.setVisible(true);
             nextButton.setVisible(false);
-            JPanel temp = new JPanel();
-            temp.setBackground(new Color(228,234,245));
-            temp.setSize(nextButton.getSize());
-            temp.setLocation(this.getWidth() - cancelButton.getWidth() - 15 - nextButton.getWidth(), this.getHeight() - cancelButton.getHeight() - 3);
-            add(temp);
+       initTempPane();
         }else{
             finishPane.setVisible(false);
             label.setText("已发出了好友申请。");
@@ -110,6 +106,9 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
              QQClient.getInstance().getFriendsManager().sendFriendApply(addFriendFrame.getJid()); //发送好友请求
              finishPane.setVisible(true);
              nextButton.setVisible(false);
+             finishButton.setVisible(true);
+             cancelButton.setVisible(false);
+             initTempPane();
          }else if(e.getSource().equals(cancelButton)){
              addFriendFrame.dispose();
          }else if(e.getSource().equals(finishButton)){
@@ -119,5 +118,13 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
          }else if(e.getSource().equals(minWindowButton)){
              addFriendFrame.setExtendedState(JFrame.ICONIFIED);
          }
+    }
+
+    private void initTempPane(){
+        JPanel temp = new JPanel();
+        temp.setBackground(new Color(228,234,245));
+        temp.setSize(nextButton.getSize());
+        temp.setLocation(this.getWidth() - cancelButton.getWidth() - 16 - nextButton.getWidth(), this.getHeight() - cancelButton.getHeight() - 4);
+        add(temp);
     }
 }

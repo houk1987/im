@@ -4,6 +4,7 @@ import com.component.ExtendPane;
 import com.component.FontFactory;
 import com.component.ImageUtils;
 import com.component.jlabel.JLabelFactory;
+import net.java.balloontip.BalloonTip;
 import org.smackservice.SmackConnection;
 import qq.lunch.QQClient;
 import qq.main.MainDialog;
@@ -16,10 +17,7 @@ import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import javax.swing.text.Document;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.FocusEvent;
-import java.awt.event.FocusListener;
+import java.awt.event.*;
 
 /**
  * Created by lenovo on 2014/10/16.
@@ -34,7 +32,7 @@ class LoginContentPane extends ExtendPane implements ActionListener{
     private JButton minWindowButton; //最小化窗口按钮
     private LoginDialog loginDialog;  //登陆窗口
     private Font font = new Font("微软雅黑", Font.PLAIN, 14);  //字体
-    //private BalloonTip accountBalloonTip;
+    private BalloonTip accountBalloonTip;
 //   private BalloonTip passwordBalloonTip;
 
     LoginContentPane(LoginDialog loginDialog) {
@@ -88,6 +86,7 @@ class LoginContentPane extends ExtendPane implements ActionListener{
 
             }
         });
+
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
@@ -189,12 +188,12 @@ class LoginContentPane extends ExtendPane implements ActionListener{
                 String password = String.valueOf(passwordField.getPassword()).trim();
                 if(userName.length() == 0){
                     accountTextField.requestFocus();
-                    JOptionPane.showMessageDialog(this,"请输入帐号再进行登录！");
-//                    if(accountBalloonTip == null){
-//                        accountBalloonTip =ToolTip.showBalloonTip(accountTextField,"请输入帐号再进行登录");
-//                    }else{
-//                        accountBalloonTip.setTextContents("请输入帐号再进行登录");
-//                    }
+                   // JOptionPane.showMessageDialog(this,"请输入帐号再进行登录！");
+                    if(accountBalloonTip == null){
+                        accountBalloonTip =ToolTip.showBalloonTip(accountTextField,"请输入帐号再进行登录");
+                    }else{
+                        accountBalloonTip.setTextContents("请输入帐号再进行登录");
+                    }
                 }else if(password.length() == 0){
                     passwordField.requestFocus();
                     JOptionPane.showMessageDialog(this,"请输入密码再进行登录！");

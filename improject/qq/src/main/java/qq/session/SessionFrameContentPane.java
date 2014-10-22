@@ -148,7 +148,7 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
 
     private void addChatWriterPane() {
         chatWritePane = new ChatWritePanel(this);
-        chatWritePane.setBounds(1, 400, 443, 70);
+        chatWritePane.setBounds(3, 400, 443, 70);
         add(chatWritePane);
     }
 
@@ -185,6 +185,7 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
 
         if (e.getSource() == closeButton || e.getSource() == closeWindowButton) {
             sessionFrame.dispose();
+            chatWritePane.clear();//清空输入文本
         } else if (e.getSource() == minWindowButton) {
             sessionFrame.setExtendedState(JFrame.ICONIFIED); //设置成图标化
         } else if (e.getSource() == sendButton) {

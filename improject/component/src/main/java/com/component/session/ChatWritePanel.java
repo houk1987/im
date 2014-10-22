@@ -38,6 +38,12 @@ public class ChatWritePanel extends JScrollPane implements HyperlinkListener, Mo
         setMinimumSize(writeMessagePanelMinSize);
         this.setMaximumSize(writeMessagePanelMaxSize);
         this.setPreferredSize(writeMessagePanelDefaultSize);
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                chatWriteTextPane.requestFocus();
+            }
+        });
     }
 
 

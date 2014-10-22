@@ -52,4 +52,6 @@ public class SearchFriendsFrameButtonFactory extends ButtonFactory{
     public JButton createMinFriendsFrame(){
         return createButton("minAddFriendsFrame.png");
     }
+
+
 }

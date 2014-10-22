@@ -20,5 +20,6 @@ public class LoginDialog extends PubDialog {
         setContentPane(loginContentPane);//设置内容面板
         setSize(loginContentPane.getWidth(),loginContentPane.getHeight());//大小为内容面板大小
         setLocationRelativeTo(null); //居中显示
+        toFront();
     }
 }
