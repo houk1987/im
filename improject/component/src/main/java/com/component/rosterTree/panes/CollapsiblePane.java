@@ -70,7 +70,7 @@ public class CollapsiblePane extends JPanel {
     }
 
     public void setTitleFont(Font font){
-        titlePane.setFont(font);
+        titlePane.setTitleFont(font);
     }
 
     public void setTitleForeground(Color color){

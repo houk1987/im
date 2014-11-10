@@ -9,27 +9,39 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>smackservice</module>
-        <module>resource</module>
+        <module>resource</module>      <!-- 资源模块 -->
         <module>component</module>
-        <module>yh</module>
-        <module>qq</module>
+        <module>dtClient</module>
+        <module>communication</module>
+        <module>uiComponent</module>
     </modules>
 
 
     <dependencyManagement>
         <dependencies>
+            <!-- 测试依赖 -->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
-                <version>4.7</version>
+                <version>${junit_version}</version>
+                <scope>test</scope>
             </dependency>
-
+            <!-- 日志记录 -->
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>${log4j_version}</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.google.code.gson</groupId>
+                <artifactId>gson</artifactId>
+                <version>2.3</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <build>
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -43,6 +55,7 @@
                     <compilerVersion>1.7</compilerVersion>
                 </configuration>
             </plugin>
+
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-assembly-plugin</artifactId>
@@ -54,10 +67,11 @@
                     </descriptorRefs>
                     <archive>
                         <manifest>
-                            <mainClass>com.ui.LoginFrame</mainClass>
+                            <mainClass>qq.lunch.StartClient</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
+
                 <executions>
                     <execution>
                         <id>make-assembly</id>
@@ -66,6 +80,7 @@
                             <goal>assembly</goal>
                         </goals>
                     </execution>
+
                 </executions>
             </plugin>
             <!-- 拷贝资源文件 -->
@@ -90,7 +105,6 @@
                             </resources>
                         </configuration>
                     </execution>
-                    <!-- 拷贝 user 资源文件 -->
                     <execution>
                         <id>copy-user-resources</id>
                         <phase>validate</phase>
@@ -112,8 +126,10 @@
         </plugins>
     </build>
     <properties>
-        <copyResourceTargetResDir>E:\yh\config </copyResourceTargetResDir>
-        <copyResourceTargetUserDir> E:\yh\resources</copyResourceTargetUserDir>
+        <junit_version>4.11</junit_version>
+        <log4j_version>1.2.15</log4j_version>
+        <copyResourceTargetResDir>E:\qq\config </copyResourceTargetResDir>
+        <copyResourceTargetUserDir> E:\qq\resources</copyResourceTargetUserDir>
         <project.build.sourceEncoding>GBK</project.build.sourceEncoding>
         <maven.compiler.encoding>GBK</maven.compiler.encoding>
     </properties>

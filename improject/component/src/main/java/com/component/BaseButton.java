@@ -1,5 +1,9 @@
 package com.component;
 
+
+
+import com.resource.ImageUtils;
+
 import javax.swing.*;
 import java.awt.*;
 

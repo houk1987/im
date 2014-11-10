@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/communication/communication.iml" filepath="$PROJECT_DIR$/communication/communication.iml" />
       <module fileurl="file://$PROJECT_DIR$/component/component.iml" filepath="$PROJECT_DIR$/component/component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dtClient/dtClient.iml" filepath="$PROJECT_DIR$/dtClient/dtClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/improject.iml" filepath="$PROJECT_DIR$/improject.iml" />
-      <module fileurl="file://$PROJECT_DIR$/qq/qq.iml" filepath="$PROJECT_DIR$/qq/qq.iml" />
       <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
-      <module fileurl="file://$PROJECT_DIR$/smackservice/smackservice.iml" filepath="$PROJECT_DIR$/smackservice/smackservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/yh/yh.iml" filepath="$PROJECT_DIR$/yh/yh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uiComponent/uiComponent.iml" filepath="$PROJECT_DIR$/uiComponent/uiComponent.iml" />
     </modules>
   </component>
 </project>

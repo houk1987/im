@@ -28,6 +28,7 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
         add(headIconLabel);
 
         userNameLabel = new JLabel();
+        userNameLabel.setFont(new Font("Î¢ÈíÑÅºÚ",Font.PLAIN,12));
         userNameLabel.setSize(100,23);
         add(userNameLabel);
         if(type.equals(ContactTableCellRenderer.ContactTableCellRendererType.yh)){

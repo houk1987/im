@@ -22,19 +22,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="communication" />
         <module name="component" />
+        <module name="dtClient" />
+        <module name="dtclient" />
         <module name="qq" />
         <module name="resource" />
-        <module name="smackservice" />
+        <module name="uicomponent" />
+        <module name="uiComponent" />
         <module name="yh" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="communication" target="1.7" />
       <module name="component" target="1.7" />
+      <module name="dtClient" target="1.7" />
+      <module name="dtclient" target="1.7" />
       <module name="improject" target="1.7" />
       <module name="qq" target="1.7" />
       <module name="resource" target="1.7" />
       <module name="smackservice" target="1.7" />
+      <module name="uicomponent" target="1.7" />
+      <module name="uiComponent" target="1.7" />
       <module name="yh" target="1.7" />
     </bytecodeTargetLevel>
   </component>

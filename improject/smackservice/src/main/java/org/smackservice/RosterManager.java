@@ -27,7 +27,9 @@ public class RosterManager {
     public List<RosterEntry> getRosters() {
         roster.reload();
         List<RosterEntry> EntriesList = new ArrayList<>();
+
         Collection<RosterEntry> rosterEntry = roster.getEntries();
+        System.out.println(rosterEntry.size());
         Iterator<RosterEntry> i = rosterEntry.iterator();
         while (i.hasNext())
             EntriesList.add(i.next());
@@ -66,6 +68,16 @@ public class RosterManager {
             e1.printStackTrace();
         }
         return false;
+    }
+
+    public void delRoster(String userJid) throws Exception{
+        try {
+            RosterEntry entry = roster.getEntry(userJid);
+            roster.removeEntry(entry);
+        } catch (Exception e) {
+            e.printStackTrace();
+            throw new Exception("É¾³ýºÃÓÑÊ§°Ü!");
+        }
     }
 
     /**
