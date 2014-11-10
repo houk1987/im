@@ -2,363 +2,203 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b2ee7a-73c2-4d3c-a7fe-3f166be63a66" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../webTest/web/index2.jsp" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\TitleIcon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\headItem.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\headItem1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\picbox.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\addFriendsBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriends.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriendsHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriendsPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\close.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFrame.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFrameHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFramePressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closePressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finish.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finishHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finishPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFrame.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFrameHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFramePressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\next.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\nextHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\nextPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\search.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\searchHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\searchPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\defaultTip.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\searchFriendsTopBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\login.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\loginHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\loginPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\loginFrameBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searchFriends.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searchFriendsHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searhFriendsHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\menu\sendMenu.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\busy.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\offline.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\online.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFrame.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFrameHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFramePressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindowHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindowPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\send.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\sendHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\sendPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\sessionFramebg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\collapsed.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\expanded.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\head.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\friends\AcceptNewFriendDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\friends\SearchFriendsFrameButtonFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lister\QqPacketLister.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\login\LoginDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\login\LoginDialogButtonFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lunch\QQClient.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lunch\StartClient.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\MainDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\MainDialogButtonFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\tree\QQContactTree.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\presence\PresenceMenu.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\SessionFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\SessionFrameButtonFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\message\BasicHtml.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\FreeTextField.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\JTextFieldFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\JTextPaneHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\headPicture\Pricture.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\NavigationBar.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\PubDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\PubFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\WindowDraggedHandle.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\config\configuration.properties" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\YahooMessenger_aero.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addConatactBgFirst.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addConatactSecondBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addContact.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddy.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddyHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddyPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelDisabel.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finish.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finishHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finishPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\left.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftIsSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\login.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\loginHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\loginPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\next.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextDisabel.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\ok.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\okHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\okPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previous.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousDisabel.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\right.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightIsSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\send.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\sendHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\sendPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\contactRightbg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\im.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\line.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginErrorMessageBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginFrameBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginWarnTipMessage.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\mainFrame.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\offline.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\online.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerDefault.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftDefault.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightDefault.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\busy.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\offline.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\online.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\rightBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\thridBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\toolBarbg2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\toolbarBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\tree\headItem.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\y_bang_smiley.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\addContact\AddContactDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\addContact\ContactPane.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\button\YhButtonFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\LoginFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\MainFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\PresenceSelectButton.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\jtextField\YhPasswordTextFiled.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\jtextField\YhTextFiled.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\lister\YhPacketLister.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\lister\YhRosterListener.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\mangager\PresenceManager.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\AcceptNewContactDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\LoginErrorWarnNotifyDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\WarnNotifyDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\resource\Yh.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\resource\YhImageRes.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\MainPane.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\SessionFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\message\BasicHtml.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactGroup.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactItem.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactTree.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\yh.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="d666aa0e-0825-46bd-88c4-e6cb528df588" name="improjectchangelist" comment="" />
     <list id="6fc916a9-4c76-48cb-9be9-fbedecfd6094" name="Failed commit: Default" comment="dt">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/AcceptNewFriendDialog$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/AcceptNewFriendDialog$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/AcceptNewFriendDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/AddFriendFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/AddFriendFrameContentPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/session/message/BasicHtml.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/JTextField/FreeTextField$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/JTextField/FreeTextField.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/FriendsManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/headPicture/HeadPicture$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/headPicture/HeadPicture$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/headPicture/HeadPicture.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/JTextField/JTextFieldFactory$JTextFieldWithBorder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/JTextField/JTextFieldFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/JTextField/JTextPaneHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/login/LoginContentPane$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/login/LoginContentPane$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/login/LoginContentPane$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/login/LoginContentPane$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/login/LoginContentPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/login/LoginDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/login/LoginDialogButtonFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/main/MainDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/main/MainDialogButtonFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/main/MainDialogContentPane$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/main/MainDialogContentPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/window/NavigationBar.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/manager/PresenceManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/presence/PresenceMenu$MyMenuItemUI.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/presence/PresenceMenu$PresenceItem$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/presence/PresenceMenu$PresenceItem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/presence/PresenceMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/headPicture/Pricture.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/window/PubDialog.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/window/PubFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/lunch/QQClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/main/tree/QQContactGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/main/tree/QQContactItem.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/main/tree/QQContactTree.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/lister/QqPacketLister$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/lister/QqPacketLister.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/lister/QqRosterListener.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/menu/RightMenu$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/main/tree/RightMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/menu/RightMenu.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/SearchFriendsConditionPane$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/SearchFriendsConditionPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/SearchFriendsFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/SearchFriendsFrameButtonFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/SearchFriendsFrameContentPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/SearchFriendsRsListPane$AddFriends.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/friends/SearchFriendsRsListPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/session/SessionFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/session/SessionFrameButtonFactory.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/session/SessionFrameContentPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/lunch/StartClient$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/lunch/StartClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/sysTray/SysTrayManager$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/sysTray/SysTrayManager$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/sysTray/SysTrayManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/common/TitleIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/classes/qq/ui/window/WindowDraggedHandle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhclient/target/classes/jtextField/YhTextFiled.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/addFriends.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/addFriendsBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/addFriendsHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/addFriendsPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/presence/away.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/presence/away.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/presence/busy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/closeAddFriendsFrame.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/closeAddFriendsFrameHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/closeAddFriendsFramePressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/closeHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/closePressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/closeSessionFrame.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/closeSessionFrameHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/closeSessionFramePressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/closeWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/closeWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/closeWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/closeWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/closeWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/closeWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/closeWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/closeWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/closeWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/closeWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/closeWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/closeWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/tree/collapsed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/tree/collapsed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/defaultTip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/tree/expanded.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/tree/expanded.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/finish.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/finishHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/finishPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/tree/head.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/common/headItem.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/common/headItem1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/presence/hide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/presence/hide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/common/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/login.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/loginFrameBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/loginHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/loginPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/mainDialogBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/mainDialogBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/maxWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/maxWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/maxWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/minAddFriendsFrame.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/minAddFriendsFrameHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/minAddFriendsFramePressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/minWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/minWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/minWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/minWindow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/minWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/minWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/minWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/minWindowHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/minWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/login/button/minWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/minWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/minWindowPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/nextHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/nextPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/presence/nobother.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/presence/nobother.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/presence/offline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/presence/online.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/common/picbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/qq-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/archive-tmp/qq-1.0-SNAPSHOT.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/searchFriends.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/searchFriendsHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/searchFriendsTopBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/searchHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/friends/button/searchPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/main/button/searhFriendsHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/send.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/sendHover.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/menu/sendMenu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/button/sendPressed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/resources/images/session/sessionFramebg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/friends/AcceptNewFriendDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/AccountInfoPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/friends/AddFriendFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/AddFriendFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/friends/AddFriendFrameContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/AddFriendFrameContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/panes/BaseCollapsibleTitlePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/panes/BaseCollapsibleTitlePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/button/Button.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/button/ButtonFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/chat/ChatDisplayPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatMessageFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/interceptor/ChatMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/interceptor/ChatMessageHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatMessageIsNullException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatMessageParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatOperate.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/chat/ChatWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/chat/ChatWindowContent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindowContent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/chat/ChatWindowManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindowManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/chat/ChatWritePanel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/panes/CollapsiblePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/panes/CollapsiblePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/panes/CollapsiblePaneListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/panes/CollapsiblePaneListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/panes/CollapsibleTitlePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/panes/CollapsibleTitlePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/panes/ColorUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/panes/ColorUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/CommunicationConnection.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/comunication/src/main/java/com/comunication/connection/ConnectionListerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/ConnectionListerImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/ConnectionListerImplHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/comunication/src/main/java/com/comunication/connection/ConnectionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/ConnectionManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/ContactGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/ContactGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/ContactItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/ContactItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/ContactItemMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/ContactItemMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/renderer/ContactTableCellRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/renderer/ContactTableCellRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/main/tree/CustomTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/CustomTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/main/tree/CustomTreeRightMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/CustomTreeRightMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/DtClientWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/main/DtClientWindowContent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/DtClientWindowContent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/DtNavigationBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/jlabel/ExpandableImageLabel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/jlabel/ExpandableImageLabel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/pane/ExtendPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/pane/ExtendPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/pane/ExtendSplitPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/table/ExtendTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/textField/FreeTextField.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/friends/FriendsManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/FriendsManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChatInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChatManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/test/java/com/comunication/chat/GroupChatManagerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupMemberTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/GroupMessageAcceptWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupWindowContent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/headPicture/HeadPicture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/headPicture/HeadPicture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/headPicture/HeadPicture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/panes/ICollapsibleTitlePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/panes/ICollapsibleTitlePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/button/ImageButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/button/ImageButton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/image/ImageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/src/main/java/com/resource/ImageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/image/ImageUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/jlabel/JLabelFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/jlabel/JLabelFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/textField/JTextFieldFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/chat/JTextPaneHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/jlabel/LinkLabel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/jlabel/LinkLabel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/button/LoginButtonFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/login/LoginContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/login/LoginContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/login/LoginDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/login/LoginManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/main/MainDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/button/MainDialogButtonFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/main/MainDialogContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/main/MainDialogContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/.idea/libraries/Maven__com_30_tools_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/.idea/libraries/Maven__com_google_code_gson_gson_2_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jdmk_jmxtools_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jmx_jmxri_1_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_1_3_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_jms_jms_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_15.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/.idea/libraries/Maven__org_igniterealtime_smack_smack_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/.idea/libraries/Maven__org_igniterealtime_smack_smackx_3_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/interceptor/MessageHandleManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/comunication/src/main/java/com/comunication/interceptor/MessageInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/interceptor/MessageInterceptor.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/comunication/src/main/java/com/comunication/interceptor/MessageInterceptorHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/interceptor/MessageInterceptorHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/comunication/src/main/java/com/comunication/interceptor/MessageListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/interceptor/MessageListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/comunication/src/main/java/com/comunication/interceptor/MessagePacketHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/interceptor/MessagePacketHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/panes/ModelUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/panes/ModelUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/NavigationBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/window/NotifyWindow.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/main/tree/OrgTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/OrgTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/main/tree/OrgTreeCellRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/OrgTreeCellRenderer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/presence/PresenceManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/manager/PresenceManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/presence/PresenceMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/headPicture/Pricture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/headPicture/Pricture.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/window/PubDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/window/PubFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/PubTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/PubTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/main/tree/QQContactGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/main/tree/QQContactGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/main/tree/QQContactItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/main/tree/QQContactItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/main/tree/QQContactTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/lister/QqRosterListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/RepeatLogin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/main/tree/RightMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/main/tree/RightMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/menu/RightMenu.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/comunication/src/main/java/com/comunication/roster/RosterManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/roster/RosterManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/friends/SearchFriendsConditionPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/SearchFriendsConditionPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/friends/SearchFriendsFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/SearchFriendsFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/button/SearchFriendsFrameButtonFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/friends/SearchFriendsFrameContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/SearchFriendsFrameContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/friends/SearchFriendsRsListPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/SearchFriendsRsListPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/SelectMemberDialog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/button/SessionFrameButtonFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/session/SessionFrameContentPane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/SingleChat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/start/StartClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/src/main/java/com/qq/start/StartQQClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/main/tree/SynDataService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/SynDataService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/sysTray/SysTrayManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/tools/Tools.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/TreePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/TreePane.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/vo/Unit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/vo/Unit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/main/tree/UserHeadImageProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/UserHeadImageProvider.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/src/main/java/com/dt/vo/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/vo/UserInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/rosterTree/VerticalFlowLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/VerticalFlowLayout.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/src/main/java/com/ui/window/WindowDraggedHandle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/chat/WrapLetterHTMLEditorKit.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/communication.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/comunication/comunication.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/config/configuration.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/dtClient.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/dtclient.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/im.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/resources/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/target/maven-archiver/pom.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/dtclient/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/communication/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/qqclient/qqclient.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqclient/qqclient.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/uiComponent.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../im/uicomponent/uicomponent.iml" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__com_30_pubCompent_1_0.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__junit_junit_4_7.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\component\src\main\java\com\component\ImageUtils.java" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\balloontip-1.2.4.1.jar" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\config\configuration.properties" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\qq.iml" afterPath="" />
@@ -400,243 +240,10 @@
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\target\classes\session\MainPane.class" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\target\classes\session\SessionFrame.class" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\target\classes\session\message\BasicHtml.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smackservice/target/classes/org/smackservice/RosterManager.class" afterPath="$PROJECT_DIR$/smackservice/target/classes/org/smackservice/RosterManager.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/src/main/java/com/component/BaseButton.java" afterPath="$PROJECT_DIR$/component/src/main/java/com/component/BaseButton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/src/main/java/com/component/rosterTree/panes/CollapsiblePane.java" afterPath="$PROJECT_DIR$/component/src/main/java/com/component/rosterTree/panes/CollapsiblePane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/src/main/java/com/resource/ConfigurationRes.java" afterPath="$PROJECT_DIR$/resource/src/main/java/com/resource/ConfigurationRes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/src/main/java/com/component/rosterTree/renderer/ContactTableCellRenderer.java" afterPath="$PROJECT_DIR$/component/src/main/java/com/component/rosterTree/renderer/ContactTableCellRenderer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/RosterManager.java" afterPath="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/RosterManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/component.iml" afterPath="$PROJECT_DIR$/component/component.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/improject.iml" afterPath="$PROJECT_DIR$/improject.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/pom.xml" afterPath="$PROJECT_DIR$/component/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/resource.iml" afterPath="$PROJECT_DIR$/resource/resource.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/smackservice/smackservice.iml" afterPath="$PROJECT_DIR$/smackservice/smackservice.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\pom.xml" afterPath="$PROJECT_DIR$/qqclient/pom.xml" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\TitleIcon.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/common/TitleIcon.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\headItem.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/common/headItem.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\headItem1.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/common/headItem1.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\icon.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/common/icon.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\picbox.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/common/picbox.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\addFriendsBg.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/addFriendsBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriends.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/addFriends.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriendsHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/addFriendsHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriendsPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/addFriendsPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\close.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/close.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFrame.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/closeAddFriendsFrame.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFrameHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/closeAddFriendsFrameHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFramePressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/closeAddFriendsFramePressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/closeHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closePressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/closePressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/closeWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/closeWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/closeWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finish.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/finish.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finishHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/finishHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finishPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/finishPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFrame.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/minAddFriendsFrame.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFrameHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/minAddFriendsFrameHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFramePressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/minAddFriendsFramePressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/minWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/minWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/minWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\next.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/next.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\nextHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/nextHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\nextPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/nextPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\search.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/search.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\searchHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/searchHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\searchPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/button/searchPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\defaultTip.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/defaultTip.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\searchFriendsTopBg.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/friends/searchFriendsTopBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/closeWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/closeWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/closeWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\login.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/login.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\loginHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/loginHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\loginPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/loginPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/minWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/minWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/button/minWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\loginFrameBg.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/login/loginFrameBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/closeWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/closeWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/closeWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/minWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/minWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/minWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searchFriends.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/searchFriends.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searchFriendsHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/searchFriendsHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searhFriendsHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/main/button/searhFriendsHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\menu\sendMenu.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/menu/sendMenu.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\busy.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/presence/busy.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\offline.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/presence/offline.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\online.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/presence/online.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFrame.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/closeSessionFrame.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFrameHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/closeSessionFrameHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFramePressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/closeSessionFramePressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/closeWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/closeWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/closeWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/maxWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/maxWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/maxWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindow.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/minWindow.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindowHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/minWindowHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindowPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/minWindowPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\send.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/send.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\sendHover.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/sendHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\sendPressed.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/button/sendPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\sessionFramebg.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/session/sessionFramebg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\collapsed.gif" afterPath="$PROJECT_DIR$/yhclient/resources/images/tree/collapsed.gif" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\expanded.gif" afterPath="$PROJECT_DIR$/yhclient/resources/images/tree/expanded.gif" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\head.png" afterPath="$PROJECT_DIR$/../im/qqclient/resources/images/tree/head.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\friends\AcceptNewFriendDialog.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/AcceptNewFriendDialog.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\friends\SearchFriendsFrameButtonFactory.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/friends/SearchFriendsFrameButtonFactory.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lister\QqPacketLister.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/lister/QqPacketLister.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\login\LoginDialog.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/login/LoginDialog.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\login\LoginDialogButtonFactory.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/login/LoginDialogButtonFactory.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lunch\QQClient.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/lunch/QQClient.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lunch\StartClient.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/lunch/StartClient.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\MainDialog.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/main/MainDialog.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\MainDialogButtonFactory.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/main/MainDialogButtonFactory.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\tree\QQContactTree.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/main/tree/QQContactTree.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\presence\PresenceMenu.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/presence/PresenceMenu.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\SessionFrame.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/session/SessionFrame.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\SessionFrameButtonFactory.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/session/SessionFrameButtonFactory.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\message\BasicHtml.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/session/message/BasicHtml.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\FreeTextField.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/JTextField/FreeTextField.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\JTextFieldFactory.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/JTextField/JTextFieldFactory.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\JTextPaneHelper.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/JTextField/JTextPaneHelper.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\headPicture\Pricture.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/headPicture/Pricture.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\NavigationBar.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/window/NavigationBar.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\PubDialog.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/window/PubDialog.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\PubFrame.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/window/PubFrame.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\WindowDraggedHandle.java" afterPath="$PROJECT_DIR$/qqclient/src/main/java/qq/ui/window/WindowDraggedHandle.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\config\configuration.properties" afterPath="$PROJECT_DIR$/yhclient/config/configuration.properties" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\pom.xml" afterPath="$PROJECT_DIR$/yhclient/pom.xml" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\YahooMessenger_aero.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/YahooMessenger_aero.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addConatactBgFirst.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/addConatactBgFirst.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addConatactSecondBg.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/addConatactSecondBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addContact.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/addContact.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddy.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/AddBuddy.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddyHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/AddBuddyHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddyPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/AddBuddyPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancel.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/cancel.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelDisabel.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/cancelDisabel.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/cancelHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/cancelPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finish.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/finish.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finishHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/finishHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finishPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/finishPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\left.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/left.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/leftHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftIsSelected.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/leftIsSelected.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/leftPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\login.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/login.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\loginHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/loginHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\loginPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/loginPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\next.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/next.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextDisabel.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/nextDisabel.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/nextHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/nextPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\ok.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/ok.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\okHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/okHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\okPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/okPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previous.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/previous.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousDisabel.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/previousDisabel.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/previousHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/previousPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\right.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/right.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/rightHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightIsSelected.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/rightIsSelected.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/rightPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\send.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/send.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\sendHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/sendHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\sendPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/button/sendPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\contactRightbg.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/contactRightbg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\im.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/im.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\line.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/line.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginErrorMessageBg.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/loginErrorMessageBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginFrameBg.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/loginFrameBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginWarnTipMessage.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/loginWarnTipMessage.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\mainFrame.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/mainFrame.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\offline.gif" afterPath="$PROJECT_DIR$/yhclient/resources/images/offline.gif" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\online.gif" afterPath="$PROJECT_DIR$/yhclient/resources/images/online.gif" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerDefault.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/centerDefault.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/centerHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/centerPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftDefault.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/leftDefault.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/leftHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/leftPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightDefault.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/rightDefault.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightHover.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/rightHover.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightPressed.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presenceSelectButton/rightPressed.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\busy.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presence/busy.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\offline.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presence/offline.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\online.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/presence/online.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\rightBg.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/rightBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\thridBg.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/thridBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\toolBarbg2.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/toolBarbg2.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\toolbarBg.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/toolbarBg.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\tree\headItem.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/tree/headItem.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\resources\images\y_bang_smiley.png" afterPath="$PROJECT_DIR$/yhclient/resources/images/y_bang_smiley.png" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\addContact\AddContactDialog.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/addContact/AddContactDialog.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\addContact\ContactPane.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/addContact/ContactPane.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\button\YhButtonFactory.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/button/YhButtonFactory.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\LoginFrame.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/com/ui/LoginFrame.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\MainFrame.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/com/ui/MainFrame.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\PresenceSelectButton.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/com/ui/PresenceSelectButton.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\jtextField\YhPasswordTextFiled.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/jtextField/YhPasswordTextFiled.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\jtextField\YhTextFiled.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/jtextField/YhTextFiled.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\lister\YhPacketLister.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/lister/YhPacketLister.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\lister\YhRosterListener.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/lister/YhRosterListener.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\mangager\PresenceManager.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/mangager/PresenceManager.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\AcceptNewContactDialog.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/notify/AcceptNewContactDialog.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\LoginErrorWarnNotifyDialog.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/notify/LoginErrorWarnNotifyDialog.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\WarnNotifyDialog.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/notify/WarnNotifyDialog.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\resource\Yh.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/resource/Yh.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\resource\YhImageRes.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/resource/YhImageRes.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\MainPane.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/session/MainPane.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\SessionFrame.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/session/SessionFrame.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\message\BasicHtml.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/session/message/BasicHtml.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactGroup.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/tree/YhContactGroup.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactItem.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/tree/YhContactItem.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactTree.java" afterPath="$PROJECT_DIR$/yhclient/src/main/java/tree/YhContactTree.java" />
-      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yh\yh.iml" afterPath="$PROJECT_DIR$/yhclient/yhclient.iml" />
     </list>
-    <list id="7402c7b9-1ef1-4057-8f41-fca233fb67c8" name="Failed commit: Failed commit: Default" comment="dt">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/presence/away.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/bottom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/bottomLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/bottomRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/presence/busy.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/center.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/tree/collapsed.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/main/navigation/custom.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/tree/expanded.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/presence/hide.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/main/navigation/navigationBg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/presence/nobother.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/presence/offline.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/presence/online.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/main/navigation/org.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/title.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/titleLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/titleRight.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/top.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/topLeft.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/resources/images/frame/topRight.png" />
-    </list>
+    <list id="7402c7b9-1ef1-4057-8f41-fca233fb67c8" name="Failed commit: Failed commit: Default" comment="dt" />
     <ignored path="improject.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -692,8 +299,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -794,8 +401,8 @@
       <file leaf-file-name="StartClient.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/start/StartClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8056951" vertical-offset="149" max-vertical-offset="990">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.6182519" vertical-offset="149" max-vertical-offset="990">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -915,7 +522,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -1037,6 +643,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1448,7 +1055,8 @@
       <workItem from="1415581557753" duration="13907000" />
       <workItem from="1415601972497" duration="9041000" />
       <workItem from="1415611033719" duration="1184000" />
-      <workItem from="1415612334538" duration="360000" />
+      <workItem from="1415612334538" duration="751000" />
+      <workItem from="1415613338765" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="添加了资源文件的模块，组件模块">
       <created>1412408307130</created>
@@ -1510,7 +1118,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354376000" />
+    <option name="totallyTimeSpent" value="354875000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1533,7 +1141,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1010" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1549,7 +1157,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20709382" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327252" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1561,6 +1168,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3180778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20709382" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1629,6 +1237,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/start/StartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="990">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/component/src/main/java/com/component/session/ChatDisplayPane.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="763" max-vertical-offset="1600">
@@ -1669,9 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5871886" vertical-offset="15" max-vertical-offset="1980">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1693,13 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.25301206" vertical-offset="0" max-vertical-offset="1230">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/presence/PresenceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.40963855" vertical-offset="700" max-vertical-offset="1530">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1780,11 +1386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="593" max-vertical-offset="1650">
           <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-          <folding>
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1330#1331#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1865,7 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.56626505" vertical-offset="1270" max-vertical-offset="2100">
           <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1903,7 +1503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="946" max-vertical-offset="1890">
           <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1911,7 +1510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1962,7 +1560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4406365" vertical-offset="0" max-vertical-offset="817">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2008,8 +1605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/start/StartClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8056951" vertical-offset="149" max-vertical-offset="990">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.6182519" vertical-offset="149" max-vertical-offset="990">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding />
         </state>
       </provider>
