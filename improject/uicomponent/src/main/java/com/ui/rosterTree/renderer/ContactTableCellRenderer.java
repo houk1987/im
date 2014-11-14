@@ -1,7 +1,5 @@
 package com.ui.rosterTree.renderer;
 
-;
-
 import com.ui.rosterTree.ContactGroup;
 import com.ui.rosterTree.ContactItem;
 
@@ -30,7 +28,7 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
         userNameLabel.setFont(new Font("Î¢ÈíÑÅºÚ",Font.PLAIN,12));
         userNameLabel.setSize(100,23);
         add(userNameLabel);
-        if(type.equals(ContactTableCellRendererType.yh)){
+        if(type.equals(ContactTableCellRenderer.ContactTableCellRendererType.yh)){
             presenceIconLabel = new JLabel();
             presenceIconLabel.setLocation(60,8);
             add(presenceIconLabel);
@@ -38,7 +36,7 @@ public class ContactTableCellRenderer extends JPanel implements TableCellRendere
             headIconLabel.setLocation(20,3);
         }
 
-        if(type.equals(ContactTableCellRendererType.qq)){
+        if(type.equals(ContactTableCellRenderer.ContactTableCellRendererType.qq)){
             userNameLabel.setLocation(30,10);
             headIconLabel.setLocation(10,10);
         }

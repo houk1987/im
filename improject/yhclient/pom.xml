@@ -18,16 +18,14 @@
         </dependency>
         <dependency>
             <groupId>com.30</groupId>
-            <artifactId>component</artifactId>
+            <artifactId>communication</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.30</groupId>
-            <artifactId>smackservice</artifactId>
+            <artifactId>uicomponent</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
-
     </dependencies>
 
 

@@ -1,10 +1,9 @@
 package lister;
 
-import com.ui.MainFrame;
+import main.MainFrame;
 import mangager.PresenceManager;
 import org.jivesoftware.smack.RosterListener;
 import org.jivesoftware.smack.packet.Presence;
-
 import java.util.Collection;
 
 /**
@@ -29,10 +28,13 @@ public class YhRosterListener implements RosterListener {
     @Override
     public void presenceChanged(Presence presence) {
         String from = presence.getFrom().split("/")[0];
-        if(presence.getType().equals(Presence.Type.available)){
-            MainFrame.getInstance().getYhContactTree().getFriends().updateContactItem(from, PresenceManager.getOnline(),true);
+        int number = MainFrame.getInstance().getYhContactTree().getOnlineNumber();
+        if(presence.isAvailable()){
+            number++;
         }else{
-            MainFrame.getInstance().getYhContactTree().getFriends().updateContactItem(from, PresenceManager.getOffline(),false);
+            number--;
         }
+        MainFrame.getInstance().getYhContactTree().getFriends().calOnlineNum(number);   //更新界面上在线数量
+
     }
 }

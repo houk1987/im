@@ -63,45 +63,4 @@ public class RightMenu extends JPopupMenu  {
                     insets.left - imageIcon.getIconWidth(), insets.top, null);
         }
     }
-
-    public static void main(String[] args) {
-        final JFrame frame = new JFrame();
-        frame.setSize(600, 500);
-        frame.setTitle("ImageMenu");
-        ImageIcon icon = ImageUtils.getInstance("menu/").getImageIcon("rightMenuBg.png");
-        final JPopupMenu menu = new JPopupMenu(
-                );
-
-        menu.add(new JMenuItem(ImageUtils.getInstance("menu/").getImageIcon("sendMenu.png")));
-        menu.add(new JMenuItem(ImageUtils.getInstance("menu/").getImageIcon("sendMenu.png")));
-        menu.add(new JMenuItem("发送电子邮件"));
-        menu.addSeparator();
-
-        menu.add(new JMenuItem("查看资料"));
-        menu.add(new JMenuItem("消息记录"));
-        menu.addSeparator();
-        menu.add(new JMenuItem("会话置顶"));
-        menu.add(new JMenuItem("从会话列表移除"));
-        menu.add(new JMenuItem("设置权限"));
-        menu.add(new JMenuItem("修改备注姓名"));
-        menu.add(new JMenuItem("移动联系人至"));
-        menu.add(new JMenuItem("删除好友"));
-
-        menu.add(new JMenuItem("举报此用户"));
-        menu.add(new JMenuItem("好友管理"));
-        menu.addSeparator();
-        menu.add(new JMenuItem("会员快捷功能"));
-        menu.add(new JMenuItem("进入QQ空间"));
-        JLabel label = new JLabel("Right click me to show image popup menu.");
-        label.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseReleased(MouseEvent e) {
-                if (e.isPopupTrigger()) {
-                    menu.show(frame, e.getPoint().x, e.getPoint().y);
-                }
-            }
-        });
-        frame.getContentPane().add(label, BorderLayout.CENTER);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setVisible(true);
-    }
 }

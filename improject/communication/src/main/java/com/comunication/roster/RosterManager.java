@@ -1,13 +1,10 @@
 package com.comunication.roster;
-
 import com.comunication.connection.CommunicationConnection;
 import com.comunication.connection.ConnectionManager;
 import com.san30.pub.tools.SanHttpClient;
 import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.RosterEntry;
-import org.jivesoftware.smack.XMPPConnection;
 import org.jivesoftware.smack.packet.Presence;
-
 import java.util.*;
 
 /**
@@ -15,10 +12,8 @@ import java.util.*;
  */
 public class RosterManager {
     private Roster roster;
-    private CommunicationConnection connection = ConnectionManager.getConnection();
-
-    public RosterManager(){
-        this.roster = connection.getRoster();
+    public RosterManager(Roster roster){
+        this.roster = roster;
     }
 
     /**
@@ -28,9 +23,7 @@ public class RosterManager {
     public List<RosterEntry> getRosters() {
         roster.reload();
         List<RosterEntry> EntriesList = new ArrayList<>();
-
         Collection<RosterEntry> rosterEntry = roster.getEntries();
-        System.out.println(rosterEntry.size());
         Iterator<RosterEntry> i = rosterEntry.iterator();
         while (i.hasNext())
             EntriesList.add(i.next());
@@ -45,7 +38,7 @@ public class RosterManager {
     public  RosterEntry getRosterEntry(String jid) {
         if (jid == null) return null;
         roster.reload();
-        return roster.getEntry(jid+"@"+connection.getServiceName());
+        return roster.getEntry(jid+"@"+ConnectionManager.getConnection().getServiceName());
     }
 
     /**
@@ -61,7 +54,7 @@ public class RosterManager {
                 paramMap.put("jid", fromUserName);
                 paramMap.put("type", "validateAccount");
                 paramMap.put("targetAccount", friendUserName);
-                String url = "http://" + connection.getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
+                String url = "http://" + ConnectionManager.getConnection().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
                 String rs = SanHttpClient.getDataAsString(url, paramMap);
                 return Boolean.valueOf(rs);
             }

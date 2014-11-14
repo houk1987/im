@@ -1,13 +1,12 @@
 package qq.friends;
 
-import com.component.rosterTree.ContactItem;
+import com.comunication.roster.RosterManager;
+import com.ui.rosterTree.ContactItem;
 import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.packet.Presence;
-import org.smackservice.RosterManager;
 import qq.lunch.QQClient;
 import qq.main.tree.QQContactItem;
 import qq.manager.PresenceManager;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

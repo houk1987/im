@@ -1,9 +1,7 @@
 package session;
-
-import com.component.rosterTree.ContactItem;
-import resource.YhImageRes;
+import com.ui.rosterTree.ContactItem;
+import images.CommonImagesFactroy;
 import org.jivesoftware.smack.packet.Message;
-
 import javax.swing.*;
 import java.awt.*;
 import java.util.*;
@@ -15,6 +13,7 @@ public class SessionFrame extends JFrame {
     private MainPane mainPane;
     private static final HashMap<String,SessionFrame> sessionFrameHashMap = new HashMap<>();
     private ContactItem contact;
+
     /**
      *
      * @param contact
@@ -37,8 +36,7 @@ public class SessionFrame extends JFrame {
         mainPane = new MainPane(this);
         setContentPane(mainPane);
         setTitle(contact.getUserName());
-        setIconImage(YhImageRes.getImageIcon("im.png").getImage());
-
+        setIconImage(CommonImagesFactroy.createIm().getImage());
         setResizable(false);
     }
 

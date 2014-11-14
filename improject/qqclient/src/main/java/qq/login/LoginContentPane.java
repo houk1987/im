@@ -1,10 +1,9 @@
 package qq.login;
 
-import com.component.ExtendPane;
-import com.component.FontFactory;
-import com.component.jlabel.JLabelFactory;
-import com.resource.ImageUtils;
-import org.smackservice.SmackConnection;
+import com.comunication.connection.ConnectionManager;
+import com.ui.jlabel.JLabelFactory;
+import com.ui.pane.ExtendPane;
+import qq.images.LoginImagesFactory;
 import qq.lunch.QQClient;
 import qq.ui.JTextField.JTextFieldFactory;
 
@@ -31,7 +30,7 @@ class LoginContentPane extends ExtendPane implements ActionListener{
     private Font font = new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 14);  //×ÖÌå
 
     LoginContentPane(LoginDialog loginDialog) {
-        super(null, ImageUtils.getInstance("login/").getImageIcon("loginFrameBg.png"));
+        super(null, LoginImagesFactory.getInstance().getLoginFrameBg());
         this.loginDialog = loginDialog;
         this.buttonFactory = new LoginDialogButtonFactory();
 
@@ -164,7 +163,7 @@ class LoginContentPane extends ExtendPane implements ActionListener{
     }
 
     private void addRegisterLink(){
-        registerLinkLabel = JLabelFactory.createLinkLabel("×¢²áÕÊºÅ", FontFactory.createFont("Î¢ÈíÑÅºÚ", 12), "#66a1e3", "http://" + SmackConnection.getInstance().getHost() + ":9090/plugins/userservice/qqRegister.htm");
+        registerLinkLabel = JLabelFactory.createLinkLabel("×¢²áÕÊºÅ", new Font("Î¢ÈíÑÅºÚ",Font.PLAIN, 12), "#66a1e3", "http://" + ConnectionManager.getConnection().getHost() + ":9090/plugins/userservice/qqRegister.htm");
         registerLinkLabel.setCursor(new Cursor(Cursor.HAND_CURSOR));
         registerLinkLabel.setSize(100, 17);
         registerLinkLabel.setLocation(337, 200);

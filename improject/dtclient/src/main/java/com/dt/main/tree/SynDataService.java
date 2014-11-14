@@ -12,8 +12,8 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * åŒæ­¥æœåŠ¡å™¨æ•°æ®
- * åŒæ­¥äººå‘˜ä¿¡æ¯ï¼Œå•ä½ä¿¡æ¯
+ * Í¬²½·şÎñÆ÷Êı¾İ
+ * Í¬²½ÈËÔ±ĞÅÏ¢£¬µ¥Î»ĞÅÏ¢
  * Created by a on 2014/7/9.
  */
 public class SynDataService {
@@ -30,7 +30,7 @@ public class SynDataService {
     }
 
     /**
-     * åŒæ­¥äººå‘˜æ•°æ®
+     * Í¬²½ÈËÔ±Êı¾İ
      */
     public  List<UserInfo> synUsers() {
         if(userInfoList != null)return userInfoList;
@@ -59,7 +59,7 @@ public class SynDataService {
     }
 
     /**
-     * åŒæ­¥å•ä½æ•°æ®
+     * Í¬²½µ¥Î»Êı¾İ
      */
     public  List<Unit> synUnits() {
         HashMap<String, String> paramMap = new HashMap<>();
@@ -75,9 +75,9 @@ public class SynDataService {
     }
 
     /**
-     * æ‰§è¡ŒåŒæ­¥è¯·æ±‚ï¼Œè¿”å›è¯·æ±‚çš„æ•°æ®
+     * Ö´ĞĞÍ¬²½ÇëÇó£¬·µ»ØÇëÇóµÄÊı¾İ
      *
-     * @param paramMap è¯·æ±‚å‚æ•°çš„ map
+     * @param paramMap ÇëÇó²ÎÊıµÄ map
      * @return rs
      */
     private  String execute(HashMap<String, String> paramMap) {

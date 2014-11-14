@@ -1,7 +1,7 @@
 package qq.presence;
 
+import com.comunication.connection.ConnectionManager;
 import org.jivesoftware.smack.packet.Presence;
-import org.smackservice.SmackConnection;
 import qq.lunch.QQClient;
 import qq.manager.PresenceManager;
 
@@ -40,7 +40,7 @@ public class PresenceMenu extends JPopupMenu {
             this.addActionListener(new ActionListener() {
                 @Override
                 public void actionPerformed(ActionEvent e) {
-                    QQClient.getInstance().changeClientPresence(type);
+                    ConnectionManager.getConnection().sendPacket(type);
                     presenceLabel.setIcon(presenceManager.getPresenceIcon(type));
                 }
             });

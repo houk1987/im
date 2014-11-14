@@ -1,6 +1,6 @@
 package com.ui.button;
 
-import com.ui.image.ImageUtils;
+import com.resource.ImageUtils;
 
 import javax.swing.*;
 import java.awt.*;
@@ -21,7 +21,7 @@ public class ImageButton extends JButton {
      * @param imageName 默认状态按钮图片文件名
      */
     public ImageButton(String imagePath, String imageName) {
-        imageUtils = ImageUtils.getInstance(imagePath);
+        imageUtils = new ImageUtils(imagePath);
         otherPath = imageName.substring(0, imageName.lastIndexOf("."));
         setIcon(imageUtils.getImageIcon(imageName));
         setRolloverIcon(imageUtils.getImageIcon(otherPath + "Hover.png"));

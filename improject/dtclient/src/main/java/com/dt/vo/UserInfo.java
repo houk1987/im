@@ -8,165 +8,165 @@ import java.util.Date;
 
 public class UserInfo implements Serializable {
 
-	private static final long serialVersionUID = 1L;
-	
-	private String id; // ç¼–å·
-	private String username;// å§“å
-	private String age; // å¹´é¾„
-	private int sex;// æ€§åˆ«ï¼ˆ0,1ï¼‰ 0ä»£è¡¨å¥³ï¼Œ1ä»£è¡¨ç”·
-	private String birthday;// å‡ºç”Ÿæ—¥æœŸ
-	private int rank;// å†›è¡”
-	private String workPosition;// èŒä½
-	private String cellPhone;// æ‰‹æœºå·ç 
-	private String workPhone;// åŠå…¬å·ç 
-	private int roleId;// è§’è‰²ç¼–å·  1(è®­ç»ƒç®¡ç†äººå‘˜),2(å—è®­äººå‘˜),3(å¯¼è°ƒäººå‘˜),4(è¯„ä¼°äººå‘˜)
-	private String roleName; // è§’è‰²åç§°
-	private int loginStatus; // è´¦å·çŠ¶æ€
-	private String UnitId;// éƒ¨é—¨ç¼–å·
-	private String UnitName;// éƒ¨é—¨åç§°
-	
-	public String getId() {
-		return id;
-	}
+    private static final long serialVersionUID = 1L;
 
-	public void setId(String id) {
-		this.id = id;
-	}
+    private String id; // ±àºÅ
+    private String username;// ĞÕÃû
+    private String age; // ÄêÁä
+    private int sex;// ĞÔ±ğ£¨0,1£© 0´ú±íÅ®£¬1´ú±íÄĞ
+    private String birthday;// ³öÉúÈÕÆÚ
+    private int rank;// ¾üÏÎ
+    private String workPosition;// Ö°Î»
+    private String cellPhone;// ÊÖ»úºÅÂë
+    private String workPhone;// °ì¹«ºÅÂë
+    private int roleId;// ½ÇÉ«±àºÅ  1(ÑµÁ·¹ÜÀíÈËÔ±),2(ÊÜÑµÈËÔ±),3(µ¼µ÷ÈËÔ±),4(ÆÀ¹ÀÈËÔ±)
+    private String roleName; // ½ÇÉ«Ãû³Æ
+    private int loginStatus; // ÕËºÅ×´Ì¬
+    private String UnitId;// ²¿ÃÅ±àºÅ
+    private String UnitName;// ²¿ÃÅÃû³Æ
 
-	public String getUsername() {
-		return username;
-	}
+    public String getId() {
+        return id;
+    }
 
-	public void setUsername(String username) {
-		this.username = username;
-	}
+    public void setId(String id) {
+        this.id = id;
+    }
 
-	public String getAge() {
-		setAge(calculateAge(getBirthday())); 
-		return age;
-	}
+    public String getUsername() {
+        return username;
+    }
 
-	public void setAge(String age) {
-		this.age = age;
-	}
+    public void setUsername(String username) {
+        this.username = username;
+    }
 
-	public int getSex() {
-		return sex;
-	}
+    public String getAge() {
+        setAge(calculateAge(getBirthday()));
+        return age;
+    }
 
-	public void setSex(int sex) {
-		this.sex = sex;
-	}
+    public void setAge(String age) {
+        this.age = age;
+    }
 
-	public String getBirthday() {
-		return birthday;
-	}
+    public int getSex() {
+        return sex;
+    }
 
-	public void setBirthday(String birthday) {
-		this.birthday = birthday;
-	}
+    public void setSex(int sex) {
+        this.sex = sex;
+    }
 
-	
-	public int getRank() {
-		return rank;
-	}
+    public String getBirthday() {
+        return birthday;
+    }
 
-	public void setRank(int rank) {
-		this.rank = rank;
-	}
-
-	public String getCellPhone() {
-		return cellPhone;
-	}
-
-	public void setCellPhone(String cellPhone) {
-		this.cellPhone = cellPhone;
-	}
-
-	public String getWorkPhone() {
-		return workPhone;
-	}
-
-	public void setWorkPhone(String workPhone) {
-		this.workPhone = workPhone;
-	}
-
-	
-
-	public int getRoleId() {
-		return roleId;
-	}
-
-	public void setRoleId(int roleId) {
-		this.roleId = roleId;
-	}
-
-	public String getRoleName() {
-		return roleName;
-	}
-
-	public void setRoleName(String roleName) {
-		this.roleName = roleName;
-	}
+    public void setBirthday(String birthday) {
+        this.birthday = birthday;
+    }
 
 
-	public String getWorkPosition() {
-		return workPosition;
-	}
+    public int getRank() {
+        return rank;
+    }
 
-	public void setWorkPosition(String workPosition) {
-		this.workPosition = workPosition;
-	}
+    public void setRank(int rank) {
+        this.rank = rank;
+    }
 
-	public int getLoginStatus() {
-		return loginStatus;
-	}
+    public String getCellPhone() {
+        return cellPhone;
+    }
 
-	public void setLoginStatus(int loginStatus) {
-		this.loginStatus = loginStatus;
-	}
+    public void setCellPhone(String cellPhone) {
+        this.cellPhone = cellPhone;
+    }
 
-	public String getUnitId() {
-		return UnitId;
-	}
+    public String getWorkPhone() {
+        return workPhone;
+    }
 
-	public void setUnitId(String unitId) {
-		UnitId = unitId;
-	}
+    public void setWorkPhone(String workPhone) {
+        this.workPhone = workPhone;
+    }
 
-	public String getUnitName() {
-		return UnitName;
-	}
 
-	public void setUnitName(String unitName) {
-		UnitName = unitName;
-	}
 
-	public String getPartmentId() {
-		return UnitId;
-	}
+    public int getRoleId() {
+        return roleId;
+    }
 
-	public void setPartmentId(String partmentId) {
-		this.UnitId = partmentId;
-	}
+    public void setRoleId(int roleId) {
+        this.roleId = roleId;
+    }
 
-	public String getPartmentName() {
-		return UnitName;
-	}
+    public String getRoleName() {
+        return roleName;
+    }
 
-	public void setPartmentName(String partmentName) {
-		this.UnitName = partmentName;
-	}
+    public void setRoleName(String roleName) {
+        this.roleName = roleName;
+    }
 
-	private String calculateAge(String birthday) {
-		SimpleDateFormat myFormatter = new SimpleDateFormat("yyyy-MM-dd");
-		try {
-			final long day = (new Date().getTime() - myFormatter.parse(birthday).getTime())
-					/ (24 * 60 * 60 * 1000) + 1;
-			return new java.text.DecimalFormat("#").format(day / 365f);
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
-	    return null;
-	}
+
+    public String getWorkPosition() {
+        return workPosition;
+    }
+
+    public void setWorkPosition(String workPosition) {
+        this.workPosition = workPosition;
+    }
+
+    public int getLoginStatus() {
+        return loginStatus;
+    }
+
+    public void setLoginStatus(int loginStatus) {
+        this.loginStatus = loginStatus;
+    }
+
+    public String getUnitId() {
+        return UnitId;
+    }
+
+    public void setUnitId(String unitId) {
+        UnitId = unitId;
+    }
+
+    public String getUnitName() {
+        return UnitName;
+    }
+
+    public void setUnitName(String unitName) {
+        UnitName = unitName;
+    }
+
+    public String getPartmentId() {
+        return UnitId;
+    }
+
+    public void setPartmentId(String partmentId) {
+        this.UnitId = partmentId;
+    }
+
+    public String getPartmentName() {
+        return UnitName;
+    }
+
+    public void setPartmentName(String partmentName) {
+        this.UnitName = partmentName;
+    }
+
+    private String calculateAge(String birthday) {
+        SimpleDateFormat myFormatter = new SimpleDateFormat("yyyy-MM-dd");
+        try {
+            final long day = (new Date().getTime() - myFormatter.parse(birthday).getTime())
+                    / (24 * 60 * 60 * 1000) + 1;
+            return new java.text.DecimalFormat("#").format(day / 365f);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }

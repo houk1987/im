@@ -1,6 +1,9 @@
 package lister;
 
-import com.ui.MainFrame;
+import com.comunication.interceptor.MessageHandleManager;
+import com.comunication.interceptor.MessageListener;
+import com.comunication.interceptor.MessagePacketHandle;
+import main.MainFrame;
 import notify.AcceptNewContactDialog;
 import tree.YhContactItem;
 import org.jivesoftware.smack.PacketListener;
@@ -13,11 +16,16 @@ import javax.swing.*;
 /**
  * Created by HK on 2014/10/6.
  */
-public class YhPacketLister implements PacketListener {
+public class YhPacketLister implements MessagePacketHandle {
+
+    public YhPacketLister() {
+        MessageHandleManager.addMessagePackHandle(this);
+    }
+
     @Override
-    public void processPacket(Packet packet) {
+    public void messageHandel(Packet packet) {
         if(packet instanceof Message){
-           final Message message  =(Message)packet;
+            final Message message  =(Message)packet;
             String subject = message.getSubject();
             if("∫√”—…Í«Î".equals(subject)){
                 SwingUtilities.invokeLater(new Runnable() {

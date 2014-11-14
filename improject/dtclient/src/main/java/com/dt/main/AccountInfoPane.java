@@ -1,12 +1,12 @@
 package com.dt.main;
 
 import com.dt.main.presence.PresenceManager;
-
 import com.dt.main.presence.PresenceMenu;
 import com.dt.main.tree.SynDataService;
 import com.dt.start.StartClient;
 import com.dt.vo.UserInfo;
 import com.ui.jlabel.JLabelFactory;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -29,20 +29,20 @@ public class AccountInfoPane extends JPanel {
         presenceLabel.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseClicked(MouseEvent e) {
-                presenceMenu.show(presenceLabel,5,15);
+                presenceMenu.show(presenceLabel, 5, 15);
             }
         });
         panel.add(presenceLabel);
         accountName.setFont(new Font("Î¢ÈíÑÅºÚ", Font.PLAIN, 24));
         accountName.setForeground(Color.WHITE);
-        panel.setBorder(new EmptyBorder(20,0,20,0));
+        panel.setBorder(new EmptyBorder(20, 0, 20, 0));
         add(panel, BorderLayout.CENTER);
         DtNavigationBar dtNavigationBar = new DtNavigationBar(dtClientWindowContent);
-        add(dtNavigationBar,BorderLayout.SOUTH);
-        java.util.List<UserInfo> userInfoList= SynDataService.getInstance().synUsers();
-        for(UserInfo userInfo : userInfoList){
+        add(dtNavigationBar, BorderLayout.SOUTH);
+        java.util.List<UserInfo> userInfoList = SynDataService.getInstance().synUsers();
+        for (UserInfo userInfo : userInfoList) {
             String account = StartClient.getUserInfo().getId();
-            if(userInfo.getId().equals(account)){
+            if (userInfo.getId().equals(account)) {
                 accountName.setText(userInfo.getUsername());
             }
         }

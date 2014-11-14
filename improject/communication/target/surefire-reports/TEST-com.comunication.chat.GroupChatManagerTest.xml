@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite time="0.161" name="com.comunication.chat.GroupChatManagerTest" failures="0" skipped="0" tests="1" errors="1">
+  <properties>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher install"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.home" value="E:\jdk1.8.0\jre"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="os.version" value="6.1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.separator" value="\"/>
+    <property name="user.name" value="lenovo"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="user.home" value="C:\Users\lenovo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="E:\jdk1.8.0\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\NetSarang;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Git\cmd;C:\Program Files (x86)\Git\bin;C:\Program Files\TortoiseGit\bin;E:\jdk1.8.0\bin;E:\software\apache-maven-3.2.2\bin;C:\Program Files\TortoiseSVN\bin;%MAVAEN_HOME%\bin;;."/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0-ea-b93"/>
+    <property name="classworlds.conf" value="E:\software\apache-maven-3.2.2\bin\..\bin\m2.conf"/>
+    <property name="java.vm.version" value="25.0-b34"/>
+    <property name="java.ext.dirs" value="E:\jdk1.8.0\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="path.separator" value=";"/>
+    <property name="user.language" value="zh"/>
+    <property name="user.dir" value="D:\workspace1\improject\improject"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.endorsed.dirs" value="E:\jdk1.8.0\jre\lib\endorsed"/>
+    <property name="user.variant" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="java.io.tmpdir" value="C:\Users\lenovo\AppData\Local\Temp\"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="sun.boot.library.path" value="E:\jdk1.8.0\jre\bin"/>
+    <property name="java.class.path" value="E:\software\apache-maven-3.2.2\bin\..\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="maven.home" value="E:\software\apache-maven-3.2.2\bin\.."/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.script" value=""/>
+    <property name="os.arch" value="x86"/>
+    <property name="line.separator" value="
+"/>
+    <property name="sun.boot.class.path" value="E:\jdk1.8.0\jre\lib\resources.jar;E:\jdk1.8.0\jre\lib\rt.jar;E:\jdk1.8.0\jre\lib\sunrsasign.jar;E:\jdk1.8.0\jre\lib\jsse.jar;E:\jdk1.8.0\jre\lib\jce.jar;E:\jdk1.8.0\jre\lib\charsets.jar;E:\jdk1.8.0\jre\lib\jfr.jar;E:\jdk1.8.0\jre\classes"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="java.version" value="1.8.0-ea"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+  </properties>
+  <testcase time="0.161" name="com.comunication.chat.GroupChatManagerTest" classname="com.comunication.chat.GroupChatManagerTest">
+    <error type="java.lang.ExceptionInInitializerError">java.lang.ExceptionInInitializerError
+	at com.comunication.connection.ConnectionManager.createConnection(ConnectionManager.java:30)
+	at com.comunication.chat.GroupChatManagerTest.setUp(GroupChatManagerTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:491)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:491)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:524)
+	at java.lang.Integer.valueOf(Integer.java:748)
+	at com.resource.ConfigurationRes.getPort(ConfigurationRes.java:21)
+	at com.comunication.connection.CommunicationConnection.&lt;clinit&gt;(CommunicationConnection.java:15)
+	... 23 more
+</error>
+    <system-err>java.io.FileNotFoundException: config\configuration.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:131)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:87)
+	at com.resource.PropertiesTools.readValue(PropertiesTools.java:15)
+	at com.resource.ConfigurationRes.getHostName(ConfigurationRes.java:17)
+	at com.comunication.connection.CommunicationConnection.&lt;clinit&gt;(CommunicationConnection.java:14)
+	at com.comunication.connection.ConnectionManager.createConnection(ConnectionManager.java:30)
+	at com.comunication.chat.GroupChatManagerTest.setUp(GroupChatManagerTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:491)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:491)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Visit config/configuration.properties for READ HOST_NAME value error
+java.io.FileNotFoundException: config\configuration.properties (系统找不到指定的路径。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:131)
+	at java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:87)
+	at com.resource.PropertiesTools.readValue(PropertiesTools.java:15)
+	at com.resource.ConfigurationRes.getPort(ConfigurationRes.java:21)
+	at com.comunication.connection.CommunicationConnection.&lt;clinit&gt;(CommunicationConnection.java:15)
+	at com.comunication.connection.ConnectionManager.createConnection(ConnectionManager.java:30)
+	at com.comunication.chat.GroupChatManagerTest.setUp(GroupChatManagerTest.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:491)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:491)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Visit config/configuration.properties for READ PORT value error
+</system-err>
+  </testcase>
+</testsuite>

@@ -1,7 +1,5 @@
 package addContact;
 
-import com.ui.MainFrame;
-
 import javax.swing.*;
 
 /**

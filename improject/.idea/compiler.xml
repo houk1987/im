@@ -27,6 +27,8 @@
         <module name="dtClient" />
         <module name="dtclient" />
         <module name="qq" />
+        <module name="qqclient" />
+        <module name="qqClient" />
         <module name="resource" />
         <module name="uicomponent" />
         <module name="uiComponent" />
@@ -34,17 +36,20 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="communication" target="1.7" />
-      <module name="component" target="1.7" />
-      <module name="dtClient" target="1.7" />
+      <module name="communication" target="1.8" />
+      <module name="component" target="1.8" />
+      <module name="dtClient" target="1.8" />
       <module name="dtclient" target="1.7" />
-      <module name="improject" target="1.7" />
-      <module name="qq" target="1.7" />
-      <module name="resource" target="1.7" />
+      <module name="improject" target="1.8" />
+      <module name="qq" target="1.8" />
+      <module name="qqclient" target="1.7" />
+      <module name="qqClient" target="1.7" />
+      <module name="resource" target="1.8" />
       <module name="smackservice" target="1.7" />
       <module name="uicomponent" target="1.7" />
-      <module name="uiComponent" target="1.7" />
-      <module name="yh" target="1.7" />
+      <module name="uiComponent" target="1.8" />
+      <module name="yh" target="1.8" />
+      <module name="yhClient" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

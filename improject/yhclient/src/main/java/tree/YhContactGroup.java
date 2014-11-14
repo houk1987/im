@@ -1,7 +1,6 @@
 package tree;
-
-import com.component.rosterTree.ContactGroup;
-import com.component.rosterTree.renderer.ContactTableCellRenderer;
+import com.ui.rosterTree.ContactGroup;
+import com.ui.rosterTree.renderer.ContactTableCellRenderer;
 
 import java.awt.*;
 
@@ -22,6 +21,6 @@ public class YhContactGroup extends ContactGroup {
     @Override
     protected void setBackGround() {
         contactItemList.setBackground(Color.WHITE);
-        //getTitlePane().setBackground(new Color(119,36,111));
+       // getTitlePane().setBackground(new Color(119,36,111));
     }
 }

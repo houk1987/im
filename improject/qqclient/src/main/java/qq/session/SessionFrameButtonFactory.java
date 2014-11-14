@@ -1,6 +1,8 @@
 package qq.session;
 
-import com.component.ButtonFactory;
+
+
+import com.ui.button.ButtonFactory;
 
 import javax.swing.*;
 
@@ -9,7 +11,7 @@ import javax.swing.*;
  * 提供登陆窗口中按钮创建
  * Created by lenovo on 2014/10/16.
  */
-public class SessionFrameButtonFactory extends ButtonFactory{
+public class SessionFrameButtonFactory extends ButtonFactory {
 
     protected SessionFrameButtonFactory() {
         super("session/button/");

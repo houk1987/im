@@ -1,10 +1,11 @@
 package qq.main;
 
-import com.component.ExtendPane;
-import com.resource.ImageUtils;
-import com.component.jlabel.JLabelFactory;
 
+
+import com.ui.jlabel.JLabelFactory;
+import com.ui.pane.ExtendPane;
 import qq.friends.SearchFriendsFrame;
+import qq.images.MainImagesFactory;
 import qq.lunch.QQClient;
 import qq.main.tree.QQContactTree;
 import qq.manager.PresenceManager;
@@ -29,7 +30,7 @@ class MainDialogContentPane extends ExtendPane implements ActionListener{
     private MainDialog mainDialog;
 
     MainDialogContentPane(MainDialog mainDialog) {
-        super(null,ImageUtils.getInstance("main/").getImageIcon("mainDialogBg.png"));
+        super(null, MainImagesFactory.getInstance().createMainFrameBg());
         this.mainDialog = mainDialog;
         mainDialogButtonFactory = new MainDialogButtonFactory();
         this.addCloseWindowButton();
@@ -75,7 +76,7 @@ class MainDialogContentPane extends ExtendPane implements ActionListener{
         JPanel panel = new JPanel(null);
         panel.setBackground(new Color(40,138,221));
         panel.setBounds(5,50,150,50);
-        JLabel label = JLabelFactory.createJLabel(QQClient.getInstance().getNickName(),new Font("ËÎÌו",Font.BOLD,14),Color.WHITE);
+        JLabel label = JLabelFactory.createJLabel(QQClient.getInstance().getNickName(), new Font("ËÎÌו", Font.BOLD, 14), Color.WHITE);
         label.setBounds(0,0,50,50);
         panel.add(label);
 

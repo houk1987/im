@@ -1,10 +1,6 @@
 package qq.lunch;
 
 import org.jivesoftware.smack.XMPPException;
-import org.smackservice.SmackConnection;
-import qq.login.LoginDialog;
-import qq.sysTray.SysTrayManager;
-
 import javax.swing.*;
 
 /**

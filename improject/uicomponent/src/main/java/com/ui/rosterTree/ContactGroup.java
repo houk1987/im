@@ -1,7 +1,4 @@
 package com.ui.rosterTree;
-
-
-
 import com.ui.rosterTree.panes.CollapsiblePane;
 import com.ui.rosterTree.renderer.ContactTableCellRenderer;
 

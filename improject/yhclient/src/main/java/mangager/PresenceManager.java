@@ -1,8 +1,8 @@
 package mangager;
 
-import resource.YhImageRes;
+import com.comunication.connection.ConnectionManager;
+import images.PresenceImagesFactory;
 import org.jivesoftware.smack.packet.Presence;
-import org.smackservice.SmackConnection;
 
 import javax.swing.*;
 import java.util.ArrayList;
@@ -14,9 +14,9 @@ import java.util.List;
 public class PresenceManager {
 
     private static final List<Presence> PRESENCES = new ArrayList<Presence>();
-    private static ImageIcon online = YhImageRes.getPresenceImageIcon("online.png");
-    private static ImageIcon offline = YhImageRes.getPresenceImageIcon("offline.png");
-    private static ImageIcon busy = YhImageRes.getPresenceImageIcon("busy.png");
+    private static ImageIcon online = PresenceImagesFactory.getInstance().createOnLine();
+    private static ImageIcon offline = PresenceImagesFactory.getInstance().createOffLine();
+    private static ImageIcon busy = PresenceImagesFactory.getInstance().createBusy();
     static{
         final Presence presence = new Presence(Presence.Type.available, "ÎÒÓÐ¿Õ", 1, Presence.Mode.available);
         final Presence dndPresence = new Presence(Presence.Type.available, "Ã¦ÂµÖÐ", 0, Presence.Mode.dnd);
@@ -35,14 +35,10 @@ public class PresenceManager {
         return PRESENCES;
     }
 
-    public static void changePresence(Presence presence){
-        SmackConnection.getInstance().sendPacket(presence);
-    }
-
     public static Presence getPresence(String jid){
         if(jid!=null) {
-            SmackConnection.getInstance().getRoster().reload();
-            return SmackConnection.getInstance().getRoster().getPresence(jid);
+            ConnectionManager.getConnection().getRoster().reload();
+            return ConnectionManager.getConnection().getRoster().getPresence(jid);
         }
         return null;
     }

@@ -1,10 +1,7 @@
 package qq.manager;
-
-
-import com.resource.ImageUtils;
+import com.comunication.roster.RosterManager;
 import org.jivesoftware.smack.packet.Presence;
-import org.smackservice.RosterManager;
-
+import qq.images.PresenceImagesFactory;
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,13 +12,12 @@ import java.util.List;
 public class PresenceManager {
 
     private static final List<Presence> PRESENCES = new ArrayList<Presence>();
-    private static ImageUtils imageUtils = ImageUtils.getInstance("presence/");
-    private static ImageIcon online = imageUtils.getImageIcon("online.png"); //在线
-    private static ImageIcon offline = imageUtils.getImageIcon("offline.png"); //离线;
-    private static ImageIcon busy = imageUtils.getImageIcon("busy.png"); //忙碌
-    private static ImageIcon away = imageUtils.getImageIcon("away.png"); //离开
-    private static ImageIcon hide = imageUtils.getImageIcon("hide.png"); //隐身
-    private static ImageIcon nobother = imageUtils.getImageIcon("nobother.png"); //勿扰
+    private static ImageIcon online = PresenceImagesFactory.getInstance().createOnLine(); //在线
+    private static ImageIcon offline = PresenceImagesFactory.getInstance().createOffLine(); //离线;
+    private static ImageIcon busy = PresenceImagesFactory.getInstance().createBusy(); //忙碌
+    private static ImageIcon away = PresenceImagesFactory.getInstance().createAway(); //离开
+    private static ImageIcon hide = PresenceImagesFactory.getInstance().createHide(); //隐身
+    private static ImageIcon nobother = PresenceImagesFactory.getInstance().createNobother(); //勿扰
     private RosterManager rosterManager;
     static{
         final Presence presence = new Presence(Presence.Type.available, "我在线上", 1, Presence.Mode.available);

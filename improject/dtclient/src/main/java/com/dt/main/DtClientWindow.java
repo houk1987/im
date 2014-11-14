@@ -2,6 +2,7 @@ package com.dt.main;
 
 
 import com.dt.interceptor.ChatMessageHandler;
+import com.dt.interceptor.ConnectionHandle;
 import com.dt.main.tree.CustomTree;
 import com.dt.main.tree.OrgTree;
 import com.dt.vo.UserInfo;
@@ -24,6 +25,7 @@ public class DtClientWindow extends JFrame{
         setContentPane(dtClientWindowContent);
         Tools.setWindowLocationOnScreamRight(this);  //╬ссротй╬
         new ChatMessageHandler();
+        new ConnectionHandle();
     }
 
     public static DtClientWindow getInstance() {

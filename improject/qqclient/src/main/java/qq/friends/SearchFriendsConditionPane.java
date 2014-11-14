@@ -1,11 +1,11 @@
 package qq.friends;
 
-import com.component.ExtendPane;
-import com.resource.ImageUtils;
-import com.component.jlabel.JLabelFactory;
 import com.google.gson.Gson;
 import com.resource.ConfigurationRes;
 import com.san30.pub.tools.SanHttpClient;
+import com.ui.jlabel.JLabelFactory;
+import com.ui.pane.ExtendPane;
+import qq.images.FriendsImageFactory;
 import qq.ui.JTextField.JTextFieldFactory;
 
 import javax.swing.*;
@@ -16,16 +16,15 @@ import javax.swing.text.Document;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.*;
+import java.util.HashMap;
 
 /**
  * 搜索的条件的区域面板
  * Created by lenovo on 2014/10/17.
  */
 class SearchFriendsConditionPane extends ExtendPane implements ActionListener {
-    private final ImageUtils imageUtils = ImageUtils.getInstance("friends/");
     private final Font font = new Font("微软雅黑", Font.PLAIN, 12);
-    private final JLabel defaultTipLabel = JLabelFactory.createJLabel(imageUtils.getImageIcon("defaultTip.png"));
+    private final JLabel defaultTipLabel = JLabelFactory.createJLabel(FriendsImageFactory.getInstance().createTipIcon());
     private SearchFriendsFrameContentPane searchFriendsFrameContentPane;
     private SearchFriendsFrameButtonFactory searchFriendsFrameButtonFactory;
     private JTextField keywordsTextField;
@@ -34,7 +33,7 @@ class SearchFriendsConditionPane extends ExtendPane implements ActionListener {
     private JButton minWindowButton;
 
     public SearchFriendsConditionPane(SearchFriendsFrameContentPane searchFriendsFrameContentPane) {
-        super(null, ImageUtils.getInstance("friends/").getImageIcon("searchFriendsTopBg.png"));
+        super(null, FriendsImageFactory.getInstance().createSearchFriendsTopBg());
         this.searchFriendsFrameContentPane = searchFriendsFrameContentPane;
         this.searchFriendsFrameButtonFactory = new SearchFriendsFrameButtonFactory();
         this.addCloseWindowButton();//添加窗口关闭按钮

@@ -11,9 +11,11 @@
     <modules>
         <module>resource</module>      <!-- 资源模块 -->
         <module>component</module>
-        <module>dtClient</module>
         <module>communication</module>
         <module>uiComponent</module>
+        <module>dtClient</module>
+        <module>yhClient</module>
+        <module>qqClient</module>
     </modules>
 
 
@@ -47,11 +49,11 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.5.1</version>
                 <configuration>
-                    <target>1.7</target>
-                    <source>1.7</source>
+                    <target>1.8</target>
+                    <source>1.8</source>
                     <fork>true</fork>
                     <compilerArgument>-XDignore.symbol.file</compilerArgument>
-                    <executable>C:\Program Files (x86)\Java\jdk1.7.0_67\bin\javac.exe</executable>
+                    <executable>E:\jdk1.8.0\bin\javac.exe</executable>
                     <compilerVersion>1.7</compilerVersion>
                 </configuration>
             </plugin>
@@ -127,9 +129,9 @@
     </build>
     <properties>
         <junit_version>4.11</junit_version>
-        <log4j_version>1.2.15</log4j_version>
-        <copyResourceTargetResDir>E:\qq\config </copyResourceTargetResDir>
-        <copyResourceTargetUserDir> E:\qq\resources</copyResourceTargetUserDir>
+        <log4j_version>1.2.16</log4j_version>
+        <copyResourceTargetResDir>E:\yhClient\config </copyResourceTargetResDir>
+        <copyResourceTargetUserDir> E:\yhClient\resources</copyResourceTargetUserDir>
         <project.build.sourceEncoding>GBK</project.build.sourceEncoding>
         <maven.compiler.encoding>GBK</maven.compiler.encoding>
     </properties>

@@ -1,7 +1,6 @@
 package qq.main.tree;
-
-import com.component.rosterTree.ContactGroup;
-import com.component.rosterTree.renderer.ContactTableCellRenderer;
+import com.ui.rosterTree.ContactGroup;
+import com.ui.rosterTree.renderer.ContactTableCellRenderer;
 
 import java.awt.*;
 
@@ -9,9 +8,6 @@ import java.awt.*;
  * Created by lenovo on 2014/10/10.
  */
 public class QQContactGroup extends ContactGroup {
-
-
-
 
     public QQContactGroup(String groupName) {
         super(groupName,Color.BLACK,new Font("Î¢ÈíÑÅºÚ",Font.PLAIN,12));

@@ -1,10 +1,9 @@
 package qq.main.tree;
 
-import com.resource.ImageUtils;
-import com.component.rosterTree.ContactItem;
+import com.ui.rosterTree.ContactItem;
+import qq.images.CommonImagesFactory;
 import qq.lunch.QQClient;
 import qq.session.SessionFrame;
-
 import javax.swing.*;
 import java.awt.*;
 
@@ -15,7 +14,7 @@ public class QQContactItem extends ContactItem {
 
     private final static Color hoverColor = new Color(252, 240, 193);
     private final static Color pressedColor = hoverColor;
-    private final static ImageIcon headIcon = ImageUtils.getInstance("tree/").getImageIcon("head.png");
+    private final static ImageIcon headIcon = CommonImagesFactory.getInstance().createTitleIcon();
 
     public QQContactItem() {
     }

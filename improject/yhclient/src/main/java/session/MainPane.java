@@ -1,25 +1,23 @@
 package session;
 
-import com.component.jlabel.JLabelFactory;
-import com.component.rosterTree.ContactItem;
-import com.component.session.ChatDisplayPane;
-import com.component.session.ChatWritePanel;
-import com.ui.MainFrame;
-import button.YhButtonFactory;
-import resource.YhImageRes;
+import button.SessionButtonFactory;
+import com.comunication.chat.ChatMessageFactory;
+import com.comunication.chat.ChatMessageParser;
+import com.comunication.chat.ChatOperate;
+import com.comunication.chat.SingleChat;
+import com.ui.chat.ChatDisplayPane;
+import com.ui.chat.ChatWritePanel;
+import com.ui.jlabel.JLabelFactory;
+import com.ui.rosterTree.ContactItem;
+import images.SessionImageFactory;
 import mangager.PresenceManager;
-import org.jivesoftware.smack.XMPPException;
 import org.jivesoftware.smack.packet.Message;
 import org.jivesoftware.smack.packet.Presence;
-import org.smackservice.ChatManager;
-import session.message.BasicHtml;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Timestamp;
-import java.text.SimpleDateFormat;
 
 /**
  * Created by a on 2014/8/20.
@@ -31,8 +29,8 @@ public class MainPane extends JPanel {
     private JLabel chatLabel;
     private JButton jButton;
     private ContactItem contact;
-    private ImageIcon toolBarBgImageIcon = YhImageRes.getImageIcon("toolbarBg.png");
-    private ImageIcon toolBarBg2ImageIcon = YhImageRes.getImageIcon("toolbarBg2.png");
+    private ImageIcon toolBarBgImageIcon = SessionImageFactory.getInstance().createToolbarBg();
+    private ImageIcon toolBarBg2ImageIcon = SessionImageFactory.getInstance().createToolbarBg2();
 
     public MainPane(SessionFrame sessionFrame) {
         this.contact = sessionFrame.getContact();
@@ -67,22 +65,23 @@ public class MainPane extends JPanel {
 
         chatWritePane = new ChatWritePanel(this);
 
-        JPanel writePane = new JPanel(new BorderLayout());
+        final JPanel writePane = new JPanel(new BorderLayout());
         writePane.setBackground(Color.WHITE);
         writePane.setBounds(5, 430, 457, 125);
         writePane.add(chatWritePane, BorderLayout.CENTER);
         add(writePane);
 
-        jButton = YhButtonFactory.getInstance().createSendButton();
+        jButton = SessionButtonFactory.getInstance().createSendMessageButton();
         jButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                    ChatOperate chatOperate = new SingleChat();
                 try {
-                    Message message = getMessage(chatWritePane.getPlainText());
-                    ChatManager.getInstance().sendChatMessage(message);
-                    chatDisplayPane.insertMessage(message.getBody());
+                    Message message = ChatMessageFactory.createSingleChatMessage(null,contact.getJid(),chatWritePane.getPlainText());
+                    chatOperate.sendChatMessage(message);
+                    chatDisplayPane.insertMessage(ChatMessageParser.getContentHtml(message));
                     chatWritePane.clear();//清空输入文本
-                } catch (XMPPException e1) {
+                } catch (Exception e1) {
                     e1.printStackTrace();
                 }
             }
@@ -90,28 +89,8 @@ public class MainPane extends JPanel {
         writePane.add(jButton, BorderLayout.EAST);
     }
 
-    private Message getMessage(String content){
-        Message message = new Message();
-        message.setFrom(MainFrame.getInstance().getLoginUser());
-        message.setTo(contact.getJid());
-        message.setProperty("sendTime",new Timestamp(System.currentTimeMillis()));
-        message.setBody(getContentHtml(content,message));
-        return message;
-    }
-
-    private String getContentHtml(String content,Message message) {
-        String html = BasicHtml.outBasicHtml();
-        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String dateString = formatter.format(message.getProperty("sendTime"));
-        html = html
-                .replaceAll("#algin#", "left")
-                .replaceAll("#msgtip#", message.getFrom() + "  " + dateString)
-                .replaceAll("#content#", content);
-        return html;
-    }
-
     public void insertMessage(Message message){
-        chatDisplayPane.insertMessage(message.getBody());
+        chatDisplayPane.insertMessage(ChatMessageParser.getContentHtml(message));
     }
 
     public void updatePresence(){

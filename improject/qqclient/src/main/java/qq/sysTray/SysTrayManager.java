@@ -1,7 +1,8 @@
 package qq.sysTray;
 
-import com.component.ImTray;
-import com.resource.ImageUtils;
+
+import com.ui.tray.ImTray;
+import qq.images.CommonImagesFactory;
 import qq.lunch.QQClient;
 import qq.ui.window.PubDialog;
 
@@ -34,7 +35,7 @@ public class SysTrayManager {
      */
     public void initImTray(){
         if(imTray == null){
-            imTray = new ImTray(ImageUtils.getInstance("common/").getImageIcon("TitleIcon.png").getImage(),"QQ");
+            imTray = new ImTray(CommonImagesFactory.getInstance().createTitleIcon().getImage(),"QQ");
             imTray.addMouseListener(new MouseAdapter() {
                 @Override
                 public void mouseClicked(MouseEvent e) {

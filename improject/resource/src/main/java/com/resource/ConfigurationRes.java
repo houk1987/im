@@ -10,7 +10,7 @@ public class ConfigurationRes {
     private final static String HOST_NAME="HOST_NAME";
     private final static String PORT="PORT";
     private final static String DOMAIN="DOMAIN";
-    private final static String PATH="PATH";   //图片资源文件路径
+    private final static String IMAGE_RES_PATH="IMAGE_RES_PATH";   //图片资源文件路径
 
 
     public static String getHostName() {
@@ -26,6 +26,6 @@ public class ConfigurationRes {
     }
 
     public static String getPath() {
-         return PropertiesTools.readValue(FILE_PATH,PATH);
+         return PropertiesTools.readValue(FILE_PATH,IMAGE_RES_PATH);
     }
 }

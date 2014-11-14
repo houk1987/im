@@ -1,15 +1,12 @@
 package qq.friends;
 
-
-import com.component.jlabel.JLabelFactory;
-import com.component.notify.NotifyWindow;
-import com.component.session.WrapLetterHTMLEditorKit;
+import com.comunication.connection.ConnectionManager;
 import com.san30.pub.tools.SanHttpClient;
-import org.smackservice.SmackConnection;
+import com.ui.chat.WrapLetterHTMLEditorKit;
+import com.ui.jlabel.JLabelFactory;
+import com.ui.notify.NotifyWindow;
 import qq.lunch.QQClient;
-import qq.main.MainDialog;
 import qq.main.tree.QQContactItem;
-
 
 import javax.swing.*;
 import java.awt.*;
@@ -49,7 +46,7 @@ public class AcceptNewFriendDialog extends NotifyWindow {
                 paramMap.put("jid",from);
                 paramMap.put("targetAccount", QQClient.getInstance().getLoginUserName());
                 try {
-                    String url = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
+                    String url = "http://" + ConnectionManager.getConnection().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
                     SanHttpClient.getDataAsString(url, paramMap);
                     dispose();
                     QQContactItem qqContactItem = QQClient.getInstance().getFriendsManager().addNewContactItem(from.split("@")[0]);

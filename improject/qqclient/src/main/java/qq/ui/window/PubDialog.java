@@ -1,7 +1,4 @@
 package qq.ui.window;
-
-import com.san30.sim.pub.imagewindow.ImageDialog;
-
 import javax.swing.*;
 import java.awt.*;
 

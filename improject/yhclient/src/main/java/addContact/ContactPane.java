@@ -1,15 +1,14 @@
 package addContact;
 
-import com.component.jlabel.JLabelFactory;
+import button.CommonButtonFactory;
+import com.comunication.connection.ConnectionManager;
+import com.comunication.roster.RosterManager;
 import com.san30.pub.tools.SanHttpClient;
-import com.ui.MainFrame;
-import button.YhButtonFactory;
-import jtextField.YhTextFiled;
-import resource.Yh;
-import resource.YhImageRes;
-import org.smackservice.RosterManager;
-import org.smackservice.SmackConnection;
-
+import com.ui.jlabel.JLabelFactory;
+import com.ui.textField.JTextFieldFactory;
+import images.AddContactImageFactory;
+import images.CommonImagesFactroy;
+import main.MainFrame;
 import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
@@ -23,16 +22,17 @@ import java.util.HashMap;
  * Created by a on 2014/9/2.
  */
 public class ContactPane extends JPanel implements ActionListener{
-    private ImageIcon bgFirstImageIcon = YhImageRes.getImageIcon("addConatactBgFirst.png");
-    private ImageIcon bgThird1ImageIcon = YhImageRes.getImageIcon("thridBg.png");
-    private ImageIcon bgSecondImageIcon = YhImageRes.getImageIcon("addConatactSecondBg.png");
+    private RosterManager rosterManager = new RosterManager(ConnectionManager.getConnection().getRoster());
+    private ImageIcon bgFirstImageIcon = AddContactImageFactory.createAddContactBgFirst();
+    private ImageIcon bgThird1ImageIcon = AddContactImageFactory.createThridBg();
+    private ImageIcon bgSecondImageIcon = AddContactImageFactory.createAddContactSecondBg();
     private ImageIcon currentBgImageIcon = bgFirstImageIcon;
     private JButton nextButton;
     private JButton cancelButton;
     private JButton finishButton;
     private JButton previousButton;
     private JDialog jDialog;
-    private YhTextFiled accountJTextField;
+    private JTextField accountJTextField;
     private JPanel userNamePanel;
     private JLabel userName;
 
@@ -47,24 +47,24 @@ public class ContactPane extends JPanel implements ActionListener{
         setOpaque(true);
         this.jDialog  = jDialog;
         setLayout(null);
-        previousButton = YhButtonFactory.getInstance().createPreviousButton();
-        previousButton.setDisabledIcon(YhImageRes.getButtonImageIcon("previousDisabel.png"));
+        previousButton = CommonButtonFactory.getInstance().createPreviousButton();
+        previousButton.setDisabledIcon(CommonImagesFactroy.createPreviousDisable());
         previousButton.setEnabled(false);
         previousButton.setLocation(170,362);
         add(previousButton);
 
-        nextButton = YhButtonFactory.getInstance().createNextButton();
-        nextButton.setDisabledIcon(YhImageRes.getButtonImageIcon("nextDisabel.png"));
+        nextButton = CommonButtonFactory.getInstance().createNextButton();
+        nextButton.setDisabledIcon(CommonImagesFactroy.createNextDisable());
         nextButton.setEnabled(false);
         nextButton.setLocation(250,362);
         add(nextButton);
 
-        cancelButton = YhButtonFactory.getInstance().createCancelButton();
-        cancelButton.setDisabledIcon(YhImageRes.getButtonImageIcon("cancelDisabel.png"));
+        cancelButton = CommonButtonFactory.getInstance().createCancelButton();
+        cancelButton.setDisabledIcon(CommonImagesFactroy.createCancelDisable());
         cancelButton.setLocation(329,363);
         add(cancelButton);
 
-        finishButton = YhButtonFactory.getInstance().createFinishButton();
+        finishButton = CommonButtonFactory.getInstance().createFinishButton();
         finishButton.setVisible(false);
         finishButton.setLocation(329,363);
         add(finishButton);
@@ -74,8 +74,9 @@ public class ContactPane extends JPanel implements ActionListener{
         cancelButton.addActionListener(this);
         finishButton.addActionListener(this);
 
-        accountJTextField = new YhTextFiled();
-        accountJTextField.setBounds(13,46,270, 20);
+        accountJTextField = JTextFieldFactory.createJTextField(270, 20);
+        accountJTextField.setBackground(Color.GRAY);
+        accountJTextField.setLocation(13, 46);
         Document document = accountJTextField.getDocument();
         document.addDocumentListener(new DocumentListener() {
             @Override
@@ -117,7 +118,7 @@ public class ContactPane extends JPanel implements ActionListener{
         contactUserName.setForeground(new Color(204,204,204));
         contactUserName.setFont(new Font("宋体", Font.PLAIN, 12));
         contactPanel.add(contactUserName);
-        contactPanel.add(JLabelFactory.createJLabel(YhImageRes.getImageIcon("contactRightbg.png")));
+        contactPanel.add(JLabelFactory.createJLabel(AddContactImageFactory.createContactRightBg()));
         add(contactPanel);
 
         rsLabel = JLabelFactory.createJLabel(null);
@@ -126,7 +127,7 @@ public class ContactPane extends JPanel implements ActionListener{
         rsLabel.setVisible(false);
         add(rsLabel);
 
-        lineLabel = JLabelFactory.createJLabel(YhImageRes.getImageIcon("line.png"));
+        lineLabel = JLabelFactory.createJLabel(AddContactImageFactory.createLineBg());
         lineLabel.setLocation(5,340);
         lineLabel.setVisible(false);
         add(lineLabel);
@@ -161,12 +162,12 @@ public class ContactPane extends JPanel implements ActionListener{
                 userNamePanel.setVisible(false );
                 lineLabel.setVisible(true);
                 rsLabel.setVisible(true);
-                String jid = accountJTextField.getText()+"@"+SmackConnection.getInstance().getServiceName(); //添加的账号
-                if(accountJTextField.getText().equals(Yh.getLoginUser())){
+                String jid = accountJTextField.getText()+"@"+ ConnectionManager.getConnection().getServiceName(); //添加的账号
+                if(accountJTextField.getText().equals(MainFrame.getInstance().getLoginUser())){
                     rsLabel.setText("不能添加自己为好友！");
                     previousButton.setEnabled(true);
                     cancelButton.setEnabled(true);
-                }else if(RosterManager.getRosterEntry(jid)!=null){
+                }else if(rosterManager.getRosterEntry(jid)!=null){
                     rsLabel.setText("该用户已经是你的好友！");
                     previousButton.setEnabled(true);
                     cancelButton.setEnabled(true);
@@ -211,7 +212,7 @@ public class ContactPane extends JPanel implements ActionListener{
             paramMap.put("jid", MainFrame.getInstance().getLoginUser());
             paramMap.put("type","validateAccount");
             paramMap.put("targetAccount",accountJTextField.getText());
-            String url = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
+            String url = "http://" + ConnectionManager.getConnection().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
             String rs = SanHttpClient.getDataAsString(url, paramMap);
             if(Boolean.valueOf(rs.trim())){
                 rsLabel.setText("系统已经向朋友发出了好友申请。");

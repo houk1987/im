@@ -1,7 +1,8 @@
 package qq.main;
 
-import com.component.ButtonFactory;
-import com.resource.ConfigurationRes;
+
+
+import com.ui.button.ButtonFactory;
 
 import javax.swing.*;
 
@@ -10,7 +11,7 @@ import javax.swing.*;
  * 提供登陆窗口中按钮创建
  * Created by lenovo on 2014/10/16.
  */
-public class MainDialogButtonFactory extends ButtonFactory{
+public class MainDialogButtonFactory extends ButtonFactory {
 
     protected MainDialogButtonFactory() {
         super("main/button/");

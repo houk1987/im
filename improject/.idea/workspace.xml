@@ -2,202 +2,258 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b2ee7a-73c2-4d3c-a7fe-3f166be63a66" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\TitleIcon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\headItem.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\headItem1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\common\picbox.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\addFriendsBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriends.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriendsHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\addFriendsPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\close.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFrame.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFrameHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeAddFriendsFramePressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closePressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\closeWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finish.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finishHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\finishPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFrame.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFrameHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minAddFriendsFramePressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\minWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\next.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\nextHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\nextPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\search.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\searchHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\button\searchPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\defaultTip.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\friends\searchFriendsTopBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\closeWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\login.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\loginHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\loginPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\button\minWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\login\loginFrameBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\closeWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\minWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searchFriends.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searchFriendsHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\main\button\searhFriendsHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\menu\sendMenu.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\busy.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\offline.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\presence\online.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFrame.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFrameHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeSessionFramePressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\closeWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\maxWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindowHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\minWindowPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\send.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\sendHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\button\sendPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\session\sessionFramebg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\collapsed.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\expanded.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\resources\images\tree\head.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\friends\AcceptNewFriendDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\friends\SearchFriendsFrameButtonFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lister\QqPacketLister.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\login\LoginDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\login\LoginDialogButtonFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lunch\QQClient.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\lunch\StartClient.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\MainDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\MainDialogButtonFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\main\tree\QQContactTree.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\presence\PresenceMenu.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\SessionFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\SessionFrameButtonFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\session\message\BasicHtml.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\FreeTextField.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\JTextFieldFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\JTextField\JTextPaneHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\headPicture\Pricture.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\NavigationBar.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\PubDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\PubFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\src\main\java\qq\ui\window\WindowDraggedHandle.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\config\configuration.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\YahooMessenger_aero.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addConatactBgFirst.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addConatactSecondBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\addContact.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddy.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddyHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\AddBuddyPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelDisabel.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\cancelPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finish.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finishHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\finishPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\left.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftIsSelected.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\leftPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\login.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\loginHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\loginPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\next.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextDisabel.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\nextPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\ok.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\okHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\okPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previous.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousDisabel.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\previousPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\right.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightIsSelected.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\rightPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\send.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\sendHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\button\sendPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\contactRightbg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\im.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\line.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginErrorMessageBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginFrameBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\loginWarnTipMessage.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\mainFrame.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\offline.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\online.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerDefault.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\centerPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftDefault.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\leftPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightDefault.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightHover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presenceSelectButton\rightPressed.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\busy.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\offline.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\presence\online.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\rightBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\thridBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\toolBarbg2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\toolbarBg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\tree\headItem.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\resources\images\y_bang_smiley.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\addContact\AddContactDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\addContact\ContactPane.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\button\YhButtonFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\LoginFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\MainFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\com\ui\PresenceSelectButton.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\jtextField\YhPasswordTextFiled.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\jtextField\YhTextFiled.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\lister\YhPacketLister.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\lister\YhRosterListener.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\mangager\PresenceManager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\AcceptNewContactDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\LoginErrorWarnNotifyDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\notify\WarnNotifyDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\resource\Yh.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\resource\YhImageRes.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\MainPane.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\SessionFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\session\message\BasicHtml.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactGroup.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactItem.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\src\main\java\tree\YhContactTree.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yh\yh.iml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/YahooMessenger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/addContact/addConatactBgFirst.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/addContact/addContact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/addContact/addContactSecondBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/cancelDisabel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/cancelHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/cancelPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/centerDefault.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/centerHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/centerPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/addContact/contactRightbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/finish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/finishHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/finishPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/im.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/leftDefault.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/leftHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/leftPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/addContact/line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/login/button/login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/login/loginErrorMessageBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/login/loginFrameBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/login/button/loginHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/login/button/loginPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/login/loginWarnTipMessage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/mainFrame.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/nextDisabel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/nextHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/nextPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/tray/offline.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/ok.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/okHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/okPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/tray/online.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/previousDisabel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/previousHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/button/previousPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/rightBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/rightDefault.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/rightHover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/main/presenceSelectButton/rightPressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/addContact/thridBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/session/toolBarbg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/session/toolbarBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/resources/images/common/y_bang_smiley.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/button/AddContactButtonFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/images/AddContactImageFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/button/ButtonFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/button/CommonButtonFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/images/CommonImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/images/CommonImagesFactroy.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/interceptor/ConnectionHandle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/lister/ConnectionHandle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/lister/ConnectionHandle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/images/FriendsImageFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/tray/ImTray.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/login/LoginErrorWarnNotifyDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/login/LoginFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/images/LoginImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/images/LoginImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/button/MainButtonFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/main/MainFrame.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/images/MainImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/images/MainImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/notify/NotifyWindow.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/images/PresenceImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/images/PresenceImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/images/PresenceImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/presence/PresenceManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/main/PresenceSelectButton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/button/SessionButtonFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/images/SessionImageFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/images/SessionImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/tray/SysTrayManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/images/TrayImageFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/images/TreeImagesFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yhClient/src/main/java/login/WarnNotifyDialog.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dtClient/config/configuration.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qqClient/qq.iml" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__com_30_pubCompent_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__com_sun_jdmk_jmxtools_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__com_sun_jmx_jmxri_1_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__javax_activation_activation_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__javax_jms_jms_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__javax_mail_mail_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__log4j_log4j_1_2_15.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\balloontip_1_2_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\dtclient\src\main\java\com\dt\chat\chat\ChatWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\dtclient\src\main\java\com\dt\chat\chat\ChatWindowContent.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\dtclient\src\main\java\com\dt\chat\chat\ChatWindowManager.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\dtclient\src\main\java\com\dt\chat\chat\GroupMessageAcceptWindow.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\qqClient\resources\images\common\headItem1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\smackservice\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\smackservice\src\main\java\org\smackservice\ChatManager.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\smackservice\src\main\java\org\smackservice\ConnectionManager.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\smackservice\src\main\java\org\smackservice\RosterManager.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\smackservice\src\main\java\org\smackservice\SmackConnection.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\smackservice\src\test\org\smackservice\RosterManagerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\YahooMessenger_aero.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\addConatactBgFirst.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\addConatactSecondBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\addContact.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\contactRightbg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\im.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\line.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\loginErrorMessageBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\loginFrameBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\loginWarnTipMessage.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\mainFrame.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\offline.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\online.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\rightBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\thridBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\toolBarbg2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\toolbarBg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\resources\images\y_bang_smiley.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\button\YhButtonFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\notify\LoginErrorWarnNotifyDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\notify\WarnNotifyDialog.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\AddBuddy.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\AddBuddyHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\AddBuddyPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\cancel.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\cancelDisabel.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\cancelHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\cancelPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\finish.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\finishHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\finishPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\left.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\leftHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\leftIsSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\leftPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\login.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\loginHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\loginPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\next.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\nextDisabel.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\nextHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\nextPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\ok.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\okHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\okPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\previous.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\previousDisabel.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\previousHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\previousPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\right.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\rightHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\rightIsSelected.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\rightPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\send.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\sendHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\button\sendPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\centerDefault.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\centerHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\centerPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\leftDefault.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\leftHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\leftPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\rightDefault.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\rightHover.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\resources\images\presenceSelectButton\rightPressed.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\src\main\java\com\ui\LoginFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\src\main\java\com\ui\MainFrame.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\src\main\java\com\ui\PresenceSelectButton.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\src\main\java\jtextField\YhPasswordTextFiled.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\src\main\java\jtextField\YhTextFiled.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\src\main\java\resource\Yh.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\src\main\java\resource\YhImageRes.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\improject\yhclient\src\main\java\session\message\BasicHtml.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace1\improject\webTest\web\index2.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\notify\AcceptNewContactDialog.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/notify/AcceptNewContactDialog.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\friends\AcceptNewFriendDialog.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/AcceptNewFriendDialog.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\dtClient\src\main\java\com\dt\main\AccountInfoPane.java" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/AccountInfoPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\addContact\AddContactDialog.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/addContact/AddContactDialog.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\friends\AddFriendFrame.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/AddFriendFrame.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\friends\AddFriendFrameContentPane.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/AddFriendFrameContentPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/src/main/java/com/component/BaseButton.java" afterPath="$PROJECT_DIR$/component/src/main/java/com/component/BaseButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/CommunicationConnection.java" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/CommunicationConnection.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/src/main/java/com/resource/ConfigurationRes.java" afterPath="$PROJECT_DIR$/resource/src/main/java/com/resource/ConfigurationRes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/ConnectionListerImpl.java" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/ConnectionListerImpl.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\uiComponent\src\main\java\com\ui\rosterTree\ContactGroup.java" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/ContactGroup.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\addContact\ContactPane.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/addContact/ContactPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\uiComponent\src\main\java\com\ui\rosterTree\renderer\ContactTableCellRenderer.java" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/renderer/ContactTableCellRenderer.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\dtClient\src\main\java\com\dt\main\DtClientWindow.java" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/DtClientWindow.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\friends\FriendsManager.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/FriendsManager.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\ui\headPicture\HeadPicture.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/ui/headPicture/HeadPicture.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\uiComponent\src\main\java\com\ui\button\ImageButton.java" afterPath="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/button/ImageButton.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/src/main/java/com/resource/ImageUtils.java" afterPath="$PROJECT_DIR$/resource/src/main/java/com/resource/ImageUtils.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\login\LoginContentPane.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/login/LoginContentPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\login\LoginDialogButtonFactory.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/login/LoginDialogButtonFactory.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\main\MainDialogButtonFactory.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/main/MainDialogButtonFactory.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\main\MainDialogContentPane.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/main/MainDialogContentPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\session\MainPane.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/session/MainPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\manager\PresenceManager.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/manager/PresenceManager.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\mangager\PresenceManager.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/mangager/PresenceManager.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\dtClient\src\main\java\com\dt\main\presence\PresenceMenu.java" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/presence/PresenceMenu.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\presence\PresenceMenu.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/presence/PresenceMenu.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\ui\window\PubDialog.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/ui/window/PubDialog.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\lunch\QQClient.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/lunch/QQClient.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\main\tree\QQContactGroup.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/main/tree/QQContactGroup.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\main\tree\QQContactItem.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/main/tree/QQContactItem.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\main\tree\QQContactTree.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/main/tree/QQContactTree.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\lister\QqPacketLister.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/lister/QqPacketLister.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\ui\menu\RightMenu.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/ui/menu/RightMenu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/communication/src/main/java/com/comunication/roster/RosterManager.java" afterPath="$PROJECT_DIR$/communication/src/main/java/com/comunication/roster/RosterManager.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\friends\SearchFriendsConditionPane.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsConditionPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\friends\SearchFriendsFrameButtonFactory.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsFrameButtonFactory.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\friends\SearchFriendsFrameContentPane.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsFrameContentPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\friends\SearchFriendsRsListPane.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsRsListPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\session\SessionFrame.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/session/SessionFrame.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\session\SessionFrameButtonFactory.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/session/SessionFrameButtonFactory.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\session\SessionFrameContentPane.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/session/SessionFrameContentPane.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\lunch\StartClient.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/lunch/StartClient.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\dtClient\src\main\java\com\dt\main\tree\SynDataService.java" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/SynDataService.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\src\main\java\qq\sysTray\SysTrayManager.java" afterPath="$PROJECT_DIR$/qqClient/src/main/java/qq/sysTray/SysTrayManager.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\dtClient\src\main\java\com\dt\vo\UserInfo.java" afterPath="$PROJECT_DIR$/dtClient/src/main/java/com/dt/vo/UserInfo.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\tree\YhContactGroup.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactGroup.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\tree\YhContactItem.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactItem.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\tree\YhContactTree.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactTree.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\lister\YhPacketLister.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/lister/YhPacketLister.java" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\src\main\java\lister\YhRosterListener.java" afterPath="$PROJECT_DIR$/yhClient/src/main/java/lister/YhRosterListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/communication/communication.iml" afterPath="$PROJECT_DIR$/communication/communication.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/component/component.iml" afterPath="$PROJECT_DIR$/component/component.iml" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\config\configuration.properties" afterPath="$PROJECT_DIR$/qqClient/config/configuration.properties" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\config\configuration.properties" afterPath="$PROJECT_DIR$/yhClient/config/configuration.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/improject.iml" afterPath="$PROJECT_DIR$/improject.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/communication/pom.xml" afterPath="$PROJECT_DIR$/communication/pom.xml" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\qqClient\pom.xml" afterPath="$PROJECT_DIR$/qqClient/pom.xml" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\uiComponent\pom.xml" afterPath="$PROJECT_DIR$/uiComponent/pom.xml" />
+      <change type="MODIFICATION" beforePath="D:\workspace1\improject\improject\yhClient\pom.xml" afterPath="$PROJECT_DIR$/yhClient/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/resource.iml" afterPath="$PROJECT_DIR$/resource/resource.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\workspace1\improject\improject\dtClient\dtclient.iml" afterPath="$PROJECT_DIR$/dtClient/dtClient.iml" />
+      <change type="MOVED" beforePath="D:\workspace1\improject\improject\qqClient\qqclient.iml" afterPath="$PROJECT_DIR$/qqClient/qqClient.iml" />
+      <change type="MOVED" beforePath="D:\workspace1\improject\improject\smackservice\smackservice.iml" afterPath="$PROJECT_DIR$/yhClient/yh.iml" />
+      <change type="MOVED" beforePath="D:\workspace1\improject\improject\uiComponent\uicomponent.iml" afterPath="$PROJECT_DIR$/uiComponent/uiComponent.iml" />
+      <change type="MOVED" beforePath="D:\workspace1\improject\improject\yhClient\yhclient.iml" afterPath="$PROJECT_DIR$/yhClient/yhClient.iml" />
     </list>
     <list id="d666aa0e-0825-46bd-88c4-e6cb528df588" name="improjectchangelist" comment="" />
     <list id="6fc916a9-4c76-48cb-9be9-fbedecfd6094" name="Failed commit: Default" comment="dt">
-      <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__com_30_pubCompent_1_0.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\.idea\libraries\Maven__junit_junit_4_7.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\balloontip-1.2.4.1.jar" afterPath="" />
       <change type="DELETED" beforePath="D:\workspace1\improject\improject\qq\config\configuration.properties" afterPath="" />
@@ -299,8 +355,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <breakpoint_rules converted="true" />
     <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -308,101 +364,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GroupMessageAcceptWindow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/GroupMessageAcceptWindow.java">
+      <file leaf-file-name="PropertiesTools.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resource/src/main/java/com/resource/PropertiesTools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1590" max-vertical-offset="2070">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatMessageFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatMessageFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="2430">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatWindowContent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindowContent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="4230" max-vertical-offset="4920">
-              <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GroupChat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="1440">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleChat.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/SingleChat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1650">
-              <caret line="20" column="122" selection-start-line="20" selection-start-column="122" selection-end-line="20" selection-end-column="122" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatMessageHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/interceptor/ChatMessageHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1230" max-vertical-offset="1710">
-              <caret line="41" column="82" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatWindow.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindow.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1410" max-vertical-offset="2370">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChatWindowManager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindowManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="1740">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomTree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/CustomTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2070" max-vertical-offset="5280">
-              <caret line="69" column="53" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartClient.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/start/StartClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6182519" vertical-offset="149" max-vertical-offset="990">
-              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1440">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -421,57 +387,57 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/component/pom.xml" />
-        <option value="$PROJECT_DIR$/qq/src/main/java/qq/friends/AddFriendFrame.java" />
-        <option value="$PROJECT_DIR$/qq/pom.xml" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/ui/menu/RightMenu.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/images/MainImagesFactory.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/images/SessionImagesFactory.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/images/FriendsImageFactory.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/images/CommonImagesFactory.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/AddFriendFrame.java" />
         <option value="$PROJECT_DIR$/component/src/main/java/com/component/BaseButton.java" />
-        <option value="$PROJECT_DIR$/qq/src/main/java/qq/login/LoginContentPane.java" />
-        <option value="$PROJECT_DIR$/qq/config/configuration.properties" />
-        <option value="$PROJECT_DIR$/smackservice/src/main/java/org/smackservice/RosterManager.java" />
-        <option value="$PROJECT_DIR$/qq/src/main/java/qq/main/MainDialogContentPane.java" />
-        <option value="$PROJECT_DIR$/qq/src/main/java/qq/friends/SearchFriendsFrame.java" />
-        <option value="$PROJECT_DIR$/qq/src/main/java/qq/friends/FriendsManager.java" />
-        <option value="$PROJECT_DIR$/qq/src/main/java/qq/friends/AddFriendFrameContentPane.java" />
-        <option value="$PROJECT_DIR$/qq/src/main/java/qq/friends/SearchFriendsRsListPane.java" />
-        <option value="$PROJECT_DIR$/qq/src/main/java/qq/session/SessionFrameContentPane.java" />
-        <option value="$PROJECT_DIR$/component/src/main/java/com/component/session/ChatDisplayPane.java" />
-        <option value="$PROJECT_DIR$/yhclient/src/main/java/addContact/ContactPane.java" />
-        <option value="$PROJECT_DIR$/dtclient/pom.xml" />
-        <option value="$PROJECT_DIR$/uicomponent/src/main/java/com/ui/chat/ChatWritePanel.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/roster/RosterManager.java" />
-        <option value="$PROJECT_DIR$/communication/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/dtClient/pom.xml" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/SynDataService.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupMemberTable.java" />
+        <option value="$PROJECT_DIR$/qqClient/config/configuration.properties" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/presence/PresenceMenu.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/manager/PresenceManager.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/lunch/StartClient.java" />
+        <option value="$PROJECT_DIR$/uiComponent/pom.xml" />
+        <option value="$PROJECT_DIR$/qqClient/pom.xml" />
+        <option value="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/PubTree.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/FriendsManager.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/main/tree/QQContactItem.java" />
+        <option value="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/renderer/ContactTableCellRenderer.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/main/tree/QQContactGroup.java" />
+        <option value="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/ContactGroup.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsRsListPane.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsFrameButtonFactory.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsConditionPane.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/AcceptNewFriendDialog.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/session/SessionFrameButtonFactory.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/main/MainDialogButtonFactory.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/login/LoginDialogButtonFactory.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/ui/headPicture/HeadPicture.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/AddFriendFrameContentPane.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsFrameContentPane.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/sysTray/SysTrayManager.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/ui/window/PubDialog.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/main/MainDialogContentPane.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/login/LoginContentPane.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/lister/ConnectionHandle.java" />
         <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/CommunicationConnection.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/AccountInfoPane.java" />
-        <option value="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/chat/ChatDisplayPane.java" />
-        <option value="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/chat/ChatWritePanel.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/OrgTree.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChatInfo.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/CustomTree.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatMessageParser.java" />
-        <option value="$PROJECT_DIR$/uiComponent/src/main/java/com/ui/table/ExtendTable.java" />
-        <option value="$PROJECT_DIR$/communication/src/test/java/com/comunication/chat/GroupChatManagerTest.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupWindowContent.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupManager.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/CustomTreeRightMenu.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/SelectMemberDialog.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChatManager.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/GroupMessageAcceeptWindow.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/DtClientWindow.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChat.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatOperate.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/SingleChat.java" />
-        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatMessageFactory.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindowContent.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/GroupMessageAcceptWindow.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindowManager.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindow.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/interceptor/ChatMessageHandler.java" />
-        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/start/StartClient.java" />
+        <option value="$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/presence/PresenceManager.java" />
+        <option value="$PROJECT_DIR$/communication/src/main/java/com/comunication/roster/RosterManager.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/lunch/QQClient.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/lister/QqPacketLister.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/session/SessionFrameContentPane.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/lister/ConnectionHandle.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/login/LoginFrame.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/addContact/ContactPane.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/lister/YhRosterListener.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/main/MainFrame.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactGroup.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactTree.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/lister/YhPacketLister.java" />
+        <option value="$PROJECT_DIR$/yhClient/src/main/java/session/MainPane.java" />
+        <option value="$PROJECT_DIR$/qqClient/src/main/java/qq/main/tree/QQContactTree.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -506,6 +472,7 @@
   </component>
   <component name="ProjectStructureProblems">
     <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:balloontip-1.2.4.1)" />
       <problem id="unused-library(library:project:balloontip-1.2.4.1)" />
     </ignored-problems>
   </component>
@@ -523,6 +490,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -551,7 +519,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dtClient" />
+              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -565,29 +533,7 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dtClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="improject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="improject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dtClient" />
+              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -603,47 +549,12 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dt" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="improject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="improject" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dtClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dt" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="chat" />
+              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -656,15 +567,17 @@
     <property name="last_opened_file_path" value="D:/clientWorkSpace" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.41830823" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -675,28 +588,84 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="qq.friends" />
-      <recent name="qq.session" />
-      <recent name="qq.main" />
-      <recent name="qq.ui.button" />
-      <recent name="qq.manager" />
+      <recent name="qq.lister" />
+      <recent name="qq.images" />
+      <recent name="com.ui.tray" />
+      <recent name="com.ui.notify" />
+      <recent name="images" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspace1\improject\improject\dtClient\src" />
-      <recent name="D:\workspace1\improject\improject\dtClient\src\main\java\com\dt\chat" />
-      <recent name="D:\workspace1\improject\improject\dtClient" />
-      <recent name="D:\workspace1\improject\improject\dtClient\src\main\resources" />
-      <recent name="D:\workspace1\improject\improject\communication\src\main\java\com\comunication\roster" />
+      <recent name="D:\workspace1\improject\improject\yhClient\src\main\java\lister" />
+      <recent name="D:\workspace1\improject\improject\qqClient\src\main\resources" />
+      <recent name="D:\workspace1\improject\improject\uiComponent\src\main\java\com\ui" />
+      <recent name="D:\workspace1\improject\improject\yhClient\src\main\java\tray" />
+      <recent name="D:\workspace1\improject\improject\yhClient\resources\images\session" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace1\improject\improject\qq\resources\images\friends\button" />
-      <recent name="D:\workspace1\improject\improject\qq\resources\images" />
-      <recent name="D:\workspace1\improject\improject\smackservice\src" />
-      <recent name="D:\workspace1\improject\improject\qq\resources\images\friends" />
-      <recent name="D:\workspace1\improject\improject\qq\resources\images\common" />
+      <recent name="D:\workspace1\improject\improject\yhClient\resources\images\session\button" />
+      <recent name="D:\workspace1\improject\improject\yhClient\resources\images\session" />
+      <recent name="D:\workspace1\improject\improject\yhClient\resources\images\main" />
+      <recent name="D:\workspace1\improject\improject\yhClient\resources\images\addConatact\button" />
+      <recent name="D:\workspace1\improject\improject\yhClient\resources\images\main\button" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Unnamed">
+  <component name="RunManager" selected="Application.LoginFrame">
+    <configuration default="false" name="LoginFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="login.LoginFrame" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="yhClient" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StartClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="qq.lunch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="qq.lunch.StartClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="qqClient" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="false" name="GroupChatManagerTest.testCreateGroupChat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -938,7 +907,7 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="Application" factoryName="Application">
+    <configuration default="false" name="startDtClient" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.dt.start.StartClient" />
       <option name="VM_PARAMETERS" value="" />
@@ -961,13 +930,17 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GroupChatManagerTest.testCreateGroupChat" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.startDtClient" />
+      <item index="1" class="java.lang.String" itemvalue="Application.LoginFrame" />
+      <item index="2" class="java.lang.String" itemvalue="Application.StartClient" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GroupChatManagerTest.testCreateGroupChat" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GroupChatManagerTest.testCreateGroupChat" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.LoginFrame" />
+        <item index="1" class="java.lang.String" itemvalue="Application.StartClient" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GroupChatManagerTest.testCreateGroupChat" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -1056,7 +1029,18 @@
       <workItem from="1415601972497" duration="9041000" />
       <workItem from="1415611033719" duration="1184000" />
       <workItem from="1415612334538" duration="751000" />
-      <workItem from="1415613338765" duration="108000" />
+      <workItem from="1415613338765" duration="230000" />
+      <workItem from="1415666690454" duration="17469000" />
+      <workItem from="1415689040458" duration="11563000" />
+      <workItem from="1415705428012" duration="1583000" />
+      <workItem from="1415707024991" duration="708000" />
+      <workItem from="1415707745812" duration="589000" />
+      <workItem from="1415708346571" duration="529000" />
+      <workItem from="1415753739195" duration="812000" />
+      <workItem from="1415755834440" duration="239000" />
+      <workItem from="1415756080253" duration="217000" />
+      <workItem from="1415756298842" duration="1198000" />
+      <workItem from="1415772170026" duration="657000" />
     </task>
     <task id="LOCAL-00001" summary="添加了资源文件的模块，组件模块">
       <created>1412408307130</created>
@@ -1114,11 +1098,15 @@
       <created>1413789202691</created>
       <updated>1413789202691</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="QQ">
+      <created>1415613461318</created>
+      <updated>1415613461318</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="354875000" />
+    <option name="totallyTimeSpent" value="390561000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1148,29 +1136,57 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48118585" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6006865" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41990846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49771166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21436717" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21395881" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327252" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3272311" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38392857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54691076" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4099026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21395881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3180778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20709382" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40503433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31693363" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21395881" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956383" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.327252" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4099026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21395881" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6006865" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40503433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49771166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31693363" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24918033" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1197,16 +1213,16 @@
     <MESSAGE value="修改 yh 主界面&#10;" />
     <MESSAGE value="修改 yh 添加好友界面&#10;" />
     <MESSAGE value="修改公共组件" />
-    <MESSAGE value="QQ" />
     <MESSAGE value="dt" />
-    <option name="LAST_COMMIT_MESSAGE" value="dt" />
+    <MESSAGE value="QQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="QQ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/qqclient/src/main/java/qq/friends/SearchFriendsConditionPane.java</url>
-          <line>121</line>
+          <url>file://$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsConditionPane.java</url>
+          <line>120</line>
           <properties />
           <option name="timeStamp" value="101" />
         </line-breakpoint>
@@ -1223,13 +1239,43 @@
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/interceptor/ChatMessageHandler.java</url>
-          <line>28</line>
+          <url>file://$PROJECT_DIR$/yhClient/src/main/java/main/MainFrame.java</url>
+          <line>134</line>
           <properties />
-          <option name="timeStamp" value="159" />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/qqClient/src/main/java/qq/friends/FriendsManager.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/yhClient/src/main/java/main/MainFrame.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/yhClient/src/main/java/main/MainFrame.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactTree.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactTree.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="199" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="160" />
+      <option name="time" value="200" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1237,376 +1283,366 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/start/StartClient.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsFrameContentPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="149" max-vertical-offset="990">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="15" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="930">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component/src/main/java/com/component/session/ChatDisplayPane.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/friends/SearchFriendsRsListPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="763" max-vertical-offset="1600">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.4698795" vertical-offset="1920" max-vertical-offset="3330">
+          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uiComponent/pom.xml">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/sysTray/SysTrayManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4698795" vertical-offset="0" max-vertical-offset="830">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="687" max-vertical-offset="1980">
+          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/vo/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/headPicture/HeadPicture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19280206" vertical-offset="0" max-vertical-offset="3390">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="2010">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/vo/Unit.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/JTextField/FreeTextField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18656716" vertical-offset="0" max-vertical-offset="990">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1920">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uiComponent/src/main/java/com/ui/image/ImageUtils.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/JTextField/JTextPaneHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="5970">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/DtClientWindowContent.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/JTextField/JTextFieldFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5871886" vertical-offset="15" max-vertical-offset="1980">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="1350">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/roster/RosterManager.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/menu/RightMenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.0640569" vertical-offset="0" max-vertical-offset="2670">
-          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communication/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84223014" vertical-offset="460" max-vertical-offset="1470">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/presence/PresenceMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25301206" vertical-offset="0" max-vertical-offset="1230">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/window/PubDialog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="4230">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="791">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/window/PubFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/window/WindowDraggedHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1320">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/window/NavigationBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/main/MainDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="1110">
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/main/MainDialogContentPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2044" max-vertical-offset="3750">
+          <caret line="91" column="12" selection-start-line="91" selection-start-column="12" selection-end-line="91" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/login/LoginDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/lister/ConnectionHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36719707" vertical-offset="0" max-vertical-offset="817">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/lunch/StartClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.375765" vertical-offset="53" max-vertical-offset="870">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/login/LoginContentPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8507463" vertical-offset="5076" max-vertical-offset="6330">
+          <caret line="202" column="0" selection-start-line="202" selection-start-column="0" selection-end-line="202" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/login/LoginDialogButtonFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="870">
+          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/CommunicationConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="1170">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1050">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/pom.xml">
+    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/connection/ConnectionManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="1290">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="2580">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/presence/PresenceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="519" max-vertical-offset="1770">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/lunch/QQClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.99630994" vertical-offset="0" max-vertical-offset="810">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1703" max-vertical-offset="3000">
+          <caret line="78" column="57" selection-start-line="78" selection-start-column="57" selection-end-line="78" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/resources/images/main/navigation/org.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/resources/images/main/navigation/navigationBg.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/resources/images/main/navigation/custom.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uiComponent/src/main/java/com/ui/chat/ChatWritePanel.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/session/SessionFrameContentPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="7356" max-vertical-offset="8220">
-          <caret line="287" column="45" selection-start-line="287" selection-start-column="45" selection-end-line="287" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.7606838" vertical-offset="2793" max-vertical-offset="5520">
+          <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qqclient/src/main/java/qq/session/message/BasicHtml.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/ui/headPicture/Pricture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
-          <caret line="17" column="5" selection-start-line="6" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.93162394" vertical-offset="93" max-vertical-offset="3000">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qqclient/src/main/java/qq/session/SessionFrameContentPane.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/lister/QqPacketLister.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4236" max-vertical-offset="5580">
-          <caret line="162" column="4" selection-start-line="162" selection-start-column="4" selection-end-line="171" selection-end-column="5" />
+        <state vertical-scroll-proportion="-0.45584047" vertical-offset="490" max-vertical-offset="1320">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChatInfo.java">
+    <entry file="file://$PROJECT_DIR$/yhClient/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="593" max-vertical-offset="1650">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.5017794" vertical-offset="267" max-vertical-offset="1110">
+          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/javax/swing/table/DefaultTableModel.java">
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/friends/FriendsManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325301" vertical-offset="2964" max-vertical-offset="19440">
-          <caret line="140" column="11" selection-start-line="140" selection-start-column="11" selection-end-line="140" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uiComponent/src/main/java/com/ui/table/ExtendTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="1230">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/OrgTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5895522" vertical-offset="1686" max-vertical-offset="2580">
-          <caret line="75" column="37" selection-start-line="75" selection-start-column="20" selection-end-line="75" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2440" max-vertical-offset="3270">
+          <caret line="101" column="9" selection-start-line="97" selection-start-column="7" selection-end-line="101" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/SynDataService.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_67/src.zip!/javax/swing/JComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13557214" vertical-offset="1061" max-vertical-offset="2850">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="85113" max-vertical-offset="161460">
+          <caret line="2969" column="0" selection-start-line="2969" selection-start-column="0" selection-end-line="2969" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/igniterealtime/smack/smackx/3.2.1/smackx-3.2.1-sources.jar!/org/jivesoftware/smackx/muc/MultiUserChat.java">
+    <entry file="file://$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/TreePane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34375" vertical-offset="39648" max-vertical-offset="76680">
-          <caret line="1450" column="0" selection-start-line="1450" selection-start-column="0" selection-end-line="1450" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.25274727" vertical-offset="748" max-vertical-offset="1140">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/AccountInfoPane.java">
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/addContact/ContactPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0320284" vertical-offset="0" max-vertical-offset="1260">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="6600">
+          <caret line="24" column="105" selection-start-line="24" selection-start-column="105" selection-end-line="24" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uiComponent/src/main/java/com/ui/rosterTree/ContactGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3618233" vertical-offset="542" max-vertical-offset="3570">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/src/main/java/com/resource/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="492" max-vertical-offset="900">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/images/MainImagesFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="199" max-vertical-offset="1680">
+          <caret line="20" column="56" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/login/LoginFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3529" max-vertical-offset="3990">
+          <caret line="151" column="0" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/roster/RosterManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2037325" vertical-offset="109" max-vertical-offset="2460">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24911033" vertical-offset="0" max-vertical-offset="843">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.933126" vertical-offset="0" max-vertical-offset="870">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/tree/YhContactTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6904376" vertical-offset="474" max-vertical-offset="2580">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatMessageParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78313255" vertical-offset="340" max-vertical-offset="1230">
-          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupMemberTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="113" max-vertical-offset="1290">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/test/java/com/comunication/chat/GroupChatManagerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1950">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.430605" vertical-offset="57" max-vertical-offset="900">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/CustomTreeRightMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56626505" vertical-offset="1270" max-vertical-offset="2100">
-          <caret line="66" column="57" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325301" vertical-offset="864" max-vertical-offset="3060">
-          <caret line="50" column="34" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/SelectMemberDialog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54685646" vertical-offset="3019" max-vertical-offset="5820">
-          <caret line="129" column="87" selection-start-line="129" selection-start-column="87" selection-end-line="129" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/group/GroupWindowContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.585366" vertical-offset="0" max-vertical-offset="4950">
-          <caret line="144" column="48" selection-start-line="144" selection-start-column="48" selection-end-line="144" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/DtClientWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1110">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uiComponent/src/main/java/com/ui/chat/ChatDisplayPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="946" max-vertical-offset="1890">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatOperate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
-          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChatManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2176617" vertical-offset="3125" max-vertical-offset="6300">
-          <caret line="112" column="35" selection-start-line="112" selection-start-column="35" selection-end-line="112" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1601#1609#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindowContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3225" max-vertical-offset="4260">
-          <caret line="141" column="0" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.4764992" vertical-offset="426" max-vertical-offset="1230">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/ChatMessageFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="2280">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.44084278" vertical-offset="28" max-vertical-offset="2280">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/session/MainPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.566265" vertical-offset="0" max-vertical-offset="2550">
+          <caret line="91" column="47" selection-start-line="91" selection-start-column="47" selection-end-line="91" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/session/SessionFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3879004" vertical-offset="0" max-vertical-offset="1410">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/main/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6405694" vertical-offset="1170" max-vertical-offset="3570">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/GroupMessageAcceptWindow.java">
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/lister/ConnectionHandle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1440" max-vertical-offset="2070">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.21686748" vertical-offset="0" max-vertical-offset="830">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/lister/YhPacketLister.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.97590363" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yhClient/src/main/java/lister/YhRosterListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20481928" vertical-offset="310" max-vertical-offset="1260">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qqClient/src/main/java/qq/main/tree/QQContactTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4939759" vertical-offset="220" max-vertical-offset="1230">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.726506" vertical-offset="1197" max-vertical-offset="4290">
+          <caret line="60" column="20" selection-start-line="60" selection-start-column="20" selection-end-line="60" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/GroupChat.java">
+    <entry file="file://$PROJECT_DIR$/resource/src/main/java/com/resource/PropertiesTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/interceptor/MessageListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4406365" vertical-offset="0" max-vertical-offset="817">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/CustomTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1055" max-vertical-offset="4770">
-          <caret line="69" column="53" selection-start-line="69" selection-start-column="40" selection-end-line="69" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindowManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="840" max-vertical-offset="1530">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/communication/src/main/java/com/comunication/chat/SingleChat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="281" max-vertical-offset="1440">
-          <caret line="20" column="122" selection-start-line="20" selection-start-column="122" selection-end-line="20" selection-end-column="122" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/interceptor/ChatMessageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="516" max-vertical-offset="1320">
-          <caret line="41" column="82" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/chat/chat/ChatWindow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="983" max-vertical-offset="1800">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/start/StartClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6182519" vertical-offset="149" max-vertical-offset="990">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="1440">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1663,11 +1699,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>communication</last-edited>
+          <last-edited>improject</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41830823" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1688,11 +1724,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>balloontip-1.2.4.1</last-edited>
+          <last-edited>Maven: com.30:pubTools:1.0-SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.41830823" />
               </list>
             </option>
           </splitter-proportions>

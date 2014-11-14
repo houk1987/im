@@ -1,9 +1,9 @@
 package qq.friends;
 
-import com.component.ExtendPane;
-import com.resource.ImageUtils;
-import com.component.jlabel.JLabelFactory;
-import com.component.rosterTree.ContactItem;
+
+import com.ui.jlabel.JLabelFactory;
+import com.ui.pane.ExtendPane;
+import qq.images.FriendsImageFactory;
 import qq.lunch.QQClient;
 
 import javax.swing.*;
@@ -26,7 +26,7 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
 
 
     public AddFriendFrameContentPane(AddFriendFrame addFriendFrame) {
-        super(null, ImageUtils.getInstance("friends/").getImageIcon("addFriendsBg.png"));
+        super(null, FriendsImageFactory.getInstance().createAddFriendsBg());
         searchFriendsFrameButtonFactory = new SearchFriendsFrameButtonFactory();
         this.addFriendFrame = addFriendFrame;
         this.addCloseWindowButton();
@@ -111,7 +111,7 @@ public class AddFriendFrameContentPane extends ExtendPane implements ActionListe
         accountPane.setBackground(new Color(243,247,251));
         accountPane.setBounds(10,180,120,140);
         add(accountPane);
-        JLabel nameLabel = JLabelFactory.createJLabel(addFriendFrame.getName(),new Font("ËÎÌו",Font.BOLD,12),Color.BLACK);
+        JLabel nameLabel = JLabelFactory.createJLabel(addFriendFrame.getName(), new Font("ËÎÌו", Font.BOLD, 12), Color.BLACK);
         JLabel accountLabel = JLabelFactory.createJLabel(addFriendFrame.getJid(),new Font("ËÎÌו",Font.PLAIN,12),Color.BLACK);
         nameLabel.setBounds(5,0,100,30);
         accountLabel.setBounds(5,10,100,50);

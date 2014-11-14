@@ -1,12 +1,10 @@
 package notify;
-
-
-import com.component.jlabel.JLabelFactory;
-import com.component.notify.NotifyWindow;
-import com.component.session.WrapLetterHTMLEditorKit;
+import com.comunication.connection.ConnectionManager;
 import com.san30.pub.tools.SanHttpClient;
-import com.ui.MainFrame;
-import org.smackservice.SmackConnection;
+import com.ui.chat.WrapLetterHTMLEditorKit;
+import com.ui.jlabel.JLabelFactory;
+import com.ui.notify.NotifyWindow;
+import main.MainFrame;
 
 import javax.swing.*;
 import java.awt.*;
@@ -47,7 +45,7 @@ public class AcceptNewContactDialog extends NotifyWindow {
                 paramMap.put("jid",from);
                 paramMap.put("targetAccount", MainFrame.getInstance().getLoginUser().split("@")[0]);
                 try {
-                    String url = "http://" + SmackConnection.getInstance().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
+                    String url = "http://" + ConnectionManager.getConnection().getHost() + ":" + 9090 + "/plugins/udpserver/addcontact";
                     SanHttpClient.getDataAsString(url, paramMap);
                     dispose();
                     MainFrame.getInstance().getYhContactTree().addContactItem(from,from.split("@")[0]);

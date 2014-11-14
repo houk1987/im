@@ -10,9 +10,9 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JLayeredPane;
 import javax.swing.JPanel;
-import com.resource.ImageUtils;
-import com.component.jlabel.JLabelFactory;
 import com.resource.ConfigurationRes;
+import com.ui.jlabel.JLabelFactory;
+import qq.images.CommonImagesFactory;
 
 public class HeadPicture extends JLayeredPane {
 
@@ -24,7 +24,7 @@ public class HeadPicture extends JLayeredPane {
 		pic.setBounds(1,2, 43, 43);
 		this.moveToFront(pic);
 		this.add(pic);
-        JLabel boxLabel = JLabelFactory.createJLabel(ImageUtils.getInstance("common/").getImageIcon("picbox.png"));
+        JLabel boxLabel = JLabelFactory.createJLabel(CommonImagesFactory.getInstance().createPicBox());
 		boxLabel.setLocation(0,0);
 		this.add(boxLabel);
 		this.moveToBack(boxLabel);

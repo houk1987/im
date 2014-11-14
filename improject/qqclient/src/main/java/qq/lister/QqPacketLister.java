@@ -1,6 +1,8 @@
 package qq.lister;
 
 
+import com.comunication.interceptor.MessageHandleManager;
+import com.comunication.interceptor.MessagePacketHandle;
 import org.jivesoftware.smack.PacketListener;
 import org.jivesoftware.smack.packet.Message;
 import org.jivesoftware.smack.packet.Packet;
@@ -17,11 +19,16 @@ import javax.swing.*;
 /**
  * Created by HK on 2014/10/6.
  */
-public class QqPacketLister implements PacketListener {
+public class QqPacketLister implements MessagePacketHandle {
+
+    public QqPacketLister() {
+        MessageHandleManager.addMessagePackHandle(this);
+    }
+
     @Override
-    public void processPacket(Packet packet) {
+    public void messageHandel(Packet packet) {
         if(packet instanceof Message){
-           final Message message  =(Message)packet;
+            final Message message  =(Message)packet;
             String subject = message.getSubject();
             if("∫√”—…Í’à".equals(subject)){
                 SwingUtilities.invokeLater(new Runnable() {

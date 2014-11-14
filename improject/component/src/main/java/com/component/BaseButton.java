@@ -17,7 +17,7 @@ public class BaseButton extends JButton {
     }
 
     public BaseButton(String buttonImagePath,String imageName,boolean isSelected) {
-        ImageUtils imageUtils = ImageUtils.getInstance(buttonImagePath);
+        ImageUtils imageUtils = new ImageUtils(buttonImagePath);
         String otherPath = imageName.substring(0, imageName.lastIndexOf("."));
         setIcon(imageUtils.getImageIcon(imageName));
         setRolloverIcon(imageUtils.getImageIcon(otherPath + "Hover.png"));

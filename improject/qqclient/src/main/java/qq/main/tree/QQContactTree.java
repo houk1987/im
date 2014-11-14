@@ -1,18 +1,13 @@
 package qq.main.tree;
 
-
-import com.component.rosterTree.ContactGroup;
-import com.component.rosterTree.ContactItem;
-import com.component.rosterTree.TreePane;
-import org.jivesoftware.smack.RosterEntry;
-import org.jivesoftware.smack.packet.Presence;
-import org.smackservice.RosterManager;
+import com.ui.rosterTree.ContactGroup;
+import com.ui.rosterTree.ContactItem;
+import com.ui.rosterTree.TreePane;
 import qq.lunch.QQClient;
-import qq.main.MainDialog;
-import qq.manager.PresenceManager;
 
 import java.awt.*;
 import java.util.List;
+
 
 /**
  * Created by a on 2014/9/5.
@@ -32,7 +27,7 @@ public class QQContactTree extends TreePane {
         for (ContactItem contactItem : friendsList) {
             friends.addContactItem(contactItem);
         }
-        friends.calOnlineNum(QQClient.getInstance().getFriendsManager().getOnlineNumber()); //
+        friends.calOnlineNum(QQClient.getInstance().getFriendsManager().getOnlineNumber()); //r
         mainPanel.add(friends);
         mainPanel.add(recentContacts);
         mainPanel.add(address);

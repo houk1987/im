@@ -1,7 +1,6 @@
 package qq.friends;
-
-import com.resource.ImageUtils;
-import com.component.jlabel.JLabelFactory;
+import com.ui.jlabel.JLabelFactory;
+import qq.images.CommonImagesFactory;
 import qq.lunch.QQClient;
 
 import javax.swing.*;
@@ -72,7 +71,7 @@ public class SearchFriendsRsListPane extends JScrollPane {
 
         private void initAddFriends() {
             setLayout(null);
-            head = JLabelFactory.createJLabel(ImageUtils.getInstance("common/").getImageIcon("headItem.png"));
+            head = JLabelFactory.createJLabel(CommonImagesFactory.getInstance().createHeadItem());
             head.setLocation(15, 5);
             add(head);
 

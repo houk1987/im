@@ -5,29 +5,22 @@ import javax.swing.*;
  * Created by lenovo on 2014/10/14.
  */
 public class ImageUtils {
-    private String resPath;
-    private static ImageUtils imageUtils;
 
-    public static ImageUtils getInstance(String resPath) {
-        if(imageUtils == null){
-            imageUtils = new ImageUtils(resPath);
-        }
-        imageUtils.setResPath(ConfigurationRes.getPath()+resPath);
-        return imageUtils;
-    }
+    private static String resPath = ConfigurationRes.getPath();
+    private String imageFullPath;
 
-    private ImageUtils(String resPath) {
-        this.resPath = resPath;
-    }
-
-    private void setResPath(String resPath) {
-        this.resPath = resPath;
+    /**
+     * 图片所在 文件夹路径
+     * @param imageDirPath
+     */
+    public ImageUtils(String imageDirPath) {
+        this.imageFullPath = resPath+imageDirPath+"/";
     }
 
     public ImageIcon getImageIcon(String imageName){
         if(imageName == null){
             return null;
         }
-        return new ImageIcon(resPath+imageName);
+        return new ImageIcon(imageFullPath+imageName);
     }
 }

@@ -1,6 +1,6 @@
 package tree;
 
-import com.component.rosterTree.ContactItem;
+import com.ui.rosterTree.ContactItem;
 import session.SessionFrame;
 
 /**

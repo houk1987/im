@@ -1,7 +1,6 @@
 package qq.friends;
 
-import com.component.BaseButton;
-import com.component.ButtonFactory;
+import com.ui.button.ButtonFactory;
 
 import javax.swing.*;
 
@@ -10,7 +9,7 @@ import javax.swing.*;
  * 提供登陆窗口中按钮创建
  * Created by lenovo on 2014/10/16.
  */
-public class SearchFriendsFrameButtonFactory extends ButtonFactory{
+public class SearchFriendsFrameButtonFactory extends ButtonFactory {
 
     protected SearchFriendsFrameButtonFactory() {
         super("friends/button/");

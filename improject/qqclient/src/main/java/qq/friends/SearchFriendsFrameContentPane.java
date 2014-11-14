@@ -1,6 +1,7 @@
 package qq.friends;
 
-import com.component.ExtendPane;
+
+import com.ui.pane.ExtendPane;
 
 /**
  * Created by lenovo on 2014/10/17.

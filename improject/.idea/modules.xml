@@ -6,8 +6,10 @@
       <module fileurl="file://$PROJECT_DIR$/component/component.iml" filepath="$PROJECT_DIR$/component/component.iml" />
       <module fileurl="file://$PROJECT_DIR$/dtClient/dtClient.iml" filepath="$PROJECT_DIR$/dtClient/dtClient.iml" />
       <module fileurl="file://$PROJECT_DIR$/improject.iml" filepath="$PROJECT_DIR$/improject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qqClient/qq.iml" filepath="$PROJECT_DIR$/qqClient/qq.iml" />
       <module fileurl="file://$PROJECT_DIR$/resource/resource.iml" filepath="$PROJECT_DIR$/resource/resource.iml" />
       <module fileurl="file://$PROJECT_DIR$/uiComponent/uiComponent.iml" filepath="$PROJECT_DIR$/uiComponent/uiComponent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yhClient/yh.iml" filepath="$PROJECT_DIR$/yhClient/yh.iml" />
     </modules>
   </component>
 </project>

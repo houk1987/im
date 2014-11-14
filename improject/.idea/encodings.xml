@@ -5,11 +5,12 @@
     <file url="file://$PROJECT_DIR$/communication" charset="GBK" />
     <file url="file://$PROJECT_DIR$/component" charset="GBK" />
     <file url="file://$PROJECT_DIR$/dtClient" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/qqclient" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/main/tree/SynDataService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/dtClient/src/main/java/com/dt/vo/UserInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/qqClient" charset="GBK" />
     <file url="file://$PROJECT_DIR$/resource" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/smackservice" charset="GBK" />
     <file url="file://$PROJECT_DIR$/uiComponent" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/yhclient" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/yhClient" charset="GBK" />
   </component>
 </project>
 

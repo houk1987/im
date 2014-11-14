@@ -1,13 +1,15 @@
 package qq.session;
 
-import com.component.ExtendPane;
-import com.resource.ImageUtils;
-import com.component.jlabel.JLabelFactory;
-import com.component.session.ChatDisplayPane;
-import com.component.session.ChatWritePanel;
+
+import com.comunication.chat.ChatOperate;
+import com.comunication.chat.SingleChat;
 import com.resource.ConfigurationRes;
-import org.jivesoftware.smack.XMPPException;
+import com.ui.chat.ChatDisplayPane;
+import com.ui.chat.ChatWritePanel;
+import com.ui.jlabel.JLabelFactory;
+import com.ui.pane.ExtendPane;
 import org.jivesoftware.smack.packet.Message;
+import qq.images.SessionImagesFactory;
 import qq.lunch.QQClient;
 import qq.main.tree.QQContactItem;
 import qq.session.message.BasicHtml;
@@ -38,7 +40,7 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
     private SessionFrame sessionFrame;
 
     public SessionFrameContentPane(SessionFrame sessionFrame) {
-        super(null, ImageUtils.getInstance("session/").getImageIcon("sessionFrameBg.png"));
+        super(null, SessionImagesFactory.getInstance().createSessionBg());
         this.sessionFrame = sessionFrame;
         this.contact = sessionFrame.getContact();
         this.sessionFrameButtonFactory = new SessionFrameButtonFactory();
@@ -77,7 +79,7 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
      * 添加用户头像席状态
      */
     private void addUserHeadIconLabel() {
-        animation=new HeadPicture(ConfigurationRes.getPath()+"common/headItem1.png");
+        animation=new HeadPicture(ConfigurationRes.getPath()+"common/headItem.png");
         animation.setLocation(6, 1);
         add(animation);
     }
@@ -99,15 +101,6 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
         minWindowButton.setLocation(this.getWidth() - closeWindowButton.getWidth() - minWindowButton.getWidth()-minWindowButton.getWidth(), 0);
         addButton(minWindowButton);
     }
-
-//    /**
-//     * 添加窗口最大化按钮
-//     */
-//    private void addMaxWindowButton() {
-//        maxWindowButton = sessionFrameButtonFactory.createMaxWindowButton();
-//        maxWindowButton.setLocation(this.getWidth() - closeWindowButton.getWidth() - maxWindowButton.getWidth(), 0);
-//        addButton(maxWindowButton);
-//    }
 
     /**
      * 添加发送按钮
@@ -151,15 +144,6 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
     }
 
 
-    private Message getMessage(String content) {
-        Message message = new Message();
-        message.setFrom(QQClient.getInstance().getLoginUserNameWithDomain());
-        message.setTo(contact.getJid());
-        message.setProperty("sendTime", new Timestamp(System.currentTimeMillis()));
-        message.setBody(getContentHtml(content, message));
-        return message;
-    }
-
     private String getContentHtml(String content, Message message) {
         String html = BasicHtml.outBasicHtml();
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
@@ -177,10 +161,6 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
 
     @Override
     public void actionPerformed(ActionEvent e) {
-//        if (e.getSource() == maxWindowButton) {
-//            sessionFrame.setExtendedState(JFrame.MAXIMIZED_BOTH);
-//        }
-
         if (e.getSource() == closeButton || e.getSource() == closeWindowButton) {
             sessionFrame.dispose();
             chatWritePane.clear();//清空输入文本
@@ -188,11 +168,11 @@ public class SessionFrameContentPane extends ExtendPane implements ActionListene
             sessionFrame.setExtendedState(JFrame.ICONIFIED); //设置成图标化
         } else if (e.getSource() == sendButton) {
             try {
-                Message message = getMessage(chatWritePane.getPlainText());
-                QQClient.getInstance().getChatManager().sendChatMessage(message);
-                chatDisplayPane.insertMessage(message.getBody());
+                ChatOperate chatOperate = new SingleChat();
+                chatOperate.sendChatMessage(contact.getJid(),chatWritePane.getPlainText(),null);
+                chatDisplayPane.insertMessage(chatWritePane.getPlainText());
                 chatWritePane.clear();//清空输入文本
-            } catch (XMPPException e1) {
+            } catch (Exception e1) {
                 e1.printStackTrace();
             }
         }
